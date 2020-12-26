@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+	
+	<div class="shape-left "><img src="{{`images/shapes/banner-left-top.svg` | absURL }}" alt=""></div>
+	<div class="shape-right "><img src="{{`images/shapes/banner-right-top.svg` | absURL }}" alt=""></div>
+
+	{{- partialCached "preloader.html" . -}}
+	{{- partialCached "header.html" . -}}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+	{{- partialCached "script.html" . -}}
+</body>
+
+</html>

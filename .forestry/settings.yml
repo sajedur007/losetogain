@@ -1,0 +1,73 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: heading
+  label: Homepage
+- type: document
+  path: data/home.yml
+  label: homepage
+- type: heading
+  label: Others Page
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - post
+- type: directory
+  path: content/mentor
+  label: Mentor
+  create: all
+  match: "**/*"
+  templates:
+  - mentor
+- type: directory
+  path: content/program
+  label: Program
+  create: all
+  match: "**/*"
+  templates:
+  - program
+- type: directory
+  path: content/story
+  label: Story
+  create: all
+  match: "**/*"
+  templates:
+  - story
+- type: directory
+  path: content/product
+  label: Product
+  create: all
+  match: "**/*"
+  templates:
+  - product
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: heading
+  label: Configuration
+- type: document
+  path: config.toml
+  label: Configuration
+upload_dir: static/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.79.0
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --renderToDisk -d public
+version: 0.79.0

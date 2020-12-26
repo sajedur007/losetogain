@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<!-- strat of blog-details -->
+<section class="pt-50">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-md-12 mb-30">
+        <img class="img-fluid rounded w-100" src="{{.Params.image | absURL}}" alt="{{.Permalink}}">
+      </div>
+      <div class="col-lg-9 col-md-12 mb-60">
+        <h2 class="font-weight-bold font-secondary mb-30">{{.Title | markdownify}}</h2>
+        <div class="post-meta text-muted mb-15">
+          <span><i class="far fa-calendar-alt mr-2"></i>{{.PublishDate.Format "02 Jan, 2006"}}</span>
+          {{ with .Params.Categories }}
+          <span class="mx-2">|</span>
+          <i class="fas fa-tag mr-2"></i>
+          {{ range $i,$p:= . }}{{if ne $i 0}}, {{end}}<a
+            href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | humanize }}</a>
+          {{ end }}
+          {{end }}
+        </div>
+        <div class="content">{{.Content}}</div>
+      </div>
+
+      <!-- comments -->
+      {{ if .Site.DisqusShortname }}
+      <div class="col-lg-9 col-md-12">
+        <div class="mb-60 border-top pt-50">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- end of blog-details -->
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

@@ -1,0 +1,40 @@
+---
+label: Mentor
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: designation
+  label: designation
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: experience
+  label: experience
+- type: text
+  name: served_patients
+  label: served_patients
+- type: textarea
+  name: description
+  label: description
+- type: image_gallery
+  name: certificates
+  label: certificates
+- type: field_group_list
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: link
+    label: link
+pages:
+- content/mentor/sajedur-rahman.md

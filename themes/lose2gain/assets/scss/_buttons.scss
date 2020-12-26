@@ -1,0 +1,71 @@
+// button style
+.btn {
+	font-size: 15px;
+	padding: 12px 25px;
+	color: $white;
+	border-radius: 10px;
+	border: 0;
+	font-weight: 500;
+	transition: .3s;
+	position: relative;
+	&:active,
+	&:focus {
+		border: 0;
+		box-shadow: none !important;
+		border-color: $color-primary !important;
+	}
+	&.btn-sm {
+		padding: 10px 18px;
+	}
+	.icon-left,
+	.icon-left {
+		font-size: 12px;
+	}
+	.icon-left {
+		margin-right: 4px;
+	}
+	.icon-left {
+		margin-left: 4px;
+	}
+	&.btn-primary {
+		background-color: $color-primary !important;
+		border: 2px solid $color-primary;
+		&:hover,
+		&:active,
+		&:focus {
+			color: $color-primary;
+			background-color: transparent !important;
+		}
+	}
+	&.btn-outline-primary {
+		color: $color-primary;
+		background-color: transparent;
+		border: 2px solid $color-primary;
+		&:active,
+		&:hover,
+		&:focus {
+			color: $white;
+			background-color: $color-primary !important;
+		}
+	}
+	&.btn-dark {
+		background-color: $color-secondary !important;
+		&:hover,
+		&:active,
+		&:focus {
+			color: $white;
+			background-color: darken($color-secondary, 5) !important;
+		}
+	}
+	&.btn-outline-dark {
+		color: $color-secondary;
+		background-color: transparent;
+		border: 2px solid $color-secondary;
+		&:active,
+		&:hover,
+		&:focus {
+			color: $white;
+			background-color: $color-secondary !important;
+		}
+	}
+}

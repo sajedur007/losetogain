@@ -1,0 +1,54 @@
+{{ "<!-- navigation -->" | safeHTML }}
+<header class="header-nav bg-light">
+  <div class="container">
+    <nav class="navbar navbar-expand-xl navbar-light px-0">
+      <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
+        {{ if site.Params.logo }}
+        <img class="img-fluid" width="{{site.Params.logo_width}}" src="{{ site.Params.logo | absURL}}"
+          alt="{{ site.Title }}">
+        {{ else }}
+        {{site.Title}}
+        {{ end }}
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.BaseURL | relLangURL }}">{{ site.Params.Home }}</a>
+          </li>
+          {{ range site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              {{ .Name }}
+            </a>
+            <ul class="dropdown-menu">
+              {{ range .Children }}
+              <li><a class="dropdown-item"
+                href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a></li>
+              {{ end }}
+            </ul>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link"
+              href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </ul>
+
+        <div class="navbar-actions">
+          <a href="store.html" class="btn btn-sm btn-outline-dark"><i class="fas fa-shopping-cart icon-left"></i>
+            Store</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+{{ "<!-- /navigation -->" | safeHTML }}

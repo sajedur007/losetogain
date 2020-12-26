@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<!-- start of mentor-carousel -->
+<section class="pt-80 team-carousel">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10 text-center mb-50">
+        {{.Content}}
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 text-center">
+          <img class="card-img-top mx-auto" style="max-width:250px" src="{{.Params.image | absURL }}" alt="{{.Title}}">
+          <div class="card-body">
+            <h3 class="font-weight-600 mb-2"><a class="post-title" href="{{.Permalink}}">{{.Title}}</a></h3>
+            <p class="mb-3">{{.Params.designation}}</p>
+            <ul class="social-icon-link list-unstyled list-inline">
+              {{ with .Params.social.facebook }}
+              <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-facebook"></i></a></li>
+              {{ end }}
+              {{ with .Params.social.twitter }}
+              <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-twitter"></i></a></li>
+              {{ end }}
+              {{ with .Params.social.linkedin }}
+              <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-linkedin"></i></a></li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="card-footer bg-transparent border-0">
+            <a href="{{.Permalink}}" class="btn btn-outline-primary">Hire A Mentor</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- end of mentor-carousel -->
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

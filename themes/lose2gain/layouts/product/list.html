@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+{{ if .Params.call_to_action.enable }}
+{{ with .Params.call_to_action }}
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="shop-cover card bg-transparent">
+          <img src="{{.image | absURL}}" class="card-img rounded-lg" alt="...">
+          <div class="card-img-overlay p-3 p-md-5 d-flex align-items-center">
+            <div>
+              <h1 class="font-secondary text-white mb-4">{{.title | markdownify}}</h1>
+              <a href="{{.button|absURL}}" class="btn btn-primary">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+{{end}}
+
+<section class="section-padding shop-products">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 content">
+        {{.Content}}
+      </div>
+
+      {{ range .Data.Pages }}
+      <div class="col-lg-3 col-md-4 col-sm-6 mt-40">
+        <div class="card border-0 rounded-0 text-center shadow-none overflow-hidden">
+          <a href="{{.Permalink}}">
+            <span class="badge badge-primary">{{.Params.badge}}</span>
+            {{ range first 1 .Params.images }}
+            <img src="{{. | absURL}}" class="card-img-top">
+            {{ end }}
+            <div class="card-body">
+              <h5 class="text-uppercase mb-2">{{.Title}}</h5>
+              <p class="text-muted font-weight-light mb-2">{{.Params.category}}</p>
+              <p class="h4">${{.Params.price}}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+<!-- strat of blog-details -->
+<section class="pt-50">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 col-md-12 mb-30">
+        <div class="twentytwenty-image rounded">
+          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+          <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-12 mb-60">
+        <h2 class="font-weight-bold font-secondary mb-30">{{.Title}}</h2>
+        <ul class="mt-4 list-inline">
+          <li class="list-inline-item mb-3 mr-4">
+            <span class="text-primary mr-2"> <i class="far fa-user"></i> </span>
+            Mentor's name :
+            <a class="text-primary ml-2" href="{{ `mentor/` | relURL }}{{ .Params.mentor | urlize | lower }}">{{ .Params.mentor | humanize }}</a>
+          </li>
+          <div class="list-inline-item mb-3 mr-4">
+            <span class="text-primary mr-2"> <i class="fas fa-history"></i> </span>
+            Previous Weight :
+            <span class="text-primary ml-2">{{ .Params.previous_weight }} KG</span>
+          </div>
+          <div class="list-inline-item mb-3 mr-4">
+            <span class="text-primary mr-2"> <i class="fas fa-pizza-slice"></i> </span>
+            Diet :
+            <span class="text-primary ml-2">{{.Params.diet}}</span>
+          </div>
+          <div class="list-inline-item mb-3 mr-4">
+            <span class="text-primary mr-2"> <i class="fas fa-diagnoses"></i> </span>
+            {{if lt .Params.previous_weight .Params.current_weight}}
+            Weight Gained :
+            <span class="text-primary ml-2">{{sub .Params.current_weight .Params.previous_weight}} KG</span>
+            {{ else }}
+            Weight Losed :
+            <span class="text-primary ml-2">{{sub .Params.previous_weight .Params.current_weight}} KG</span>
+            {{ end }}
+          </div>
+          <div class="list-inline-item mb-3 mr-4">
+            <span class="text-primary mr-2"> <i class="far fa-calendar-check"></i> </span>
+            Time :
+            <span class="text-primary ml-2">{{ .Params.time }}</span>
+          </div>
+        </ul>
+        <div class="content">{{.Content}}</div>
+      </div>
+      <div class="col-lg-9 col-md-12">
+        <div class="mb-60 border-top pt-50">
+          {{ if .Site.DisqusShortname }}
+          {{ template "_internal/disqus.html" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of blog-details -->
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

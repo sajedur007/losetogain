@@ -1,0 +1,74 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<!-- start of mentor-carousel -->
+<section class="pt-80 team-carousel">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-50">
+        <h2 class="section-title">Get In Touch With Us</h2>
+      </div>
+    </div>
+    <div class="row mb-40">
+      <div class="col-12">
+        <div class="shadow-lg rounded-lg py-5 px-3 px-sm-5">
+          <form action="{{site.Params.contact_form_action}}" method="post" class="needs-validation" novalidate>
+            <div class="row justify-content-center">
+              <div class="col-lg-5">
+                <div class="form-group mb-30">
+                  <label class="text-black-200 h6 font-weight-600 mb-2" for="first_name">First Name</label>
+                  <input class="form-control shadow-none" type="text" placeholder="Jhon Doie" name="first_name" required="">
+                  <p class="font-weight-bold invalid-feedback">Your name is required!</p>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="form-group mb-30">
+                  <label class="text-black-200 h6 font-weight-600 mb-2" for="last_name">Last Name</label>
+                  <input class="form-control shadow-none" type="text" placeholder="Jhon Doie" name="last_name" required="">
+                  <p class="font-weight-bold invalid-feedback">Your name is required!</p>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="form-group mb-30">
+                  <label class="text-black-200 h6 font-weight-600 mb-2" for="pnum">Phone Number</label>
+                  <input class="form-control shadow-none" type="text" placeholder="+8801856388817" name="pnum"
+                    required="">
+                  <p class="font-weight-bold invalid-feedback">Your Phone number is required!</p>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="form-group mb-30">
+                  <label class="text-black-200 h6 font-weight-600 mb-2" for="email">Email Address</label>
+                  <input class="form-control shadow-none" type="email" placeholder="exleoflosetogaim@gmail.com"
+                    name="email" required="">
+                  <p class="font-weight-bold invalid-feedback">Your email is required!</p>
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="form-group mb-30">
+                  <label class="text-black-200 h6 font-weight-600 mb-2" for="message">Say something!</label>
+                  <textarea class="form-control shadow-none" name="comment" rows="5" name="message"
+                    required=""></textarea>
+                  <p class="font-weight-bold invalid-feedback">Wanna say something?</p>
+                </div>
+              </div>
+              <div class="col-lg-10 text-center">
+                <button type="submit" class="btn btn-primary">Submit Now</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of mentor-carousel -->
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<!-- start of faq-section -->
+<section class="pt-80">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 mx-auto">
+				{{ range .Params.faq_section }}
+				<div class="accordion accordionFAQ mb-40" id="accordionFAQone">
+					<h3 class="text-black-200 font-weight-bold mb-20">{{ .title | markdownify }}</h3>
+					{{ range $i,$e:= .faq_item }}
+					<div class="card border-bottom">
+						<div class="card-header border-0 py-0">
+							<h5 class="py-3 text-primary bg-light" data-toggle="collapse" data-target="#{{.name | anchorize}}"
+							{{if eq $i 0}}aria-expanded="true"{{end}} aria-controls="{{.name | anchorize}}">
+								<i class="accordion-arrow fas fa-plus"></i>
+								{{.name | markdownify}}
+							</h5>
+						</div>
+
+						<div id="{{.name | anchorize}}" class="collapse {{if eq $i 0}}show{{end}}" data-parent="#accordionFAQone">
+							<div class="card-body">
+								<div class="mb-15 content">
+									{{.content | markdownify}}
+								</div>
+							</div>
+						</div>
+					</div>
+					{{ end }}
+				</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end of faq-section -->
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

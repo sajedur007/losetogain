@@ -1,0 +1,589 @@
+@font-face {
+  font-family: 'Recoleta';
+  src: url('../fonts/Recoleta-Bold.woff2') format('woff2'),
+    url('../fonts/Recoleta-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  color: $black-700;
+  background-color: $white;
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.65;
+  position: relative;
+  z-index: 5;
+
+  .shape-left,
+  .shape-right {
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .shape-left {
+    left: 0;
+    top: 0;
+
+    @include breakAt(xl-device) {
+      left: -50px;
+    }
+
+    @include breakAt(sm-device) {
+      left: -100px;
+    }
+  }
+
+  .shape-right {
+    right: 0;
+    top: 120px;
+
+    @include breakAt(sm-device) {
+      display: none;
+    }
+  }
+}
+
+::selection {
+  color: $white;
+  background-color: darken($color-primary, 5);
+  text-shadow: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+/*------------------------------------------------------------------
+ # default styles
+-------------------------------------------------------------------*/
+
+.section-padding {
+  padding: 120px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: $h1;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-family: $font-secondary;
+
+  @include breakAt(md-device) {
+    font-size: $h1-md;
+  }
+
+  @include breakAt(sm-device) {
+    font-size: $h2-md;
+  }
+}
+
+.icon-list {
+  position: relative;
+  display: flex;
+  padding: 30px;
+  background-color: $white;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  transition: .3s;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: $color-primary;
+    background-color: rgba($color-primary, .2);
+    position: absolute;
+    border-radius: 5px;
+    left: 30px;
+    top: 30px;
+  }
+
+  .block {
+    margin-left: 75px;
+  }
+}
+
+.card-img-sm{
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+
+.social-icon-link {
+  a {
+    color: $color-secondary;
+    padding: 7px;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &.has-shadow {
+    a {
+      height: 45px;
+      width: 45px;
+      display: inline-block;
+      text-align: center;
+      line-height: 48px;
+      box-shadow: 0 10px 25px #ddd;
+      border-radius: 50%;
+      font-size: 18px;
+      padding: 0;
+    }
+  }
+
+  &.has-border {
+    a {
+      padding: 0;
+      border: 2px solid $color-primary;
+      display: inline-block;
+      height: 45px;
+      line-height: 43px;
+      width: 45px;
+      text-align: center;
+      font-size: 18px;
+      border-radius: 10px;
+
+      &:hover {
+        color: $white;
+        background-color: $color-primary;
+      }
+    }
+  }
+}
+
+.slick-arrows {
+  .slick-arrow {
+    padding: 15px 0;
+    height: auto;
+    width: auto;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+// breadcrumb
+.breadcrumb li,
+.breadcrumb li a {
+  color: #8B8B8B !important;
+  font-weight: 500;
+}
+
+// background wave
+.has-wave {
+  background-repeat: repeat-x;
+  background-size: 1300px;
+}
+
+.has-wave {
+  background-position: bottom;
+}
+
+// form style
+.form-control {
+  height: 50px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: $light;
+  transition: .3s;
+  padding: 0 15px;
+
+  &.active {
+    border-color: rgba($color-primary, .2);
+    background-color: transparent;
+  }
+
+  &:focus {
+    border-color: $color-primary;
+  }
+}
+
+textarea.form-control {
+  padding-top: 15px;
+}
+
+.custom-checkbox {
+  margin-top: 15px;
+
+  .custom-control-label::before {
+    border-radius: 0;
+  }
+
+  .custom-control-input:checked~.custom-control-label::before,
+  .custom-control-input:not(:disabled):active~.custom-control-label::before {
+    background-color: $color-primary;
+    border-color: $color-primary;
+    box-shadow: none;
+  }
+
+  .custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-color: $color-primary;
+    box-shadow: none;
+  }
+
+  .custom-control-input:disabled:checked~.custom-control-label::before {
+    background-color: rgba($color-primary, .5);
+    border-color: rgba($color-primary, .2);
+    box-shadow: none;
+  }
+}
+
+
+// line title
+.line-title {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+  &::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #ddd;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+  }
+
+  span {
+    display: inline-block;
+    padding: 0 25px;
+  }
+}
+
+
+// pagination
+.page-link {
+  padding: .7rem 1rem;
+  color: $color-primary;
+
+  &:hover {
+    color: darken($color-primary, 15);
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.page-item.active .page-link {
+  background-color: $color-primary;
+  border-color: $color-primary;
+}
+
+/*------------------------------------------------------------------
+ # helper classes
+-------------------------------------------------------------------*/
+.font-primary {
+  font-family: $font-primary
+}
+
+.font-secondary {
+  font-family: $font-secondary
+}
+
+.rounded-sm {
+  border-radius: 5px !important
+}
+
+.rounded {
+  border-radius: 10px !important
+}
+
+.rounded-md {
+  border-radius: 12px !important
+}
+
+.rounded-lg {
+  border-radius: 25px !important
+}
+
+.shadow {
+  box-shadow: 0px 20px 35px $light !important
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .075) !important
+}
+
+.font-weight-500 {
+  font-weight: 500
+}
+
+.font-weight-600 {
+  font-weight: 600
+}
+
+.text-underline {
+  text-decoration: 1px dashed;
+}
+
+a.text-underline:hover {
+  text-decoration-style: solid;
+}
+
+.content a {
+  color: inherit;
+
+  &:hover {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}
+
+.border-0-md {
+  @include breakAt(lg-device) {
+    border: 0 !important;
+  }
+}
+
+.has-bg-brash {
+  background-size: 1200px;
+  background-repeat: repeat-x;
+}
+
+.no-bg-image {
+  background-image: none !important;
+}
+
+.bg-brash-top {
+  background-position: center top;
+}
+
+.bg-brash-bottom {
+  background-position: center bottom;
+}
+
+.bg-brash-y {
+  background-position: center top, center bottom;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-light {
+  color: $light !important
+}
+
+.bg-light {
+  background-color: $light !important
+}
+
+.text-primary {
+  color: $color-primary !important
+}
+
+a.text-primary:hover {
+  color: darken($color-primary, 10) !important
+}
+
+.bg-primary {
+  background-color: $color-primary !important
+}
+
+.text-primary {
+  color: $color-primary !important
+}
+
+.bg-primary {
+  background-color: $color-primary !important
+}
+
+.text-secondary {
+  color: $color-secondary !important
+}
+
+a.text-secondary:hover {
+  color: $color-primary !important
+}
+
+.bg-secondary {
+  background-color: $color-secondary !important
+}
+
+.bg-black {
+  background-color: $black
+}
+
+.text-black {
+  color: $black
+}
+
+.text-black-100 {
+  color: $black-100
+}
+
+.bg-black-100 {
+  background-color: $black-100
+}
+
+.bg-black-200 {
+  background-color: $black-200
+}
+
+.text-black-200 {
+  color: $black-200
+}
+
+.bg-black-300 {
+  background-color: $black-300
+}
+
+.text-black-300 {
+  color: $black-300
+}
+
+.text-black-400 {
+  color: $black-400
+}
+
+.bg-black-400 {
+  background-color: $black-400
+}
+
+.text-black-500 {
+  color: $black-500
+}
+
+.bg-black-500 {
+  background-color: $black-500
+}
+
+.text-black-600 {
+  color: $black-600
+}
+
+.bg-black-600 {
+  background-color: $black-600
+}
+
+.text-black-700 {
+  color: $black-700
+}
+
+.bg-black-700 {
+  background-color: $black-700
+}
+
+.text-black-800 {
+  color: $black-800
+}
+
+.bg-black-800 {
+  background-color: $black-800
+}
+
+.text-black-900 {
+  color: $black-900
+}
+
+.bg-black-900 {
+  background-color: $black-900
+}
+
+a.text-black-200:hover,
+a.text-black-300:hover,
+a.text-black-400:hover {
+  color: $color-primary
+}
+
+/*------------------------------------------------------------------
+ # spacing classes
+-------------------------------------------------------------------*/
+$step: 5; // minimum value
+$max: 131; // maximum value (+)1
+
+@for $i from 1 through ceil($max/$step) {
+  $value: ($i - 1)*$step;
+
+  .m-#{$value} {
+    margin: #{$value}px
+  }
+
+  ;
+
+  .mt-#{$value} {
+    margin-top: #{$value}px
+  }
+
+  ;
+
+  .mb-#{$value} {
+    margin-bottom: #{$value}px
+  }
+
+  ;
+
+  .ml-#{$value} {
+    margin-left: #{$value}px
+  }
+
+  ;
+
+  .mr-#{$value} {
+    margin-right: #{$value}px
+  }
+
+  ;
+
+  .my-#{$value} {
+    margin-top: #{$value}px;
+    margin-bottom: #{$value}px
+  }
+
+  ;
+
+  .p-#{$value} {
+    padding: #{$value}px
+  }
+
+  ;
+
+  .pt-#{$value} {
+    padding-top: #{$value}px
+  }
+
+  ;
+
+  .pb-#{$value} {
+    padding-bottom: #{$value}px
+  }
+
+  ;
+
+  .pl-#{$value} {
+    padding-left: #{$value}px
+  }
+
+  ;
+
+  .pr-#{$value} {
+    padding-right: #{$value}px
+  }
+
+  ;
+
+  .py-#{$value} {
+    padding-top: #{$value}px;
+    padding-bottom: #{$value}px
+  }
+
+  ;
+}

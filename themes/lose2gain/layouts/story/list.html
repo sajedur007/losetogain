@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+{{ partial "page-header.html" . }}
+
+<section class="pt-80">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10 text-center mb-50 content">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Data.Pages }}
+      <div class="col-lg-6">
+        <div class="card rounded-lg shadow-lg mb-4">
+          <div class="twentytwenty-image">
+            <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+            <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
+          </div>
+          <div class="card-body pb-2">
+            <h3><a href="{{.Permalink}}" class="font-secondary text-secondary">{{ .Title }}</a></h3>
+            <ul class="mt-4 list-inline">
+              <li class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="far fa-user"></i> </span>
+                Mentor's name :
+                <a class="text-primary ml-2" href="{{ `mentor/` | relURL }}{{ .Params.mentor | urlize | lower }}">{{ .Params.mentor | humanize }}</a>
+              </li>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="fas fa-history"></i> </span>
+                Previous Weight :
+                <span class="text-primary ml-2">{{ .Params.previous_weight }} KG</span>
+              </div>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="fas fa-pizza-slice"></i> </span>
+                Diet :
+                <span class="text-primary ml-2">{{.Params.diet}}</span>
+              </div>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="fas fa-diagnoses"></i> </span>
+                {{if lt .Params.previous_weight .Params.current_weight}}
+                Weight Gained :
+                <span class="text-primary ml-2">{{sub .Params.current_weight .Params.previous_weight}} KG</span>
+                {{ else }}
+                Weight Losed :
+                <span class="text-primary ml-2">{{sub .Params.previous_weight .Params.current_weight}} KG</span>
+                {{ end }}
+              </div>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="far fa-calendar-check"></i> </span>
+                Time :
+                <span class="text-primary ml-2">{{ .Params.time }}</span>
+              </div>
+            </ul>
+          </div>
+          <div class="px-4">
+            <div class="card-footer bg-transparent px-0 py-4">
+              <a href="{{.Permalink}}" class="btn btn-outline-primary">Read Full Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

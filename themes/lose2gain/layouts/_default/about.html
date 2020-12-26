@@ -1,0 +1,146 @@
+{{ define "main" }}
+
+<!-- start of page-header -->
+<section class="page-header overflow-hidden bg-light pt-70 pb-130 has-wave"
+	style="background-image:url('{{`images/wave.svg` | absURL }}')">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-12">
+				<h2 class="section-title">{{.Title }}</h2>
+				<p class="mb-4">{{.Params.description | markdownify }}</p>
+				<ul class="social-icon-link has-shadow list-unstyled list-inline">
+					{{ range site.Params.social }}
+					<li class="list-inline-item"><a href="{{.link | safeURL}}"><i class="{{.icon}}"></i></a></li>
+					{{ end }}
+				</ul>
+			</div>
+			<div class="col-12">
+				<div class="about-header-image position-relative">
+					<img class="img-fluid" src="{{`images/about/banner-curve.svg` | absURL }}" alt="">
+					<div class="avaters">
+						<img src="{{`images/about/banner-images/01.jpg` | absURL }}">
+						<img src="{{`images/about/banner-images/02.jpg` | absURL }}">
+						<img src="{{`images/about/banner-images/03.jpg` | absURL }}">
+						<img src="{{`images/about/banner-images/04.jpg` | absURL }}">
+						<img class="sm" src="{{`images/about/banner-images/05.jpg` | absURL }}">
+						<img class="sm" src="{{`images/about/banner-images/06.jpg` | absURL }}">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end of page-header -->
+
+{{ with .Params.about }}
+<section class="pt-80 pb-130 has-wave" style="background-image:url(images/wave-gray.svg)">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-11">
+				<div class="row align-items-end">
+					<div class="col-lg-2 col-md-4 col-sm-5 col-6">
+						<img class="img-fluid rounded shadow-lg" src="{{.image1 | absURL}}" alt="">
+					</div>
+					<div class="col-lg-3 col-md-5 col-sm-6 col-6">
+						<img class="img-fluid rounded shadow-lg" src="{{.image2 | absURL}}" alt="">
+					</div>
+					<div class="col-lg-7 mt-4 mt-lg-0">
+						<h2 class="section-title">{{.title | markdownify }}</h2>
+						<p>{{ .content | markdownify }}</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6 mt-30">
+						<img class="img-fluid rounded shadow-lg" src="{{.image3 | absURL}}" alt="">
+					</div>
+					<div class="col-lg-5 col-md-6 mt-30">
+						<img class="img-fluid rounded shadow-lg" src="{{.image4 | absURL}}" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+
+{{ with .Params.video }}
+<section class="pt-5 pb-120 bg-light has-wave" style="background-image:url(images/wave.svg)">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 col-md-10 text-center mb-20">
+				<h2 class="section-title">{{ .Title | markdownify }}</h2>
+				<p>{{.content | markdownify}}</p>
+			</div>
+			<div class="col-lg-10 mt-50 mb-30">
+				<div class="has-video-popup">
+					<button type="button" class="video-play-btn" data-toggle="modal"
+						data-src="{{.video_embed_link | safeURL }}" data-target="#videoModal"><svg width="1.8em"
+							height="1.8em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+						</svg></button>
+					<img class="rounded-lg shadow-lg img-fluid" src="{{.video_thumb | absURL }}" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- start of videoModal -->
+<div class="modal fade rounded" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-body p-0 bg-transparent">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+						aria-hidden="true">&times;</span></button>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="" id="showVideo" allowscriptaccess="always"
+						allow="autoplay"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end of videoModal -->
+{{ end }}
+
+
+{{ with .Params.team }}
+<section class="pt-80 pb-0">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 col-md-10 text-center mb-20">
+				<h2 class="section-title">{{.title | markdownify }}</h2>
+				<p>{{ .content | markdownify }}</p>
+			</div>
+		</div>
+		<div class="row">
+			{{ range .team_member }}
+			<div class="col-md-4 text-center">
+				<div class="py-5 px-4 shadow bg-white rounded mt-30">
+					<img class="img-fluid rounded-circle" src="{{.image | absURL}}" alt="">
+					<div class="mt-4">
+						<h3 class="font-weight-600 mb-2">{{.name | markdownify}}</h3>
+						<p class="mb-3">{{ .designation | markdownify }}</p>
+						<ul class="social-icon-link list-unstyled list-inline">
+							{{ range .social }}
+							<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{.icon}}"></i></a></li>
+							{{ end }}
+						</ul>
+					</div>
+				</div>
+				<a href="{{.button | absURL}}" class="btn btn-outline-primary mt-4">View Programs</a>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{ end }}
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}

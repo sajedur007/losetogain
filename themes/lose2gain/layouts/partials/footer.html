@@ -1,0 +1,63 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-60">
+        <div class="border-bottom"></div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="pr-0 pr-lg-4">
+          <a class="mb-25 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
+            {{ if site.Params.logo }}
+            <img class="img-fluid" width="{{site.Params.logo_width}}" src="{{ site.Params.logo | absURL}}"
+              alt="{{ site.Title }}">
+            {{ else }}
+            {{site.Title}}
+            {{ end }}
+          </a>
+          <p>{{ site.Params.footer_content | markdownify }}</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md col-sm-6">
+        <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+          <h5 class="font-weight-600 mb-20">About us</h5>
+          <ul class="list-unstyled footer-links">
+            {{ range site.Menus.about }}
+            <li><a href="{{.URL | absURL}}">{{.Name}}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md col-sm-6">
+        <div class="pl-0 pl-md-3 mt-5 mt-md-0">
+          <h5 class="font-weight-600 mb-20">Information</h5>
+          <ul class="list-unstyled footer-links">
+            {{ range site.Menus.information }}
+            <li><a href="{{.URL | absURL}}">{{.Name}}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="pl-0 pl-lg-4 mt-5 mt-lg-0">
+          <h5 class="font-weight-600 mb-20">Social Contacts</h5>
+          <ul class="social-icon-link has-shadow list-unstyled list-inline">
+            {{ range site.Params.social }}
+            <li class="list-inline-item"><a href="{{.link | safeURL}}"><i class="{{.icon}}"></i></a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom mt-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="block border-top text-center content">
+            {{ site.Params.copyright | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

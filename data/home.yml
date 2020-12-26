@@ -1,0 +1,99 @@
+############## banner ############
+banner:
+  title: "All progress takes place outside the comfort zone"
+  content: "Lorem ipsum dolor amet, consectetur adipiscing elit. Nisl diam pellentesque morbi molestie nisi, porttitor eget vitae."
+  background_image: "images/wave.svg"
+  image: "images/banner-image.png"
+  download_button: "#"
+  hire_button: "#"
+
+############ about ###############
+about:
+  title: "Loose To gain"
+  background_image: "images/wave.svg"
+  image: "images/about-image.png"
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+          eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed vero eoset"
+  bulletpoints:
+  - "Habit building in essential steps choose good habit"
+  - "Get an overview of Habit Calendars admiral general."
+  - "Start building habit with Habitify on platform to new"
+
+############## Process ###########
+process:
+  title: "How the total process works Together??"
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+  process_step:
+  - name: "Choose Your Favourite Mentor"
+    image: "images/work-process.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis sed felis amet."
+    
+  - name: "Wait For Just Three Month"
+    image: "images/work-process.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis sed felis amet."
+    
+  - name: "See You in The Mirror"
+    image: "images/work-process.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis sed felis amet."
+
+
+############### Service ##############
+service:
+  title: "What Are The Reasons For choosing us?"
+  background_image: "images/wave.svg"
+  content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+  service_item:
+  - name: "Fully Secure And Hacking Free"
+    icon: "fab fa-angellist"
+    
+  - name: "Fully Secure And Hacking Free"
+    icon: "fas fa-bezier-curve"
+    
+  - name: "Fully Secure And Hacking Free"
+    icon: "fas fa-user-check"
+    
+  - name: "Fully Secure And Hacking Free"
+    icon: "fas fa-cash-register"
+    
+  - name: "Fully Secure And Hacking Free"
+    icon: "fas fa-user-check"
+    
+  - name: "Fully Secure And Hacking Free"
+    icon: "fas fa-bezier-curve"
+    
+  - name: "Fully Secure And Hacking Free"
+    icon: "fab fa-angellist"
+
+############# Testimonial ################
+testimonial:
+  title : "Peoples Who Are Experienced By Our Service"
+  testimonial_item:
+  - name: "Devon Lane"
+    image: "images/testimonial/01.jpg"
+    designation: "CEO, Nexuspay"
+    content: "We use Gremlin to test various failure scenarios and build confidence in the resiliency of our microservices. The ability to target"
+    
+  - name: "Devon Lane"
+    image: "images/testimonial/02.jpg"
+    designation: "CEO, Nexuspay"
+    content: "We use Gremlin to test various failure scenarios and build confidence in the resiliency of our microservices. The ability to target"
+    
+  - name: "Devon Lane"
+    image: "images/testimonial/03.jpg"
+    designation: "CEO, Nexuspay"
+    content: "We use Gremlin to test various failure scenarios and build confidence in the resiliency of our microservices. The ability to target"
+
+  - name: "Devon Lane"
+    image: "images/testimonial/04.jpg"
+    designation: "CEO, Nexuspay"
+    content: "We use Gremlin to test various failure scenarios and build confidence in the resiliency of our microservices. The ability to target"
+
+
+################# Call to action #############
+call_to_action:
+  enable : true
+  title: "Download Our New Book Of Health Guide and stay healthy everyday in your life"
+  image: "images/book.jpg"
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel, sed arcu pellentesque
+              lobortis dolor netus in neque. Purus nisi vel hac sem sodales ac magnis orci sed. Hac urna sit a."
+  download: "#"

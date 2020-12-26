@@ -1,0 +1,200 @@
+######################## default configuration ####################
+baseURL = "https://examplesite.com"
+title = "Lose To Gain | Your Personal Trainer"
+theme = "lose2gain"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/slick/slick-theme.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/twentytwenty/css/twentytwenty.css"
+attributes = ""
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/twentytwenty/js/jquery.event.move.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/twentytwenty/js/jquery.twentytwenty.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/rating/rating.js"
+attributes = ""
+
+##################### navigation ######################
+
+# main menu
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 2
+
+[[menu.main]]
+name = "Mentor"
+url = "mentor"
+weight = 3
+
+[[menu.main]]
+name = "Program"
+url = "program"
+weight = 4
+
+[[menu.main]]
+name = "Story"
+url = "story"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 6
+
+[[menu.main]]
+name = "Pages"
+weight = 7
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "FAQ"
+  url = "faq"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Pricing"
+  url = "pricing"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Blog"
+  url = "blog"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Product"
+  url = "product"
+
+  [[menu.main]]
+  parent = "Pages"
+  name = "Terms & Conditions"
+  url = "terms-conditions"
+
+# about menu
+[[menu.about]]
+name = "About"
+url = "about"
+weight = 1
+
+[[menu.about]]
+name = "Portfolio"
+url = "portfolio"
+weight = 2
+
+# information menu
+[[menu.information]]
+name = "About"
+url = "about"
+weight = 1
+
+[[menu.information]]
+name = "Portfolio"
+url = "portfolio"
+weight = 2
+
+#################### default parameters ##########################
+[params]
+logo = "images/logo.png"
+logo_width = "135px"
+favicon = "images/favicon.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# footer content
+footer_content = "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus sed condimentum volutpat."
+# copyright
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "get a quote"
+link = "contact"
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+########################## social site ########################
+[[params.social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"

@@ -1,0 +1,19 @@
+// footer style
+.footer-bottom .block {
+    padding: 25px 0;
+}
+
+.footer-links {
+    li {
+        margin-bottom: 10px;
+        a {
+            color: $black-200;
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+    li:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,138 @@
+{{ define "main" }}
+
+<!-- start of banner -->
+<section class="banner bg-light pt-5 pb-120 has-wave" style="background-image:url('{{`images/wave.svg` | absURL }}')">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-xl-5 col-lg-6 col-md-8 order-1 order-lg-0 text-center text-lg-left">
+        <h2 class="section-title">Hello, I’m <br>{{.Title}}</h2>
+        <p class="mb-2 text-primary font-weight-500">{{.Params.designation}}</p>
+        <p class="mb-4">{{.Params.description | markdownify }}</p>
+
+        <ul class="social-icon-link list-unstyled list-inline">
+          {{ with .Params.social.facebook }}
+          <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-facebook"></i></a></li>
+          {{ end }}
+          {{ with .Params.social.twitter }}
+          <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-twitter"></i></a></li>
+          {{ end }}
+          {{ with .Params.social.linkedin }}
+          <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-linkedin"></i></a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="col-xl-4 col-lg-5 mb-5 mb-lg-0 order-0 order-lg-1 text-center">
+        <img class="img-fluid" src="{{.Params.image | absURL }}" alt="{{.Title}}">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of banner -->
+
+<section class="about-mentor has-wave pt-70 pb-130" style="background-image:url(images/wave-gray.svg)">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="d-block d-lg-flex align-items-center justify-content-between">
+          <div class="block">
+            <h2 class="section-title mb-0">More About <br> {{.Title}}</h2>
+          </div>
+          <div class="block shadow-lg p-4 rounded">
+            <h2 class="text-primary font-secondary">{{.Params.experience}}</h2>
+            <p class="h5 font-weight-600 text-secondary">Years Experience</p>
+          </div>
+          <div class="block shadow-lg p-4 rounded">
+            <h2 class="text-primary font-secondary">{{.Params.served_patients}}</h2>
+            <p class="h5 font-weight-600 text-secondary">Served patients</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mt-5 content">
+            {{.Content}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ with site.GetPage "pricing"}}
+{{ with .Params.pricing }}
+<section class="pricing bg-light has-wave pt-80 pb-130" style="background-image:url('{{`images/wave.svg` | absURL }}')">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10 text-center mb-50">
+				<h2 class="section-title">{{ .title | markdownify }}</h2>
+				<p>{{ .content | markdownify }}</p>
+      </div>
+    </div>
+		<div class="row justify-content-center">
+			{{ range .pricing_table }}
+			<div class="col-lg-4 col-md-6">
+				<div class="bg-white shadow-lg rounded-lg py-5 px-3 px-md-4 position-relative mt-30">
+				{{with .discount}}<span class="badge pricing-badge bg-primary text-white p-2">{{. | markdownify}}</span>{{end}}
+					<div class="text-center">
+						<p class="text-uppercase text-primary font-weight-600 mb-3">{{.name | markdownify}}</p>
+						<div class="mb-1">
+							<span class="h2 font-weight-bold">{{ .price }}</span>
+							<span class="font-weight-bold text-black">BTD</span>
+						</div>
+						<p class="text-muted">For One Course</p>
+						<img class="my-4" src="{{.image | absURL}}" alt="">
+						<p class="text-muted">{{ .content | markdownify }}</p>
+					</div>
+
+					<ul class="list-unstyled font-weight-500 text-black border-top mt-4 pt-4">
+						{{ range .services }}
+						<li class="mb-20 d-flex">
+							<svg class="text-primary mr-10" width="25" height="25" viewBox="0 0 27 27" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<circle cx="13.5" cy="13.5" r="13.5" fill="currentColor" style="opacity:0.2" />
+								<path d="M8 13.4286L12.3636 18L20 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+							</svg>
+							{{ . | markdownify }}
+						</li>
+						{{ end }}
+					</ul>
+					<a href="contact" class="btn btn-outline-primary btn-block mt-30">Get Started Now</a>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.certificates }}
+<section class="section-padding pb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-50">
+        <h2 class="section-title">Fitness & Nutrition Certifications</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="certificate-carousel-wrap">
+          {{ range . }}
+          <img class="rounded-lg" src="{{ . | absURL }}">
+          {{ end }}
+        </div>
+        <div class="slick-arrows d-none d-md-block">
+          <div class="slick-prev certificate-slick-prev"><img src="{{`images/arrow-left-2.svg` | absURL }}"></div>
+          <div class="slick-next certificate-slick-next"><img src="{{`images/arrow-right-2.svg` | absURL}}"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- start of section -->
+{{ if site.Data.home.call_to_action.enable }}
+{{ partial "call-to-action.html" . }}
+{{ end }}
+<!-- end of section -->
+
+{{ end }}
