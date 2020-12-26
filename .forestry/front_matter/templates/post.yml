@@ -21,5 +21,3 @@ fields:
   name: type
   label: type
   description: featured / regular
-pages:
-- content/blog/test-blog.md
