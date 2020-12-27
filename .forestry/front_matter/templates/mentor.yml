@@ -18,8 +18,13 @@ fields:
   name: experience
   label: experience
 - type: text
-  name: served_patients
+  name: served_clients
   label: Served_Clients
+- name: available_slots
+  type: text
+  config:
+    required: false
+  label: Available Slots
 - type: textarea
   name: description
   label: description
