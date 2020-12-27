@@ -19,7 +19,7 @@ fields:
   label: experience
 - type: text
   name: served_patients
-  label: served_patients
+  label: Served_Clients
 - type: textarea
   name: description
   label: description
