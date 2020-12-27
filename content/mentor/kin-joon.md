@@ -19,7 +19,6 @@ social:
   - "#"
 - - linkedin
   - "#"
-draft: true
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, dignissim id parturient pharetra porttitor neque dolor. Cursus placerat tellus placerat tristique arcu odio. Consectetur malesuada sed morbi velit orci turpis Felis, malesuada elementum at malesuada amet ut. Amet, urna, id leo nunc euismod vel id dolor, libero. Eget
