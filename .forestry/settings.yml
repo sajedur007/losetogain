@@ -10,23 +10,28 @@ sections:
   path: data/home.yml
   label: homepage
 - type: heading
-  label: Others Page
+  label: Blog
+- type: document
+  path: content/blog/_index.md
+  label: Blog Page
+  match: "**/*"
 - type: directory
   path: content/blog
-  label: Blog
-  create: all
+  label: Blog Post
+  create: documents
   match: "**/*"
-  templates:
-  - post
+  exclude: _index.md
+- type: heading
+  label: Mentor
 - type: document
   path: content/mentor/_index.md
   label: Mentor Page
-  match: "**/*"
 - type: directory
   path: content/mentor
   label: Mentor
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - mentor
 - type: directory
