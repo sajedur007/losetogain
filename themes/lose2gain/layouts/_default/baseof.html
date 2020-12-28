@@ -3,15 +3,14 @@
 {{- partial "head.html" . -}}
 
 <body>
-	
-	<div class="shape-left "><img src="{{`images/shapes/banner-left-top.svg` | absURL }}" alt=""></div>
-	<div class="shape-right "><img src="{{`images/shapes/banner-right-top.svg` | absURL }}" alt=""></div>
+	<div class="shape-left"><img src="{{`images/shapes/banner-left-top.svg` | absURL }}"></div>
+	<div class="shape-right"><img src="{{`images/shapes/banner-right-top.svg` | absURL }}"></div>
 
 	{{- partialCached "preloader.html" . -}}
 	{{- partialCached "header.html" . -}}
+	{{- partialCached "script.html" . -}}
 	{{- block "main" . }}{{- end }}
 	{{- partial "footer.html" . -}}
-	{{- partialCached "script.html" . -}}
 </body>
 
 </html>

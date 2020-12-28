@@ -209,6 +209,10 @@ body {
   &:focus {
     border-color: $color-primary;
   }
+  &::placeholder{
+    font-size: 80%;
+    color: $black-900;
+  }
 }
 
 textarea.form-control {

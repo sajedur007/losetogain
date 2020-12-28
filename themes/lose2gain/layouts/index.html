@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-
 <!-- start of banner -->
 {{ with site.Data.home.banner }}
 <section class="banner bg-light pt-5 pb-120 has-wave" style="background-image:url('{{.background_image | absURL }}')">
@@ -21,62 +20,7 @@
 {{ end }}
 <!-- end of banner -->
 
-
-<!-- start of calculator-section -->
-<section class="section-padding has-wave" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
-  <div class="container">
-    <div class="row align-items-center justify-content-around">
-      <div class="col-lg-5 col-md-8 col-sm-10">
-        <div class="tab-content">
-          <div class="tab-pane fade show active" id="bmr-calculator">
-            <img class="img-fluid" src="images/calculator.png" alt="">
-          </div>
-          <div class="tab-pane fade" id="micro-calculator">
-            <img class="img-fluid" src="images/calculator.png" alt="" style="filter: invert(1)">
-          </div>
-          <div class="tab-pane fade" id="bodyFat-calculator">
-            <img class="img-fluid" src="images/calculator.png" alt="" style="filter: sepia(.5)">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-9 col-sm-10 mt-5 mt-lg-0">
-        <ul class="nav nav-pills calculator-tab-nav">
-          <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="bmr-tab" data-toggle="pill" href="#!" data-target="#bmr"
-              data-calculator="#bmr-calculator" role="tab" aria-selected="true">BMR Calculator</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link" id="micro-tab" data-toggle="pill" href="#!" data-target="#micro"
-              data-calculator="#micro-calculator" role="tab" aria-selected="false">Micro Calculator</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a class="nav-link" id="bodyFat-tab" data-toggle="pill" href="#!" data-target="#bodyFat"
-              data-calculator="#bodyFat-calculator" role="tab" aria-selected="false">Body Fat</a>
-          </li>
-        </ul>
-        <div class="tab-content mt-30">
-          <div class="tab-pane fade show active" id="bmr" role="tabpanel" aria-labelledby="bmr-tab">
-            <h2 class="section-title">Instantly Calculate Your Basal metabolic rate</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices condimentum fringilla maecenas dis
-              felis, rutrum tortor, suspendisse. Interdum vitae urna, quis diam nisi.</p>
-          </div>
-          <div class="tab-pane fade" id="micro" role="tabpanel" aria-labelledby="micro-tab">
-            <h2 class="section-title">Instantly Calculate Micro Calculator</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices condimentum fringilla maecenas dis
-              felis, rutrum tortor, suspendisse. Interdum vitae urna, quis diam nisi.</p>
-          </div>
-          <div class="tab-pane fade" id="bodyFat" role="tabpanel" aria-labelledby="bodyFat-tab">
-            <h2 class="section-title">Instantly Calculate Your Body Fat with Calc</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices condimentum fringilla maecenas dis
-              felis, rutrum tortor, suspendisse. Interdum vitae urna, quis diam nisi.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end of calculator-section -->
-
+{{ partial "calculator.html" . }}
 
 <!-- start of about-section -->
 {{ with site.Data.home.about }}

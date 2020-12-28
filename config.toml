@@ -27,6 +27,10 @@ link = "plugins/bootstrap/bootstrap.min.css"
 attributes = "media='screen'"
 
 [[params.plugins.css]]
+link = "plugins/swiper/swiper.css"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
 link = "plugins/slick/slick.css"
 attributes = "media='screen'"
 
@@ -49,6 +53,10 @@ attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/swiper/swiper.min.js"
 attributes = ""
 
 [[params.plugins.js]]
