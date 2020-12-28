@@ -1,0 +1,149 @@
+.calculator {
+  margin: 15px 25px 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  @extend .shadow;
+
+  &-body {
+    padding: 20px;
+  }
+
+  &-result-box {
+    background-color: $light;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+    strong {
+      color: $color-primary;
+      border-bottom: 1px solid #dadada;
+      display: block;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+
+    input {
+      background-color: $color-primary;
+      color: $white;
+      font-size: 40px;
+      line-height: 1;
+      display: block;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      border: 0;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+  }
+
+  &-result {
+    padding: 20px;
+    border-bottom: 5px solid $color-primary;
+    text-align: center;
+    background-image: url(../images/surprise-icon.png);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: center center;
+  }
+
+  &-head {
+    padding: 20px;
+    background-color: $color-primary;
+    color: $white;
+    text-align: center;
+
+    * {
+      color: inherit;
+    }
+  }
+  &-devider{
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    &::before{
+      position: absolute;
+      content: "";
+      background-color: #dedede;
+      height: 1px;
+      width: 100%;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+    span{
+      background-color: $white;
+      padding: 5px;
+      display: inline-block;
+    }
+  }
+}
+
+.diet-button{
+  background-color: $light;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: $black-200;
+  border: 2px solid transparent;
+  span{
+    display: block;
+    margin-top: 5px;
+    color: $black-900;
+  }
+}
+
+.active .diet-button{
+  border-color: $color-primary;
+}
+
+.custom-radio {
+  label {
+    background-color: $light;
+    height: 46px;
+    border-radius: 8px;
+    line-height: 46px;
+    width: calc(100% + 20px);
+    display: block;
+    margin-left: -20px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid $light;
+    color: $black-500 !important;
+    font-size: 16px !important;
+
+    i {
+      font-size: 20px;
+      vertical-align: middle;
+    }
+  }
+
+  .custom-control-input:checked~ {
+    label {
+      border-color: $color-primary;
+    }
+  }
+}
+
+.form-control {
+  box-shadow: none;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.form-group {
+  label {
+    color: $color-primary;
+    font-size: 14px;
+  }
+}
+
+.ul-inline img{
+  cursor: pointer;
+}

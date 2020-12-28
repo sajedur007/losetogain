@@ -13,12 +13,9 @@ certificates:
 - images/certifications/03.jpg
 - images/certifications/02.jpg
 social:
-- - facebook
-  - "#"
-- - twitter
-  - "#"
-- - linkedin
-  - "#"
+  facebook: "#"
+  twitter: "#"
+  linkedin: "#"
 served_clients: 1050+
 available_slots: "5"
 

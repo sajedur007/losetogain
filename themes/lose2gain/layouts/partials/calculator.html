@@ -1,0 +1,703 @@
+<section class="section-padding has-wave" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
+  <div class="container">
+    <div class="row align-items-center justify-content-around">
+      <div class="col-lg-5">
+        <div class="text-center mb-4">
+          <ul class="nav nav-pills calculator-tab-nav">
+            <li class="nav-item">
+              <a class="nav-link bmr active">BMR Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link macro">Macro Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bodyfat">Body Fat</a>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- BMR Calculator -->
+            <div class="swiper-slide">
+              <div class="calculator">
+                <form class="row calculator-body">
+                  <div class="col-6 form-group">
+                    <div class="custom-control custom-radio">
+                      <input id="gen" name="gen" type="radio" class="custom-control-input">
+                      <label for="gen"><i class="fas fa-mars mr-2 text-primary"></i>Male</label>
+                    </div>
+                  </div>
+                  <div class="col-6 form-group">
+                    <div class="custom-control custom-radio">
+                      <input id="female" name="gen" type="radio" class="custom-control-input">
+                      <label for="female"><i class="fas fa-venus mr-2 text-primary"></i>Female</label>
+                    </div>
+                  </div>
+                  <div class="col-6 form-group">
+                    <label for="weight">Weight:</label>
+                    <input id="weight" class="form-control" maxlength="3" name="weight" size="3" type="number"
+                      placeholder="Weight is Kg" />
+                  </div>
+                  <div class="col-6 form-group">
+                    <label for="age">Age:</label>
+                    <input id="bmrAge" class="form-control" maxlength="2" name="age" size="3" type="number"
+                      placeholder="Age is years" />
+                  </div>
+                  <div class="col-12 form-group mb-0">
+                    <label for="height">Height:</label>
+                  </div>
+                  <div class="col-6 form-group bmrHeight">
+                    <select id="foot" class="custom-select form-control" name="foot" onchange="hcon()">
+                      <option value="1">1 Foot</option>
+                      <option value="2">2 Foot</option>
+                      <option value="3">3 Foot</option>
+                      <option value="4">4 Foot</option>
+                      <option value="5">5 Foot</option>
+                      <option value="6">6 Foot</option>
+                      <option value="7">7 Foot</option>
+                    </select>
+                  </div>
+                  <div class="col-6">
+                    <select id="inch" class="custom-select form-control" name="inch" onchange="hcon()">
+                      <option value="0">0 Inch</option>
+                      <option value="1">1 Inch</option>
+                      <option value="2">2 Inch</option>
+                      <option value="3">3 Inch</option>
+                      <option value="4">4 Inch</option>
+                      <option value="5">5 Inch</option>
+                      <option value="6">6 Inch</option>
+                      <option value="7">7 Inch</option>
+                      <option value="8">8 Inch</option>
+                      <option value="9">9 Inch</option>
+                      <option value="10">10 Inch</option>
+                      <option value="11">11 Inch</option>
+                    </select>
+                    <div style="display: none;">
+                      <label for="cen">Cms :</label>
+                      <input id="cen" class="form-control" name="cen" size="4" type="number"
+                        placeholder="Your height in Cm" />
+                    </div>
+                  </div>
+                  <div class="col-12 form-group">
+                    <label for="loa">I Excercise:</label>
+                    <select id="loa" class="custom-select form-control" name="loa">
+                      <option value="1">Very Little</option>
+                      <option value="2">1-3 Times per week</option>
+                      <option value="3">3-5 Times per week</option>
+                      <option value="4">6-7 Times per week</option>
+                      <option value="5">7 Times, Super Heavy</option>
+                    </select>
+                  </div>
+                  <div class="col-12 form-group">
+                    <label for="bodyfat">Body Fat:</label>
+                    <input id="bmrBodyFat" class="form-control" name="bodyfat" type="text"
+                      placeholder="Your Body Fat is (%)" />
+                    <small class="btn-inline" id="fatPercent">I dont know my Fat percentage</small>
+                  </div>
+                  <!-- calculate button -->
+                  <div class="col-12">
+                    <a class="btn-calculate btn btn-block btn-primary">Calculate The Calorie</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- Calorie Result -->
+            <div class="swiper-slide">
+              <div class="calculator">
+                <div class="calculator-result">
+                  <h3>Your Calorie <br> Result</h3>
+                </div>
+                <div class="calculator-body">
+                  <div class="row py-5">
+                    <div class="col-6">
+                      <div class="calculator-result-box">
+                        <strong>YOUR BMR IS</strong>
+                        <input id="bmr" readonly size="15" type="text" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="calculator-result-box">
+                        <strong>YOUR TDEE IS</strong>
+                        <input id="rc" readonly size="15" type="text" />
+                      </div>
+                    </div>
+                  </div>
+                  <input id="toMacro" class="btn btn-block btn-outline-primary" type="submit"
+                    value="Now Check What To Eat" />
+                </div>
+              </div>
+            </div>
+            <!-- Macro -->
+            <div class="swiper-slide">
+              <div class="calculator">
+                <div class="calculator-head">
+                  <h3>What & how much you should be eating</h3>
+                </div>
+                <div class="calculator-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="totalCal" class="sr-only">Total calories per day</label>
+                      <input class="form-control" id="totalCal" maxlength="4" name="totalCal" type="number"
+                        placeholder="Total calories per day" />
+                    </div>
+                    <ul class="row form-group list list-unstyled mb-0">
+                      <li class="col-12">
+                        <label for="diet-plan">Choose You Diet Plan</label>
+                      </li>
+                      <li class="col-4 px-2 hc active">
+                        <div class="diet-button">High Carb<span>(60:25:15)</span></div>
+                      </li>
+                      <li class="col-4 px-2 mc">
+                        <div class="diet-button">Moderate Carb<span>(50:30:20)</span></div>
+                      </li>
+                      <li class="col-4 px-2 zd">
+                        <div class="diet-button">Zone Diet<span>(40:30:30)</span></div>
+                      </li>
+                      <li class="col-4 px-2 lc">
+                        <div class="diet-button">Low Carb<span>(25:35:40)</span></div>
+                      </li>
+                      <li class="col-4 px-2 kd">
+                        <div class="diet-button">Keto Diet<span>(05:35:60)</span></div>
+                      </li>
+                    </ul>
+                    <div class="calculator-devider"><span>Reasult</span></div>
+                    <div class="row form-group">
+                      <div class="col-4">
+                        <label for="carbs">Carbs (gm)</label>
+                        <input class="form-control" id="carbs" name="carbs" type="text" readonly />
+                      </div>
+                      <div class="col-4">
+                        <label for="protein">Protein (gm)</label>
+                        <input class="form-control" id="protein" name="protein" type="text" readonly />
+                      </div>
+                      <div class="col-4">
+                        <label for="fats">Fats (gm)</label>
+                        <input class="form-control" id="fats" name="fats" type="text" readonly />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- Body Fat -->
+            <div class="swiper-slide">
+              <div class="calculator">
+                <form class="row calculator-body">
+                  <!-- gender -->
+                  <div class="col-6 form-group">
+                    <div class="custom-control custom-radio">
+                      <input id="fatGen" name="fatgen" type="radio" class="custom-control-input">
+                      <label for="fatGen"><i class="fas fa-mars mr-2 text-primary"></i>Male</label>
+                    </div>
+                  </div>
+                  <div class="col-6 form-group">
+                    <div class="custom-control custom-radio">
+                      <input id="femal" name="fatgen" type="radio" class="custom-control-input">
+                      <label for="femal"><i class="fas fa-venus mr-2 text-primary"></i>Female</label>
+                    </div>
+                  </div>
+                  <div class="col-6 form-group">
+                    <label for="weight">Weight</label>
+                    <input id="fatWeight" class="form-control" name="weight" type="text" placeholder="Weight in KG" />
+                  </div>
+                  <div class="col-6 form-group">
+                    <label for="waist">Waist</label>
+                    <input id="fatWaist" class="form-control" name="waist" type="text" placeholder="Waist (In)" />
+                  </div>
+                  <div class="col-6 form-group">
+                    <label for="wrist">Wrist</label>
+                    <input id="fatWrist" class="form-control" name="wrist" type="text" placeholder="Wrist (In)" />
+                  </div>
+                  <div class="col-6 form-group">
+                    <label for="hip">Hip</label>
+                    <input id="fatHip" class="form-control" name="hip" type="text" placeholder="Hip (In)" />
+                  </div>
+                  <div class="col-12 form-group">
+                    <label for="forearm">Forearm</label>
+                    <input id="fatForearm" class="form-control" name="forearm" type="text" placeholder="Forearm (In)" />
+                    <small class="btn-inline" id="dkm">Don't know measurements?</small>
+                  </div>
+                  <div class="col-12">
+                    <a id="fatSubmit" class="btn btn-primary btn-block">Calculate Your Fat</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- Body Fat Result -->
+            <div class="swiper-slide">
+              <div class="calculator">
+                <div class="calculator-result">
+                  <h3>Body Fat <br> Percentage</h3>
+                </div>
+                <div class="calculator-body">
+                  <div class="row py-5">
+                    <div class="col-8 mx-auto">
+                      <div class="calculator-result-box">
+                        <strong>YOUR BMR IS</strong>
+                        <input name="fatresult" id="fatResult" readonly type="text" />
+                      </div>
+                    </div>
+                  </div>
+                  <a id="useIt" class="btn btn-block btn-outline-primary">Back To BMR</a>
+                </div>
+              </div>
+            </div>
+            <!-- Male Body -->
+            <div class="swiper-slide">
+              <div class="calculator">
+                <div class="calculator-head">
+                  <h3>Select Your Body Type</h3>
+                </div>
+                <div class="calculator-body">
+                  <ul class="row ul-inline list-unstyled male">
+                    <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/slightly-heavy.png`| absURL}}" />
+                    </li>
+                    <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/lean.png`| absURL}}" />
+                    </li>
+                    <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/very-lean.png`| absURL}}" />
+                    </li>
+                    <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/heavy.png`| absURL}}" />
+                    </li>
+                    <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/pretty-heavy.png`| absURL}}" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Female Body -->
+            <div class="swiper-slide">
+              <div class="calculator">
+                <div class="calculator-title">
+                  <h3>Select Your Body Type</h3>
+                </div>
+              </div>
+              <div class="calculator-body">
+                <ul class="row ul-inline list-unstyled female">
+                  <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/slim.png`| absURL}}" />
+                  </li>
+                  <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/f-lean.png`| absURL}}" />
+                  </li>
+                  <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/f-slightly-heavy.png`| absURL}}" />
+                  </li>
+                  <li class="col-4 mb-4"><img class="img-fluid" src="{{`images/body/f-heavy.png`| absURL}}" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="section-title">Instantly Calculate Your Basal metabolic rate</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices condimentum fringilla maecenas dis felis,
+          rutrum tortor, suspendisse. Interdum vitae urna, quis diam nisi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Calculator JS -->
+<script type="text/javascript">
+  // Script by Kazi Tihum, Modified By somratpro
+
+  // BMR Calculator
+  var cneed;
+  var fneed;
+  var crneed;
+  var pneed;
+  var aneed;
+  var fd;
+
+  function cc() {
+    var age = parseInt(document.getElementById("bmrAge").value);
+    var foot = parseInt(document.getElementById("foot").value);
+    var inch = parseInt(document.getElementById("inch").value);
+    var cm = document.getElementById("cen").value;
+    var weight = document.getElementById("weight").value;
+    var bmrBodyFat = document.getElementById("bmrBodyFat").value;
+    if (age != '' && cm != '' && weight != '' && bmrBodyFat != '') {
+      var loa = document.getElementById("loa").value;
+      fatWeight = (weight) - (weight * bmrBodyFat / 100);
+      if (document.getElementById("gen").checked) {
+        fd = (13.7 * fatWeight) + (5 * cm) - (6.8 * age) + 66;
+      } else {
+        fd = (9.6 * fatWeight) + (1.8 * cm) - (4.7 * age) + 655;
+      }
+      switch (loa) {
+        case "1":
+          cneed = fd * 1.2;
+          break;
+        case "2":
+          cneed = fd * 1.375
+          break;
+        case "3":
+          cneed = fd * 1.53;
+          break;
+        case "4":
+          cneed = fd * 1.725;
+          break;
+        case "5":
+          cneed = fd * 1.9;
+          break;
+      }
+      bmr = Math.floor(fd);
+      cneed = Math.floor(cneed);
+      document.getElementById("rc").value = " " + cneed;
+      document.getElementById("bmr").value = " " + bmr;
+      var caltype = document.getElementById("caltype").value;
+      if (caltype == 'g') {
+        document.getElementById("l1").innerHTML = "grams";
+        document.getElementById("l2").innerHTML = "grams";
+        document.getElementById("l3").innerHTML = "grams";
+        document.getElementById("l4").innerHTML = "grams";
+      }
+      if (caltype == 'pounds') {
+        fat1 = fneed * 0.0022;
+        pro1 = pneed * 0.0022;
+        car1 = crneed * 0.0022;
+        alh1 = aneed * 0.0022;
+        fat1 = fat1.toFixed(3);
+        pro1 = pro1.toFixed(3);
+        car1 = car1.toFixed(3);
+        alh1 = alh1.toFixed(3);
+        document.getElementById("rf").value = " " + fat1;
+        document.getElementById("rp").value = " " + pro1;
+        document.getElementById("rh").value = " " + car1;
+        document.getElementById("ra").value = " " + alh1;
+        document.getElementById("l1").innerHTML = "lbs";
+        document.getElementById("l2").innerHTML = "lbs";
+        document.getElementById("l3").innerHTML = "lbs";
+        document.getElementById("l4").innerHTML = "lbs";
+      }
+      if (caltype == 'kg') {
+        fat2 = fneed / 1000;
+        pro2 = pneed / 1000;
+        car2 = crneed / 1000;
+        alh2 = aneed / 1000;
+        fat2 = fat2.toFixed(3);
+        pro2 = pro2.toFixed(3);
+        car2 = car2.toFixed(3);
+        alh2 = alh2.toFixed(3);
+        document.getElementById("rf").value = " " + fat2;
+        document.getElementById("rp").value = " " + pro2;
+        document.getElementById("rh").value = " " + car2;
+        document.getElementById("ra").value = " " + alh2;
+        document.getElementById("l1").innerHTML = "kilogram";
+        document.getElementById("l2").innerHTML = "kilogram";
+        document.getElementById("l3").innerHTML = "kilogram";
+        document.getElementById("l4").innerHTML = "kilogram";
+      }
+    } else {
+      alert("Please fill your details properly!");
+    }
+  }
+
+  function con(num) {
+    var hc = parseInt(num.value);
+    var hi = hc / 2.54;
+    var hf = Math.floor(hi / 12);
+    var ri = Math.round(hi % 12);
+    if (hc > 40 && hc <= 210) {
+      document.getElementById("foot").value = hf;
+    }
+    document.getElementById("inch").value = ri;
+  }
+
+  function hcon() {
+    var hf = parseInt(document.getElementById("foot").value);
+    var hi = parseInt(document.getElementById("inch").value);
+    var hc;
+    hc = Math.round((hf * 30.48) + (hi * 2.54));
+    document.getElementById("cen").value = hc;
+  }
+
+  function cknum(event, num) {
+    var kc;
+    if (window.event) {
+      kc = event.keyCode;
+    } else {
+      kc = event.which;
+    }
+    var a = num.value;
+    if (kc == 48) {
+      if (a == "") {
+        return false;
+      } else {
+        return true;
+      }
+    }
+    if (kc != 8 && kc != 0) {
+      if (kc < 49 || kc > 57) {
+        return false;
+      }
+    }
+  }
+
+  function isNumberKey(id) {
+    var no = eval('"' + id + '"');
+    var number = document.getElementById(no).value;
+    if (!number.match(/^[0-9\.]+$/) && number != "") {
+      number = number.substring(0, number.length - 1);
+      document.getElementById(id).value = number;
+    }
+  }
+
+  function convert() {
+    var age = parseInt(document.getElementById("bmrAge").value);
+    var cm = document.getElementById("cen").value;
+    var weight = document.getElementById("weight").value;
+    if (age != '' && cm != '' && weight != '') {
+      var caltype = document.getElementById("caltype").value;
+      var fat = document.getElementById("rf").value;
+      var pro = document.getElementById("rp").value;
+      var car = document.getElementById("rh").value;
+      var alh = document.getElementById("ra").value;
+      if (caltype == 'g') {
+        document.getElementById("rc").value = " " + cneed;
+        document.getElementById("rf").value = " " + fneed;
+        document.getElementById("rp").value = " " + pneed;
+        document.getElementById("rh").value = " " + crneed;
+        document.getElementById("ra").value = " " + aneed;
+        document.getElementById("l1").innerHTML = "grams";
+        document.getElementById("l2").innerHTML = "grams";
+        document.getElementById("l3").innerHTML = "grams";
+        document.getElementById("l4").innerHTML = "grams";
+      }
+      if (caltype == 'pounds') {
+        fat1 = fneed * 0.0022;
+        pro1 = pneed * 0.0022;
+        car1 = crneed * 0.0022;
+        alh1 = aneed * 0.0022;
+        fat1 = fat1.toFixed(3);
+        pro1 = pro1.toFixed(3);
+        car1 = car1.toFixed(3);
+        alh1 = alh1.toFixed(3);
+        document.getElementById("rf").value = " " + fat1;
+        document.getElementById("rp").value = " " + pro1;
+        document.getElementById("rh").value = " " + car1;
+        document.getElementById("ra").value = " " + alh1;
+        document.getElementById("l1").innerHTML = "lbs";
+        document.getElementById("l2").innerHTML = "lbs";
+        document.getElementById("l3").innerHTML = "lbs";
+        document.getElementById("l4").innerHTML = "lbs";
+      }
+      if (caltype == 'kg') {
+        fat2 = fneed / 1000;
+        pro2 = pneed / 1000;
+        car2 = crneed / 1000;
+        alh2 = aneed / 1000;
+        fat2 = fat2.toFixed(3);
+        pro2 = pro2.toFixed(3);
+        car2 = car2.toFixed(3);
+        alh2 = alh2.toFixed(3);
+        document.getElementById("rf").value = " " + fat2;
+        document.getElementById("rp").value = " " + pro2;
+        document.getElementById("rh").value = " " + car2;
+        document.getElementById("ra").value = " " + alh2;
+        document.getElementById("l1").innerHTML = "kilogram";
+        document.getElementById("l2").innerHTML = "kilogram";
+        document.getElementById("l3").innerHTML = "kilogram";
+        document.getElementById("l4").innerHTML = "kilogram";
+      }
+    } else {
+      alert("Please fill your details properly!");
+    }
+  }
+
+  // Macro Calculator
+  function change() {
+    jQuery(document).ready(function ($) {
+      var num = $('#totalCal').val();
+      if ($('.hc').hasClass('active')) {
+        $('#carbs').val([num * .60 / 4] + "gm");
+        $('#protein').val([num * .25 / 4] + "gm");
+        $('#fats').val([num * .15 / 9] + "gm");
+      } else if ($('.mc').hasClass('active')) {
+        $('#carbs').val([num * .50 / 4] + "gm");
+        $('#protein').val([num * .30 / 4] + "gm");
+        $('#fats').val([num * .20 / 9] + "gm");
+      } else if ($('.zd').hasClass('active')) {
+        $('#carbs').val([num * .40 / 4] + "gm");
+        $('#protein').val([num * .30 / 4] + "gm");
+        $('#fats').val([num * .30 / 9] + "gm");
+      } else if ($('.lc').hasClass('active')) {
+        $('#carbs').val([num * .25 / 4] + "gm");
+        $('#protein').val([num * .35 / 4] + "gm");
+        $('#fats').val([num * .40 / 9] + "gm");
+      } else if ($('.kd').hasClass('active')) {
+        $('#carbs').val([num * .05 / 4] + "gm");
+        $('#protein').val([num * .35 / 4] + "gm");
+        $('#fats').val([num * .60 / 9] + "gm");
+      } else {
+        alert("error")
+      };
+
+      $('.hc, .mc, .zd, .lc, .kd').click(function () {
+        var carbs = parseFloat($('#carbs').val());
+        var protein = parseFloat($('#protein').val());
+        var fats = parseFloat($('#fats').val());
+        $('#carbs').val(carbs.toFixed(2));
+        $('#protein').val(protein.toFixed(2));
+        $('#fats').val(fats.toFixed(2));
+      });
+      var carbs = parseFloat($('#carbs').val());
+      var protein = parseFloat($('#protein').val());
+      var fats = parseFloat($('#fats').val());
+      $('#carbs').val(carbs.toFixed(2));
+      $('#protein').val(protein.toFixed(2));
+      $('#fats').val(fats.toFixed(2));
+    });
+  };
+
+  jQuery(document).ready(function ($) {
+    $('.list li').click(function () {
+      $('.list li').removeClass('active');
+      $(this).addClass('active');
+      var e = jQuery.Event("keydown");
+      e.which = 50; // # Some key code value
+      $('#totalCal').trigger(e);
+    });
+  });
+
+  // Body Fat Percentage
+  var manFat;
+  var womanFat;
+  var fat;
+
+  function bodyfat() {
+    jQuery(document).ready(function ($) {
+      var fatWeight = parseInt(document.getElementById("fatWeight").value);
+      var fatWaist = parseInt(document.getElementById("fatWaist").value);
+      var fatWrist = parseInt(document.getElementById("fatWrist").value);
+      var fatHip = parseInt(document.getElementById("fatHip").value);
+      var fatForearm = parseInt(document.getElementById("fatForearm").value);
+      var kgWeight = (fatWeight * 2.20462);
+      if ($('#fatWeight').val().length != 0 && $('#fatWaist').val().length != 0) {
+        if (document.getElementById("fatGen").checked) {
+          manFat = (kgWeight * 1.082) + 94.42 - (fatWaist * 4.15);
+          fat = kgWeight - manFat;
+          bfp = ((fat * 100) / kgWeight).toFixed(2);
+        } else {
+          womanFat = (kgWeight * 0.732) + 8.987 + (fatWrist / 3.140) - (fatWaist * 0.157) - (fatHip * 0.249) + (
+            fatForearm * 0.434);
+          fat = kgWeight - womanFat;
+          bfp = ((fat * 100) / kgWeight).toFixed(2);
+        }
+        document.getElementById("fatResult").value = " " + bfp + "%";
+        console.log('success');
+      } else {
+        alert("Please fill your details properly!");
+        console.log('error');
+      }
+    });
+  }
+
+  jQuery(document).ready(function ($) {
+    $('.btn-calculate').attr("onclick", "cc()");
+    $('#totalCal').attr("onkeydown", "change()");
+    $('#fatSubmit').attr("onclick", "bodyfat()");
+    $('#age').attr("onkeypress", "return cknum(event,age)");
+    $('.bmr').click(function () {
+      mySwiper.slideTo(0)
+    });
+    $('.macro, #toMacro').click(function () {
+      mySwiper.slideTo(2)
+    });
+    $('.bodyfat').click(function () {
+      mySwiper.slideTo(3)
+    });
+    $('#fatPercent').click(function () {
+      mySwiper.slideTo(3);
+    });
+    var mySwiper = new Swiper('.swiper-container', {
+      speed: 400,
+      spaceBetween: 100,
+      simulateTouch: false,
+      loop: false,
+      autoHeight: true
+    });
+    $('.btn-calculate').click(function () {
+      if ($('#rc').val()) {
+        mySwiper.slideTo(1);
+      } else {
+        console.log('Error');
+      }
+    });
+
+    $("#fatGen").click(function () {
+      $(this).attr("checked", "checked");
+      $('input[name="fatgen"]').removeAttr("checked", "checked");
+    });
+
+    $('input[name="fatgen"]').click(function () {
+      $('#fatGen').removeAttr("checked", "checked");
+      $(this).attr("checked", "checked");
+    });
+
+    $('#dkm').click(function () {
+      if ($('#fatGen').is(':checked') == true) {
+        mySwiper.slideTo(5);
+      } else if ($('input[name="fatgen"]').is(':checked') == true) {
+        mySwiper.slideTo(6);
+      } else {
+        alert('Please check your gender!');
+      }
+    });
+
+    $('#fatSubmit').click(function () {
+      event.preventDefault();
+      if ($('#fatResult').val() !== null) {
+        mySwiper.slideTo(4);
+      } else {
+        console.log('Please fill the inputs currectly!');
+      }
+    });
+    $('#useIt').click(function () {
+      mySwiper.slideTo(0);
+      var filtered = $('#fatResult').val().replace('%', '');
+      $('#bmrBodyFat').val(filtered);
+    })
+
+    // Auto Percentage Selector
+    $('.ul-inline.male li:nth-child(1)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('6');
+    });
+    $('.ul-inline.male li:nth-child(2)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('10');
+    });
+    $('.ul-inline.male li:nth-child(3)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('15');
+    });
+    $('.ul-inline.male li:nth-child(4)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('20');
+    });
+    $('.ul-inline.male li:nth-child(5)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('25');
+    });
+
+    // Female
+    $('.ul-inline.female li:nth-child(1)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('15');
+    });
+    $('.ul-inline.female li:nth-child(2)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('20');
+    });
+    $('.ul-inline.female li:nth-child(3)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('25');
+    });
+    $('.ul-inline.female li:nth-child(4)').click(function () {
+      mySwiper.slideTo(0);
+      $('#bmrBodyFat').val('35');
+    });
+
+  });
+</script>

@@ -8,15 +8,14 @@
         <h2 class="section-title">Hello, I’m <br>{{.Title}}</h2>
         <p class="mb-2 text-primary font-weight-500">{{.Params.designation}}</p>
         <p class="mb-4">{{.Params.description | markdownify }}</p>
-
         <ul class="social-icon-link list-unstyled list-inline">
-          {{ with .Params.social.facebook }}
+          {{ with .Params.Social.facebook }}
           <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-facebook"></i></a></li>
           {{ end }}
-          {{ with .Params.social.twitter }}
+          {{ with .Params.Social.twitter }}
           <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-twitter"></i></a></li>
           {{ end }}
-          {{ with .Params.social.linkedin }}
+          {{ with .Params.Social.linkedin }}
           <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-linkedin"></i></a></li>
           {{ end }}
         </ul>
@@ -62,43 +61,44 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-7 col-md-10 text-center mb-50">
-				<h2 class="section-title">{{ .title | markdownify }}</h2>
-				<p>{{ .content | markdownify }}</p>
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
       </div>
     </div>
-		<div class="row justify-content-center">
-			{{ range .pricing_table }}
-			<div class="col-lg-4 col-md-6">
-				<div class="bg-white shadow-lg rounded-lg py-5 px-3 px-md-4 position-relative mt-30">
-				{{with .discount}}<span class="badge pricing-badge bg-primary text-white p-2">{{. | markdownify}}</span>{{end}}
-					<div class="text-center">
-						<p class="text-uppercase text-primary font-weight-600 mb-3">{{.name | markdownify}}</p>
-						<div class="mb-1">
-							<span class="h2 font-weight-bold">{{ .price }}</span>
-							<span class="font-weight-bold text-black">BTD</span>
-						</div>
-						<p class="text-muted">For One Course</p>
-						<img class="my-4" src="{{.image | absURL}}" alt="">
-						<p class="text-muted">{{ .content | markdownify }}</p>
-					</div>
+    <div class="row justify-content-center">
+      {{ range .pricing_table }}
+      <div class="col-lg-4 col-md-6">
+        <div class="bg-white shadow-lg rounded-lg py-5 px-3 px-md-4 position-relative mt-30">
+          {{with .discount}}<span
+            class="badge pricing-badge bg-primary text-white p-2">{{. | markdownify}}</span>{{end}}
+          <div class="text-center">
+            <p class="text-uppercase text-primary font-weight-600 mb-3">{{.name | markdownify}}</p>
+            <div class="mb-1">
+              <span class="h2 font-weight-bold">{{ .price }}</span>
+              <span class="font-weight-bold text-black">BTD</span>
+            </div>
+            <p class="text-muted">For One Course</p>
+            <img class="my-4" src="{{.image | absURL}}" alt="">
+            <p class="text-muted">{{ .content | markdownify }}</p>
+          </div>
 
-					<ul class="list-unstyled font-weight-500 text-black border-top mt-4 pt-4">
-						{{ range .services }}
-						<li class="mb-20 d-flex">
-							<svg class="text-primary mr-10" width="25" height="25" viewBox="0 0 27 27" fill="none"
-								xmlns="http://www.w3.org/2000/svg">
-								<circle cx="13.5" cy="13.5" r="13.5" fill="currentColor" style="opacity:0.2" />
-								<path d="M8 13.4286L12.3636 18L20 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-							</svg>
-							{{ . | markdownify }}
-						</li>
-						{{ end }}
-					</ul>
-					<a href="contact" class="btn btn-outline-primary btn-block mt-30">Get Started Now</a>
-				</div>
-			</div>
-			{{ end }}
-		</div>
+          <ul class="list-unstyled font-weight-500 text-black border-top mt-4 pt-4">
+            {{ range .services }}
+            <li class="mb-20 d-flex">
+              <svg class="text-primary mr-10" width="25" height="25" viewBox="0 0 27 27" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="13.5" cy="13.5" r="13.5" fill="currentColor" style="opacity:0.2" />
+                <path d="M8 13.4286L12.3636 18L20 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              {{ . | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+          <a href="contact" class="btn btn-outline-primary btn-block mt-30">Get Started Now</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
   </div>
 </section>
 {{ end }}

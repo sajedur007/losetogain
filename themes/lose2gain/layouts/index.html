@@ -69,8 +69,8 @@
           <ul class="nav nav-pills work-process-tab">
             {{ range $i, $e:= .process_step }}
             <li role="presentation">
-              <a class="{{if eq $i 0}}active{{end}}" id="{{.name|anchorize}}-tab" data-toggle="pill" href="#{{.name|anchorize}}" role="tab"
-                aria-controls="{{.name|anchorize}}" aria-selected="true">
+              <a class="{{if eq $i 0}}active{{end}}" id="{{.name|anchorize}}-tab" data-toggle="pill"
+                href="#{{.name|anchorize}}" role="tab" aria-controls="{{.name|anchorize}}" aria-selected="true">
                 <div class="icon-list">
                   <i class="icon far fa-user"></i>
                   <div class="block">
@@ -87,7 +87,8 @@
       <div class="col-lg-6 text-center order-0 order-lg-1 mb-5 mb-lg-0">
         <div class="tab-content mt-30">
           {{ range $i, $e:= .process_step }}
-          <div class="tab-pane fade {{if eq $i 0}}active show{{end}}" id="{{.name|anchorize}}" role="tabpanel" aria-labelledby="{{.name|anchorize}}-tab">
+          <div class="tab-pane fade {{if eq $i 0}}active show{{end}}" id="{{.name|anchorize}}" role="tabpanel"
+            aria-labelledby="{{.name|anchorize}}-tab">
             <img class="img-fluid" src="{{.image|absURL}}" alt="">
           </div>
           {{ end }}
@@ -127,7 +128,8 @@
 
 
 <!-- start of mentor-carousel -->
-<section class="section-padding team-carousel has-wave pt-70 pb-130" style="background-image:url('{{`images/wave-gray.svg` | absURL }}')">
+<section class="section-padding team-carousel has-wave pt-70 pb-130"
+  style="background-image:url('{{`images/wave-gray.svg` | absURL }}')">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-7 col-md-10 text-center mb-50 content">
@@ -175,7 +177,8 @@
 
 
 <!-- start of image-compare-section -->
-<section class="section-padding bg-light pt-80 pb-130 has-wave" style="background-image:url('{`{images/wave.svg` | absURL }}')">
+<section class="section-padding bg-light pt-80 pb-130 has-wave"
+  style="background-image:url('{`{images/wave.svg` | absURL }}')">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-7 col-md-10 text-center mb-50 content">
@@ -196,7 +199,8 @@
               <li class="list-inline-item mb-3 mr-4">
                 <span class="text-primary mr-2"> <i class="far fa-user"></i> </span>
                 Mentor's name :
-                <a class="text-primary ml-2" href="{{ `mentor/` | relURL }}{{ .Params.mentor | urlize | lower }}">{{ .Params.mentor | humanize }}</a>
+                <a class="text-primary ml-2"
+                  href="{{ `mentor/` | relURL }}{{ .Params.mentor | urlize | lower }}">{{ .Params.mentor | humanize }}</a>
               </li>
               <div class="list-inline-item mb-3 mr-4">
                 <span class="text-primary mr-2"> <i class="fas fa-history"></i> </span>
@@ -309,13 +313,15 @@
                 </li>
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-user mr-2"></i>
-                  <a href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
+                  <a
+                    href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
                 </li>
                 {{ with .Params.Categories }}
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-tag mr-2"></i>
-                  {{ range $i,$p:= . }}{{if ne $i 0}}, {{end}}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | humanize }}</a>
-                {{end}}
+                  {{ range $i,$p:= . }}{{if ne $i 0}}, {{end}}<a
+                    href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | humanize }}</a>
+                  {{end}}
                 </li>
                 {{end}}
               </ul>
@@ -342,13 +348,15 @@
                 </li>
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-user mr-2"></i>
-                  <a href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
+                  <a
+                    href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
                 </li>
                 {{ with .Params.Categories }}
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-tag mr-2"></i>
-                  {{ range $i,$p:= . }}{{if ne $i 0}}, {{end}}<a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | humanize }}</a>
-                {{end}}
+                  {{ range $i,$p:= . }}{{if ne $i 0}}, {{end}}<a
+                    href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | humanize }}</a>
+                  {{end}}
                 </li>
                 {{end}}
               </ul>
