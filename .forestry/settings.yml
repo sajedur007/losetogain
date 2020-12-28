@@ -14,13 +14,14 @@ sections:
 - type: document
   path: content/blog/_index.md
   label: Blog Page
-  match: "**/*"
 - type: directory
   path: content/blog
   label: Blog Post
   create: documents
   match: "**/*"
   exclude: _index.md
+  templates:
+  - post
 - type: heading
   label: Mentor
 - type: document
@@ -34,30 +35,52 @@ sections:
   exclude: _index.md
   templates:
   - mentor
+- type: heading
+  label: Program
+- type: directory
+  path: content/program/_index.md
+  label: Program Page
+  create: documents
+  match: "**/*"
 - type: directory
   path: content/program
   label: Program
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - program
+- type: heading
+  label: Story
+- type: document
+  path: content/story/_index.md
+  label: Story Page
+  match: "**/*"
 - type: directory
   path: content/story
   label: Story
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - story
+- type: heading
+  label: Product
+- type: document
+  path: content/product/_index.md
+  label: Product Page
+  match: "**/*"
 - type: directory
   path: content/product
   label: Product
-  create: all
+  create: documents
   match: "**/*"
+  exclude: _index.md
   templates:
   - product
 - type: directory
   path: content
-  label: Pages
+  label: Other Pages
   create: all
   match: "*"
 - type: heading
