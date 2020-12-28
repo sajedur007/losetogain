@@ -37,10 +37,9 @@ sections:
   - mentor
 - type: heading
   label: Program
-- type: directory
+- type: document
   path: content/program/_index.md
   label: Program Page
-  create: documents
   match: "**/*"
 - type: directory
   path: content/program
@@ -55,7 +54,6 @@ sections:
 - type: document
   path: content/story/_index.md
   label: Story Page
-  match: "**/*"
 - type: directory
   path: content/story
   label: Story
@@ -69,7 +67,6 @@ sections:
 - type: document
   path: content/product/_index.md
   label: Product Page
-  match: "**/*"
 - type: directory
   path: content/product
   label: Product
