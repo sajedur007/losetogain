@@ -18,6 +18,10 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: document
+  path: content/mentor/_index.md
+  label: Mentor Page
+  match: "**/*"
 - type: directory
   path: content/mentor
   label: Mentor
