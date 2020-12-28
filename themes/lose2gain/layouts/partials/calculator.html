@@ -287,15 +287,28 @@
           </div>
         </div>
       </div>
+      {{ with site.Data.home.calculator }}
       <div class="col-lg-6">
-        <h2 class="section-title">Instantly Calculate Your Basal metabolic rate</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices condimentum fringilla maecenas dis felis,
-          rutrum tortor, suspendisse. Interdum vitae urna, quis diam nisi.</p>
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <div class="content">
+          {{ .content | markdownify }}
+        </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
 
+<!-- active changer -->
+<script>
+  $(document).ready(function () {
+    $('.calculator-tab-nav a').click(function (e) {
+      $('.calculator-tab-nav a.active').removeClass('active');
+      $(this).addClass('active');
+      e.preventDefault();
+    });
+  });
+</script>
 
 <!-- Calculator JS -->
 <script type="text/javascript">
@@ -612,6 +625,7 @@
     });
     var mySwiper = new Swiper('.swiper-container', {
       speed: 400,
+      effect: 'fade',
       spaceBetween: 100,
       simulateTouch: false,
       loop: false,

@@ -7,6 +7,11 @@ banner:
   download_button: "#"
   hire_button: "#"
 
+############ Calculator ##########
+calculator:
+  title: "Instantly Calculate Your Basal metabolic rate"
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices condimentum fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae urna, quis diam nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices condimentum fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae urna, quis diam nisi."
+
 ############ about ###############
 about:
   title: "Loose To gain"
