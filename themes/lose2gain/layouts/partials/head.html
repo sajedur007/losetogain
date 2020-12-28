@@ -25,6 +25,8 @@
   <!-- style -->
   {{ partialCached "style.html" . }}
 
-  {{with site.Params.custom_script}}{{ . |safeHTML}}{{end}}
+  {{ with site.Params.custom_script }}{{ . |safeHTML }}{{ end }}
+  
+	{{ partialCached "script.html" . }}
 
 </head>

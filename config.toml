@@ -27,10 +27,6 @@ link = "plugins/bootstrap/bootstrap.min.css"
 attributes = "media='screen'"
 
 [[params.plugins.css]]
-link = "plugins/swiper/swiper.css"
-attributes = "media='screen'"
-
-[[params.plugins.css]]
 link = "plugins/slick/slick.css"
 attributes = "media='screen'"
 
@@ -46,6 +42,10 @@ attributes = ""
 link = "plugins/twentytwenty/css/twentytwenty.css"
 attributes = ""
 
+[[params.plugins.css]]
+link = "plugins/swiper/swiper.css"
+attributes = "media='screen'"
+
 # JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
@@ -53,10 +53,6 @@ attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-attributes = ""
-
-[[params.plugins.js]]
-link = "plugins/swiper/swiper.min.js"
 attributes = ""
 
 [[params.plugins.js]]
@@ -73,6 +69,10 @@ attributes = ""
 
 [[params.plugins.js]]
 link = "plugins/rating/rating.js"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/swiper/swiper.min.js"
 attributes = ""
 
 ##################### navigation ######################

@@ -1,23 +1,20 @@
 (function ($) {
   'use strict';
 
+  // function call
   $(window).on('load', function () {
-    $('.twentytwenty-image').twentytwenty();
+    beforeAfter();
+    singleProductCarousel();
+    teamCarousel();
+    testimonialsCarousel();
+    certificateCarousel();
+    videoPopupInit();
   });
 
-
-  function calculatorTab() {
-    $(document).on('click', '.calculator-tab-nav a', function (e) {
-      var secondaryTabs = $(this).attr('data-calculator').split(',');
-      for (var i = 0; i < secondaryTabs.length; i++) {
-        var nav = $('<ul class="nav d-none"></ul>');
-        nav.append('<li class="nav-item"><a href="#" data-toggle="tab" data-target="' + secondaryTabs[i] + '">nav</a></li>"');
-        nav.find('a').tab('show');
-      }
-    });
+  // image before after
+  function beforeAfter(){
+    $('.twentytwenty-image').twentytwenty();
   }
-  calculatorTab();
-
 
   // singleProductCarousel init
   function singleProductCarousel() {
@@ -32,7 +29,6 @@
       }
     });
   }
-  singleProductCarousel();
 
 
   // teamCarousel init
@@ -61,7 +57,6 @@
       ]
     });
   }
-  teamCarousel();
 
 
   // certificateCarousel init
@@ -91,7 +86,6 @@
       ]
     });
   }
-  certificateCarousel();
 
 
   // testimonialsCarousel init
@@ -116,7 +110,6 @@
       centerMode: true
     });
   }
-  testimonialsCarousel();
 
   // videoPopupInit
   function videoPopupInit() {
@@ -131,6 +124,5 @@
       $('#showVideo').attr('src', $videoSrc);
     });
   }
-  videoPopupInit();
 
 })(jQuery);
