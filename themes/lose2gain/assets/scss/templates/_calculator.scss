@@ -25,7 +25,7 @@
     input {
       background-color: $color-primary;
       color: $white;
-      font-size: 40px;
+      font-size: 35px;
       line-height: 1;
       display: block;
       width: 100%;
@@ -34,6 +34,9 @@
       border: 0;
       font-weight: bold;
       border-radius: 10px;
+      @include breakAt(sm-device){
+        font-size: 25px;
+      }
     }
   }
 
