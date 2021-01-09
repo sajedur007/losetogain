@@ -22,11 +22,21 @@ I have guided over 550 people and transformed them into a healthy lifestyle unde
 
 ## **EDUCATION & QUALIFICATIONS**
 
+**Fitness Nutrition**    
+[National Exercise & Sports Trainer Association, USA (NESTA) ]()
 
- Fitness Nutrition  National Exercise & Sports Trainer Association, USA (NESTA)  Optimum nutrition for health & performance  Optimum Nutrition 
- Basics of Nutrition  Institute of Nutrition and Fitness Sciences (INFS) 
- Exercise Science Specialist  Institute of Nutrition and Fitness Sciences (INFS) 
+**Optimum nutrition for health & performance**  
+
+Optimum Nutrition 
+
+**Basics of Nutrition** 
+
+Institute of Nutrition and Fitness Sciences (INFS) 
+
+**Exercise Science Specialist**  
+
+Institute of Nutrition and Fitness Sciences (INFS)
 
 ## **INTEREST AND HOBBIES**
 
-Love to read books, listen to music, watch movies, travel, cook and spend time in gardening. I am specialized in healthy recipes and have around 200 diet recipes published.
+Love to read books, listen to music, watch movies, travel, cook, and spend time gardening. I am specialized in healthy recipes and have around 200 diet recipes published.
