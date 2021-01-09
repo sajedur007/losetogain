@@ -23,3 +23,5 @@ fields:
 - type: list
   name: features
   label: features
+pages:
+- content/program/12-week-transformation-package.md
