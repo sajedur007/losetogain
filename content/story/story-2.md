@@ -1,44 +1,42 @@
 ---
-title: "Two Years Ago, I Decided To Make a Change. 50 Lbs Later, I'm Training and do this 2."
-date: 2018-09-24T11:07:10+06:00
-image_before: "images/transformed-img-1.jpg"
-image_after: "images/transformed-img-2.jpg"
-description: "Lorem ipsum dolor amet, consectetur adipiscing elit. Nisl diam pellentesque morbi molestie nisi, porttitor eget vitae."
-mentor: "John Doe"
-previous_weight: 58.5
-current_weight: 50.0
-diet: "High carb"
-time: "21 weeek"
-program_code: "12WPMP"
-draft: false
+title: রিভিউ পোস্ট By Ishita Akhter
+date: 2021-01-09T05:07:10+00:00
+image_before: "/images/ishita-akhter.jpg"
+image_after: "/images/ishita-akhter.jpg"
+description: ''
+mentor: John Doe
+previous_weight: 66.9
+current_weight: 67.7
+diet: 'Customized Plan '
+time: 12 Week
+program_code: 12WPMP
+parents: Badrunnesa Rozi
+
 ---
+একটি খাঁটি, অর্থমুক্ত রিভিউ পোস্ট!! 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+১২ সপ্তাহের কয়েক ধাপের মেন্টরশিপ (দোষ আমারই, লকডাউনের আলস্য আর এন্ডোমেট্রিওসিস এর কারনে শরীরচর্চা বাদ দিতেই ওজন বার বার বেড়ে যাচ্ছিলো!)
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+মেন্টরঃ Badrunnesa Rozi আপু 
 
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus
-laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium
-consequat mauris viverra. Sagittis eu libero
+শুরুতে ওজনঃ ৬৬.৯ কেজি
 
-> A wise girls her limit to touch sky. Repellat neque praesentium adipisci. This is an idea, this is as quickly.
+শেষ ওজনঃ ৫৭.৭ কেজি
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at
-pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+মোট হ্রাসঃ ৯.২ কেজি
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis cursus id.
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-dignissim. Faucibus non tristique eu.
+প্রথমেই বলে রাখি, বাংলায় লেখার হাত আমার খুব একটা সাবলীল না, তাই ভাষাগত সমস্যা থাকলে ক্ষমাপ্রার্থী। আমার ওজন কমানোর জার্নি নতুন নয়, এর আগে অন্তত ৩/৪ বার নিজে নিজে চেষ্টা করে ওজন কমালেও ধরে রাখতে পারি নি। পড়াশোনা, শারীরিক/মানসিক উদ্বেগ-অসুস্থতা, মা আর নানু'র চলে যাওয়া, সব মিলিয়ে বার বার ব্যর্থ হচ্ছিলাম।
+
+গত বছর থেকে হাঁটুতে সমস্যা দেখা দেয়, কাজেই ভাবলাম এবার একটা বিহিত করা উচিৎ। ফিটগাইড পড়ে চেষ্টা করতে চেয়েছিলাম, কিন্তু ভাবলাম, না, রিস্ক না নিয়ে সরাসরি পেইড সার্ভিসেই চলে যাই। তারপর গত বছর থেকে জুলাই থেকে এ বছর ডিসেম্বর পর্যন্ত স্টপ-গো করে অবশেষে যাত্রা হলো নাস্তি!
+
+আগেই বলেছি, এন্ডোমেট্রিওসিস এবং লকডাউনের কারনে ওজন কমানোর যাত্রাটা সাবলীল ছিলো না। কিন্তু অনেক অনেক অনেক ধন্যবাদ রোজী আপুকে, ধৈর্য সহকারে আমাকে গাইড করার জন্য। A very dedicated and highly-inspiring mentor she is to all her mentees, may Allah bless her always!
+
+আমি লো-কার্ব, মডারেট কার্ব, কার্ব সাইক্লিং এবং কিটো করেছি, সাথে শরীরের সাধ্যে যতটুকু কুলায় ততটুকু ব্যায়াম করেছি। আমার টার্গেট ৫৫ কেজি, চেষ্টা করছি সেটা ছুঁয়ে ফেলার, দেখা যাক! আমার প্রধানতম সমস্যা হচ্ছে তীব্র পেটব্যাথার কারনে ঠিকভাবে এবং নিয়মিত ব্যায়াম করাটা ধরে রাখতে না পারা! (ইতোমধ্যে ৩/৪ বার হাসপাতাল ইমার্জেন্সী যাত্রা হয়ে গেছে!)
+
+আমার সামনের বছর এন্ডোমেট্রিওসিস সার্জারী হওয়ার কথা হচ্ছে, চেষ্টা করছি তার আগেই ৫৫ তে নেমে আসতে, যাতে পরবর্তীতে ওজন বাড়লেও কমাতে সমস্যা না হয়!
+
+আর লুজ টু গেইন পরিবারের কারনে এই প্রথম আমি আমার কাংখিত ওজন হ্রাস এবং ফিট হওয়ার প্রচেষ্টায় প্রায় সম্পূর্ণ সফল হয়েছি, তাই এর সর্বাঙ্গীন এবং উত্তরোত্তর সাফল্য কামনা করি!
+
+এইতো আজকে এটুকুই, সবাই সুস্থ থাকবেন, ভালো থাকবেন, নিজের প্রতি যত্ন নেবেন। সবার ওজন কমানোর যাত্রা শুভ এবং সফল হোক!
+
+ছবিতে আমি ২০১৯ এ প্রথমবার ৬০ কেজি'র নিচে নামার পর এবং এর পূর্বে প্রায় ৭০ কেজি থাকাকালীন, ২০১৮ তে। উল্লেখ্য যে বিয়ে'র সময় প্রায় ৩ কেজি ওজন কমিয়েছিলাম আর তার পরেই লুজ টু গেইনের সাথে যাত্রা শুরু করি।
