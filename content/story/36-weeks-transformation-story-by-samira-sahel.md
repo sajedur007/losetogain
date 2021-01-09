@@ -3,7 +3,6 @@ current_weight = 59
 date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Customized Plan "
-draft = true
 image_after = "/images/samira-sahel.jpg"
 image_before = "/images/samira-sahel.jpg"
 parents = "Sajedur Rahman"
