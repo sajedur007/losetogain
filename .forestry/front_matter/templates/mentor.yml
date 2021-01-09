@@ -40,4 +40,5 @@ fields:
     name: linkedin
     label: linkedin
 pages:
+- content/mentor/badrunnesa-rozi.md
 - content/mentor/molua-khan.md
