@@ -1,27 +1,27 @@
 +++
 date = 2021-01-09T18:00:00Z
-description = "Duration : 12 Weeks\nPrice : 9000 BDT"
+description = "Duration : 52 Weeks\nPrice : 60000 BDT"
 draft = true
-features = ["Weekly Phone/Messenger support", " Weekly monitoring and course corrections", "Customised diet plan", "Personalised consultation"]
+features = ["Bi-weekly monitoring and course corrections", "Weekly Phone/Messenger support", "Customised diet plan", "Personalised consultation"]
 image = ""
 mentors = ["Sajedur Rahman"]
-program = "12 week transformation package"
+program = "Friends and Family Well Being Package"
 title = "Friends and Family Well Being Package"
 
 +++
-### 12 WEEK TRANSFORMATION PACKAGE
+### FRIENDS AND FAMILY WELLBEING PACKAGE
 
-DURATION: 12 Weeks
+DURATION: 52 Weeks
 
-PRICE: 9000 INR (inclusive of taxes)
+PRICE: 60000 INR (~~155880~~ INR)
 
-DESCRIPTION: FITTR is not specifically a platform for weight loss,but a health and wellness platform that focuses on providing you a healthier life,both mentally and physically. Effective weight management requires constant vigilance and self-control. We believe that an effective weight management program not just helps you reach your desired weight but an establishment of permanent healthier lifestyle changes.
+DESCRIPTION: FOCUS ON HEALTH, NOT JUST WEIGHT. Concerned about the health and fitness of your family but not getting enough and right guidance to do anything about it? Now lose weight, track your family's fitness levels and get fitter with FITTR. We believe that an effective weight management program not just helps you and your family reach your desired weight but an establishment of permanent healthier lifestyle changes for the entire family.
 
-12 Week Transformation Package includes:
+52 week Friends and Family Wellbeing Package includes:
 
-• Personalised consultation which includes customised diet plan,training and supplementation guidance for 12 weeks from our Consultant
+• Personalised consultation which includes customized diet plan, training and supplementation guidance for the family of 4 for 52 weeks from our tier-2 Consultant
 
-• Weekly monitoring and course corrections
+• Bi-weekly monitoring and course corrections
 
 • Weekly Phone/Messenger support
 
@@ -31,6 +31,4 @@ Consultant Timings (Consultant's Time Zone):
 
 • Friday & Saturday: closed
 
-15 day Consultant change or full money-back guarantee
-
-Terms and Condition apply.
+Please Note: This package does not fall under the refundable category.
