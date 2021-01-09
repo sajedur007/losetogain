@@ -1,19 +1,19 @@
 +++
 date = 2021-01-09T18:00:00Z
-description = "Duration : 12 Weeks\nPrice : 9000 BDT"
+description = "Duration : 24 Weeks\nPrice : 17000 BDT\n"
 draft = true
 features = ["Weekly Phone/Messenger support", " Weekly monitoring and course corrections", "Customised diet plan", "Personalised consultation"]
 image = ""
 mentors = ["Sajedur Rahman"]
-program = "12 week transformation package"
-title = "24 week transformation package"
+program = "24 WEEK EXTENDED TRANSFORMATION PACKAGE"
+title = "24 WEEK EXTENDED TRANSFORMATION PACKAGE"
 
 +++
-### 12 WEEK TRANSFORMATION PACKAGE
+### 24 WEEK EXTENDED TRANSFORMATION PACKAGE
 
-DURATION: 12 Weeks
+DURATION: 24 Weeks
 
-PRICE: 9000 INR (inclusive of taxes)
+PRICE: 17000 INR (18000 inclusive of taxes)
 
 DESCRIPTION: FITTR is not specifically a platform for weight loss,but a health and wellness platform that focuses on providing you a healthier life,both mentally and physically. Effective weight management requires constant vigilance and self-control. We believe that an effective weight management program not just helps you reach your desired weight but an establishment of permanent healthier lifestyle changes.
 
