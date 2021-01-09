@@ -1,7 +1,7 @@
 ---
 title: Sajedur Rahman
 designation: 'ISSA Fitness Nutrition Specialist '
-date: 2020-12-27T05:07:10.000+00:00
+date: 2021-01-09T05:07:10+00:00
 image: "/images/sajed.png"
 experience: '04'
 served_patients: 1050+
