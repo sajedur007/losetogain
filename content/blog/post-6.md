@@ -1,44 +1,24 @@
 ---
-title: "Philippines’ 50 Riche 2020 More Than Half Of The Listees Fortunes."
-date: 2018-09-24T11:07:10+06:00
-image: "images/news/01.jpg"
-description: "meta description"
-author: "John Doe"
-categories: ["gym", "health"]
-type: "regular"
-draft: false
+title: সব ঠিক থাকার পরও ওজন কমছেনা?
+date: 2021-01-09T05:07:10+00:00
+image: "/images/fat-muscle.jpg"
+description: meta description
+author: John Doe
+categories:
+- gym
+- health
+type: regular
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+বিগত ৩সপ্তাহ ডায়েট করছেন চিটলেস অর্থাৎ কোনরকম নিয়মের বাইরে না যেয়ে। এক্সারসাইজ রোজ ২ঘন্টা করছেন এবং পানি ঘুম সব ঠিকাছে। আপনি বুঝতে পারছেন(ট্র‍্যাক করেন নি) ইঞ্চিতে মেজারমেন্ট কমছে দেখতেও হাল্কা লাগছে কিন্তু প্রতি সপ্তাহে ওয়েট স্কেল দেখছেন নড়চড় করছেনা। আপনি কি হতাশ হচ্ছেন?নাকি পজিটিভ ভাবে নিচ্ছেন? আমি জানি প্রত্যেকেই হতাশ হচ্ছেন, হবারই কথা ওজন কেন কমছেনা! ভাবছেন আপনার হাড়ের ওজন বেশি কিনা।সমসাময়িক সবার ওজন কমছে ওদের সংখ্যা দেখে আপনার মন খারাপ হচ্ছে,ভাবছেন ভুল কোথায় হলো।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+এবার আপনাকে বলছি- প্রথমে সিদ্ধান্ত নিন আপনি আসলে কি চান? আপনি নিজেকে ফিট দেখতে চান নাকি সবাইকে আপনার ওজন কমার সংখ্যা বলতে চান। আপনি কেন ওজন কমাতে চান?কোন ব্যাপারটা গুরুত্বপূর্ণ?
 
+ওজন না কমলেও যদি আপনাকে দেখতে লক্ষনীয়ভাবে স্লিম লাগে,পছন্দের আউটফিটগুলি গায়ে আটছে এবং এতে নিজের প্রতি কনফিডেন্স বেড়ে যায় তাহলে কেন কিছু সংখ্যার জন্য ওজন মেশিনকে এতোটা গুরুত্ব দিবেন? ওয়েট স্কেল তো আপনাকে পুরোপুরি প্রোগ্রেস দেখায়নি। সুতরাং মেজারমেন্ট ট্র‍্যাক না করে বার বার শুধুমাত্র ওজন নেয়ার ব্যাপারে আগ্রহী হলে আপনি হতাশ হতেই পারেন।
 
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus
-laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium
-consequat mauris viverra. Sagittis eu libero
+যখন দেখবেন ইঞ্চিতে মেজারমেন্ট কমছে, ফিটনেস বাড়ছে, সুস্থ আছেন এবং এনার্জি পাচ্ছেন তাহলে চিন্তার কিছু নেই।বরং খুশি হবেন কারণ আপনি ঠিক পথে এগোচ্ছেন। আসলে আপনি মাসল গেইন এবং ফ্যাটলস করছেন। এজন্য আপনার শরীর বাহ্যিক ফলাফল দেখায় মেজারমেন্ট কমার মাধ্যমে। কিন্তু আপনার ওয়েট স্কেল রেজাল্ট দেখাচ্ছে না। স্কেলের ওজন নিয়ে নিয়ে খুব বেশি ভাববেন না। আপনার ওজন বোন ডেন্সটিতে না বরং ফ্যাট,মাসল,পানি এসব মিলিয়ে আসছে।
 
+ডায়েট কিচেন স্কেলে মেপে খাচ্ছেন, পাশাপাশি এক্সারসাইজ, ঘুম পানি ঠিক রাখছেন তাহলে আপনি সঠিক পথে রয়েছেন। যেহতু ফ্যাটলস করছেন এবং মাসল গেইন হচ্ছে তাহলে আপনি কি মনে করেন না যে এটিও আপনার প্রোগ্রেস। সুতরাং শুধু ওজন নিয়ে চিন্তা না করে নিজের প্রোগ্রেস অনুভব করুন। এবার আপনি নতুনভাবে ভাবুন, ওয়েটলস জার্নি এঞ্জয় করুন,কারণ আপনি দুর্দান্ত এফোর্ট দিচ্ছেন। এটি চালিয়ে যান, হার্ড ওয়ার্ক করুন,ধৈর্য ও ধারাবাহিকতা রাখুন বড় পরিবর্তন আসবেই। অবশ্যই সাপ্তাহিক বা পাক্ষিকভাবে একসাথে মেজারমেন্ট এবং ওজন ট্র‍্যাক করা গুরুত্বপূর্ণ।
 
-> A wise girls her limit to touch sky. Repellat neque praesentium adipisci. This is an idea, this is as quickly.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at
-pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
-
-
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis cursus id.
-
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-dignissim. Faucibus non tristique eu.
+আর্টিকেল লিখেছেন বদরুন্নেসা রোজী
