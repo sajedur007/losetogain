@@ -1,44 +1,33 @@
 ---
-title: "Philippines’ 50 Riche 2020 More Than Half Of The Listees Fortunes."
-date: 2018-09-24T11:07:10+06:00
-image: "images/news/01.jpg"
-author: "John Doe"
-description: "meta description"
-categories: ["gym", "health"]
-type: "featured"
-draft: false
+title: ডিম ও কোলেস্টেরলের সম্পর্ক
+date: 2018-09-24T11:07:10.000+06:00
+image: "/images/egg.jpg"
+author: John Doe
+description: meta description
+categories:
+- gym
+- health
+type: featured
+
 ---
+ডিম হলো প্রোটিন ও অন্যান্য নিউট্রিয়েন্টের সবচেয়ে সস্তা ও সহজলভ্য উৎস। একটি ৫০ গ্রাম ওজনের ডিমে আছে ৭২ ক্যালরি, ৬ গ্রাম প্রোটিন, ৫ গ্রাম ফ্যাট যার ১.৫৬ গ্রাম স্যাচুরেটেড ফ্যাট, ১.৮৩ গ্রাম মোনো আনস্যাচুরেটেড ও ০.৯৬ গ্রাম পলি আনস্যাচুরেটেড ফ্যাট, বিভিন্ন ভিটামিন ও মিনারেল। তবে সমস্যা হলো অন্যান্য নিউট্রিয়েন্টের সাথে ডিমে আছে অনেক বেশি কোলেস্টেরল(১৮৬মিলিগ্রাম) যেখানে কোলেস্টেরলের ডেইলি রিকমেন্ডেড ইন্টেক ৩০০মিলিগ্রাম। তাই প্রশ্ন আসে দিনে কয়টা ডিম খাওয়া যাবে? বা যাদের হৃদরোগ আছে ( হাইপারটেনশন, ডায়াবেটিস, হাই ট্রাইগ্লাইসেরাইড) তারা কি ডিম খেতে পারবে?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+কয়েক দশক ধরে আমরা খাবারের কোলেস্টেরলকে ব্লাড কোলেস্টেরল বাড়ানোর জন্য দায়ী মনে করলেও এখনো পর্যন্ত ব্লাড কোলেস্টেরল ও কার্ডিওভাস্কুলার ডিজিজের জন্য ডায়েটারি কোলেস্টেরলের প্রভাব নিয়ে জোরালো কোন প্রমাণ বিশেষজ্ঞ গন নিশ্চিত করেননি।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+কোলেস্টেরল কে আমরা খুব খারাপ কিছু মনে করি অথচ আমাদের শরীরের বেশ কিছু গুরুত্বপূর্ণ ফাংশন, বিভিন্ন হরমোন ও ভিটামিন ডি উৎপাদনে কোলেস্টেরল গুরুত্বপূর্ণ ভূমিকা পালন করে। আমাদের শরীর নিজেই তার প্রয়োজনীয় কোলেস্টেরল তৈরি করতে পারে এবং খাবার থেকেও কিছু কোলেস্টেরল শোষণ করে। ডিম, মাংস, চিংড়ি, ডেইরি প্রোডাক্ট( পনির, বাটার) ইত্যাদি ডায়েটারি কোলেস্টেরলের প্রধান উৎস। তবে এগুলোর মধ্যে ডিম সবচেয়ে নিরাপদ ও পুষ্টিগুণ সম্পন্ন খাবার।
 
+গবেষণায় দেখা গেছে ডিমের কোলেস্টেরল অন্যান্য খাবারের (ট্রানসফ্যাট থেকে আসা) কোলেস্টেরলের তুলনায় ব্লাড কোলেস্টেরল কে খুব সামান্যই প্রভাবিত করে। কিছু গবেষণায় ডিমের সাথে হৃদরোগের সম্পর্ক খুজে পেলেও তার প্রধান কারণ ডিমের সাথে অন্য খাবার যেমন সসেজ, বেকন, ডিম রান্নার প্রক্রিয়া যেমন অতিরিক্ত তেলে রান্নাকে দায়ী করা হয়েছে।
 
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus
-laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium
-consequat mauris viverra. Sagittis eu libero
+একজন সুস্থ মানুষের জন্য দৈনিক ৬-৮ টা বা তারও বেশি ডিম তার দৈনিক প্রোটিনের চাহিদা পূরণে রাখা যাবে তার ব্লাড কোলেস্টেরলে কোন প্রভাব না ফেলেই। ডায়েটারি কোলেস্টেরলের পরিমাণ বেশি হলেও শরীর তার নিজস্ব প্রক্রিয়ায় লিভারে কোলেস্টেরল তৈরির পরিমাণ কমিয়ে কোলেস্টেরল রেশিও নিয়ন্ত্রণ করে ফেলে।
 
+লিখেছেন সামিরা আখতার
 
-> A wise girls her limit to touch sky. Repellat neque praesentium adipisci. This is an idea, this is as quickly.
+রেফারেন্স :
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at
-pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+1\. Dietary Cholesterol and the Lack of Evidence in Cardiovascular Disease
 
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6024687/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6024687/ "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6024687/")
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis cursus id.
+2\.Eggs, Serum Cholesterol, and Coronary Heart Disease -
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-dignissim. Faucibus non tristique eu.
+[https://pubmed.ncbi.nlm.nih.gov/7124663/](https://pubmed.ncbi.nlm.nih.gov/7124663/ "https://pubmed.ncbi.nlm.nih.gov/7124663/")
