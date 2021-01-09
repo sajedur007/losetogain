@@ -40,7 +40,6 @@ sections:
 - type: document
   path: content/program/_index.md
   label: Program Page
-  match: "**/*"
 - type: directory
   path: content/program
   label: Program
