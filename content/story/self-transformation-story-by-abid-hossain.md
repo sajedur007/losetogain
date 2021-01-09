@@ -3,7 +3,6 @@ current_weight = 66
 date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Moderate Carb, Low Carb"
-draft = true
 image_after = "/images/abid-hossain.jpg"
 image_before = "/images/abid-hossain.jpg"
 parents = "Self Transformation"
