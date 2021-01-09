@@ -39,3 +39,5 @@ fields:
   - type: text
     name: linkedin
     label: linkedin
+pages:
+- content/mentor/molua-khan.md
