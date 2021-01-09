@@ -1,44 +1,33 @@
 ---
-title: "Philippines’ 50 Riche 2020 More Than Half Of The Listees Fortunes."
-date: 2018-09-24T11:07:10+06:00
-image: "images/news/01.jpg"
-author: "John Doe"
-description: "meta description"
-categories: ["gym", "health"]
-type: "featured"
-draft: false
+title: ইন্টারমিটেন্ট ফাস্টিং আর ওয়ান মিল এ ডে ( ওমাড) আসলে কি আর আমরা করি কি?
+date: 2021-01-09T05:07:10+00:00
+image: "/images/fasting.jpg"
+author: John Doe
+description: meta description
+categories:
+- gym
+- health
+type: featured
+
 ---
+ওজন কমানোর ডায়েট অনেক ভাবে করা যায়। ট্র্যাডিশনাল নিয়ম হল ক্যালরি ম্যাক্রো হিসাব করে খাওয়া। এখন একদম শুরুর সময় এত হিসাব নিকাশ করতে অনেকের ঘাম ছুটে যায়। এইখানে পপুলারাইজ হয় ফাস্টিং। কোন ফাস্টিং ডায়েটেই ক্যালরি কাউন্টের নিয়ম নেই। নিয়ম হল একটা নির্দিষ্ট সময় খাবে বাকি সময় না খেয়ে থাকবে। শুধু হেলদি ফাস্টিং করার জন্য প্রোটিন, সবজি পরিমিত পরিমাণে খেতে হবে। ক্যালরি কাউন্টের ঝামেলা নেই কারনেই এইটা পপুলার।
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+এখন অনেকে একটা নির্দিষ্ট ক্যালরি ফলো করে ফাস্টিং করে, এতে ওজন কমাতে আলাদা কোন বেনিফিট নেই। আপনি ১৪০০ ক্যালরি ইন্টারমিটেন্ট ফাস্টিং নিয়মে খেলে যে পরিমাণ ওজন কমবে, ঠিক একই পরিমাণ ওজন কমবে যদি আপনি সেই ১৪০০ ক্যালরি ৫ টা মিলে ভাগ করে খান। অবশ্যই ফাস্টিং এর অন্য হেলথ বেনিফিট আছে। তবে আপনার টার্গেট যদি হয় ওজন কমানো তাহলে নির্দিষ্ট ক্যালরি ডায়েট ফাস্টিং এ ফলো করে আলাদা কোন লাভ নেই।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+দুই ধরনের মানুষের জন্য ফাস্টিং কাজে দেয়।
 
+১। যারা শুরুতেই ক্যালরি কাউন্টের ঝামেলায় যেতে চায় না।
 
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus
-laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium
-consequat mauris viverra. Sagittis eu libero
+২। যাদের ব্যাস্ততার কারনে বেলায় বেলায় হেলদি মিল ম্যানেজ করা সম্ভব না।
 
+এবার ওমাড এর কথায় আসি।
 
-> A wise girls her limit to touch sky. Repellat neque praesentium adipisci. This is an idea, this is as quickly.
+এই ফাস্টিং এর নিয়ম হল সারাদিন কোন মেইন মিল না নেয়া আর দিন শেষে একটা বড় মিল নেয়া। আমাদের দেশে এই ডায়েটের প্র্যাক্টিস হল সারাদিন পানি আর কফি খেয়ে একটা মিলে সব খাওয়া। এতে সমস্যা হল, ক্যলরি কাট হয়ে যায় অনেক বেশি, এর ফলে মাসল বার্ন হবার চান্স থাকে আর পরে খুব জলদি কমানো ওজন ফিরে আসে।
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at
-pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+গত বছর সেপ্টেম্বর এ ইউরোপ ট্রিপে গেছিলাম। মেসিডোনিয়ার এক শহরে এক জার্মান ছেলের সাথে পরিচয় হয়। একই হোস্টেলে ছিলাম, রাতে রান্না করে খেতাম। তাকে দেখতাম সন্ধ্যা থেকে শুরু করে রাত ১০ টা পর্যন্ত রান্না আর খাওয়ার মধ্যে থাকতো। তাকে জিজ্ঞেস করে বুঝলাম সে ওমাড করছে। সে সারাদিনে যখন ক্ষুধা পায় বাদাম, ফ্রুটস, বিফ জার্কি খায় আর হাইকিং করে। দিন শেষে ৩-৪ ঘন্টা টানা খাবারের মধ্যে থাকে। সে ওজন কমানোর জন্য কিছু করছে না। তার বডি এথেলেটিক, আর অনেক লীন।
 
+এইভাবে তার ঘুরতে গিয়েও ডায়েট মেইন্টেন এ কোন সমস্যা হয় নি। এর পরে আমি তার টেকনিক কিছুদিন এপ্লাই করে দেখলাম যে বেড়াতে গিয়ে হেলদি খাওয়া খুব কঠিন না যদি এই প্যাটারনে কেউ খায়। আর এইভাবে খেলে টাকাও সেভ হয় অনেক তাই ওমাড করতে কোন সমস্যা নেই যদি এমন ছোট ছোট স্ন্যাক্স সারাদিনে নেয়া যায় আর দিনশেষে একটা লার্জ মিল। সারাদিন না খেয়ে থেকে একটা বড় মিল খেলে অনেক বেশি ক্যালরি ডেফিসিট হবার সম্ভাবনা থাকে।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis cursus id.
+তাই বাড়ির বাইরে থাকলে বা অনেক হেকটিক কাজের শিডিউল হলে ওমাড হেল্পফুল তবে খেয়াল রাখতে হবে যে মিনিমাম প্রোটিন ফ্যাট আর ফাইবার এর চাহিদা পুরন হচ্ছে কিনা।
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-dignissim. Faucibus non tristique eu.
+আর্টিকেল লিখেছেন [Sajedur Rahman](https://www.facebook.com/sajedur007?__cft__\[0\]=AZVm-uHgKLEoYx_lr6A2j_ss81obuKFc4t8pE-b721m7qYcuMs4QnTmH9PBZ-oCan4rKDDobksVytozA9RpaJkdtx88vlZxHotyp7tl5WTpdI6eDqz2mBLoDJQX47AXjOrUlWQTdqTPbci3iDXwT3lpWNLuoRZVoV0o2Juvn7--AccYO_MBjtrhtl0nz-O9fuuM&__tn__=-\]K-R)
