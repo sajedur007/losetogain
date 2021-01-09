@@ -19,7 +19,7 @@ social:
   facebook: https://www.facebook.com/sajedur007
   twitter: "#"
   linkedin: "#"
-served_clients: 1050+
+served_clients: 1100+
 available_slots: '5'
 
 ---
@@ -55,10 +55,10 @@ INFS is an Indian institute. This was my very first academic course in nutrition
 
 \- Authored Two Books on Nutrition
 
-Nutrition Programming was published in 2018 and became Underdog Bestseller.
+[**Nutrition Programming**](https://www.rokomari.com/book/157929/nutrition-programming) was published in 2018 and became Underdog Bestseller.
 
 Fit Guide is an Ebook published in 2018 which is free to download and since 2018 its Downloaded over 160,000 times.
 
 ## **Interest & Hobbies**
 
-I am a passionate traveler. Traveled 28 countries so far. Love to listen to music also I can play a little bit of Guitar and Ukulele. Reading, Blogging, Cooking, Movies, Tv series, and the list goes on.
+I am a passionate traveler. Traveled 28 countries so far. I also write travel blogs on [**Bengali Backpacker**](https://bengalibackpacker.com/). Love to listen to music also I can play a little bit of Guitar and Ukulele. Reading, Blogging, Cooking, Movies, Tv series, and the list goes on.
