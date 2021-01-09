@@ -1,7 +1,6 @@
 +++
 date = 2021-01-09T18:00:00Z
 description = "Duration : 52 Weeks\nPrice : 32000 BDT"
-draft = true
 features = ["Weekly Phone/Messenger support", " Weekly monitoring and course corrections", "Customised diet plan", "Personalised consultation"]
 image = ""
 mentors = ["Sajedur Rahman"]
