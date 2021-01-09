@@ -1,25 +1,27 @@
 +++
 date = 2021-01-09T18:00:00Z
-description = "Duration : 12 Weeks\nPrice : 9000 BDT"
+description = "Duration : 52 Weeks\nPrice : 32000 BDT"
 draft = true
 features = ["Weekly Phone/Messenger support", " Weekly monitoring and course corrections", "Customised diet plan", "Personalised consultation"]
 image = ""
 mentors = ["Sajedur Rahman"]
-program = "12 week transformation package"
+program = "52 week transformation package"
 title = "52 week transformation package"
 
 +++
-### 12 WEEK TRANSFORMATION PACKAGE
+### DESCRIPTION:
 
-DURATION: 12 Weeks
+52 WEEK TRANSFORMATION PACKAGE
 
-PRICE: 9000 INR (inclusive of taxes)
+DURATION: 52 Weeks
+
+PRICE: 32000 BDT (38970 BDT inclusive of taxes)
 
 DESCRIPTION: FITTR is not specifically a platform for weight loss,but a health and wellness platform that focuses on providing you a healthier life,both mentally and physically. Effective weight management requires constant vigilance and self-control. We believe that an effective weight management program not just helps you reach your desired weight but an establishment of permanent healthier lifestyle changes.
 
-12 Week Transformation Package includes:
+52 Week Transformation package includes:
 
-• Personalised consultation which includes customised diet plan,training and supplementation guidance for 12 weeks from our Consultant
+• Personalized consultation which includes customized diet plan, training and supplementation guidance for 52 weeks from our Consultant
 
 • Weekly monitoring and course corrections
 
@@ -31,6 +33,4 @@ Consultant Timings (Consultant's Time Zone):
 
 • Friday & Saturday: closed
 
-15 day Consultant change or full money-back guarantee
-
-Terms and Condition apply.
+Please note: This package does not fall under the refundable category.
