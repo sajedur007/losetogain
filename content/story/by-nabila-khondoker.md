@@ -3,7 +3,6 @@ current_weight = 70.5
 date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Low Carb Customized "
-draft = true
 image_after = "/images/nabila-khondoker.jpg"
 image_before = "/images/nabila-khondoker.jpg"
 parents = "Molua Khan"

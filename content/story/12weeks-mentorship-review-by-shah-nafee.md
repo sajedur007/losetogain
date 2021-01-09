@@ -3,7 +3,6 @@ current_weight = 60
 date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Low Carb Customized "
-draft = true
 image_after = "/images/shah-nafee.jpg"
 image_before = "/images/shah-nafee.jpg"
 parents = "Samira Akhter"
