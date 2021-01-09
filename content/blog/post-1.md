@@ -1,44 +1,31 @@
 ---
-title: "Philippines’ 50 Riche 2020 More Than Half Of The Listees Fortunes."
-date: 2018-09-24T11:07:10+06:00
-image: "images/news/01.jpg"
-author: "John Doe"
-description: "meta description"
-categories: ["gym", "health"]
-type: "featured"
-draft: false
+title: ডায়েটে কিচেন স্কেলে মেপে খাওয়া কেন জরুরী?
+date: 2021-01-09T05:07:10+00:00
+image: "/images/food-weight.jpg"
+author: John Doe
+description: meta description
+categories:
+- gym
+- health
+type: featured
+
 ---
+ফ্যাটলস ডায়েটে সবচেয়ে কমন ভুল যেটা আমরা করি তা হলো মেপে না খাওয়া। ওজন কমাতে চাইলেও অনেকেই আছেন কিচেন স্কেলে মেপে খেতে চান না। প্রতিদিন কিচেন স্কেলে মেপে খাওয়া, ক্যালরি কাউন্ট করা অনেক সময় ঝামেলা মনে হলেও আশানুরূপ ফলাফল পেতে হলে অবশ্যই কিচেন স্কেলে মাপা জরুরি।
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+কিচেন স্কেল, কাপ, চামচ, হাতের মাপ, দেখে অনুমান, পোর্শন/ সার্ভিং অনেক ভাবেই খাবার মাপা যায়। কিন্তু এসবের মধ্যে সবচেয়ে সঠিক পরিমাপ দেয় কিচেন স্কেল। তরল খাবারের পরিমাপ মেজারমেন্ট কাপে সম্ভব হলেও অন্যান্য খাবার যেমন ভাত, মাছ/ মাংস, শাক সব্জি কাপে ঠিকভাবে মাপা সম্ভব না। কারন এসব খাবারের ঘনত্ব/ওজন এক নয়। আবার পোর্শন কন্ট্রোল করে প্রথমে ওজন কমলেও একসময় ঠিকই ক্যালরি ট্র্যাক করতে হবে নাহলে ওজন স্টাক হতে পারে।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+\** যেমন ধরুন : ওটস। আমরা জানি ১ টেবিল চামচ=১৫ গ্রাম। ১ টেবিল চামচ ওটস=২০ ক্যালরি ।কিন্তু ১৫ গ্রাম ওটস = ৫৮ ক্যালরি প্রায় । কারণ ১ টেবিল চামচ ওটস = ১৫ গ্রাম না। ওটসের ওজন কম তাই ১ টেবিল চামচ মানে ১৫ গ্রাম বুঝালেও ১ টেবিল চামচ ওটস ৫-৬ গ্রামের মত হয়। আবার কেউ চামচে সমান করে মাপে কেউ উচু করে মাপে। তাই সঠিক মাপ পেতে হলে কিচেন স্কেল ব্যবহার করা খুবই জরুরী।
 
+আপনি যেখানে ১০০ গ্রাম মনে করছেন হয়তো সেখানে ১৫০ গ্রাম। খাবারের পরিমাপ ভুল মানেই ক্যালরি কাউন্টে ভুল। ফ্যাটলস ডায়েটে সবচেয়ে জরুরী হলে ক্যালরি ট্র্যাকিং।
 
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus
-laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium
-consequat mauris viverra. Sagittis eu libero
+ খাবার আমাদের শরীরে শক্তি যোগায়। আর ক্যালরি সেই শক্তির একক। এখন শরীরের চাহিদা অনুযায়ী আপনার কত ক্যালরি দরকার ও আপনি কত ক্যালরি নিচ্ছেন এসব যদি ট্র্যাক না করেন, তখন লক্ষ্য অর্জন সম্ভব হবেনা।
 
+কিচেন স্কেলে মাপার সঠিক উপায় হলো খাবার কাচা মেপে নেওয়া। রান্নার পর কিছু খাবারের পরিমাণ কমে আবার কিছু বেড়ে যায়। তাই রান্নার আগে মেপে নেওয়া উচিত।
 
-> A wise girls her limit to touch sky. Repellat neque praesentium adipisci. This is an idea, this is as quickly.
+তাহলে কি সারাজীবন কিচেন স্কেলে মেপে খেতে হবে?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at
-pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+\- একটা দীর্ঘ সময় কিচেন স্কেলে মাপার ফলে আপনার ধারণা চলে আসবে খাবারের মাপ সম্পর্কে। ওজন মেইনটেইন করার ক্ষেত্রে এই ধারণা/সার্ভিং সাইজ/পোর্শন কন্ট্রোল কাজে দিলেও ফ্যাটলস ডায়েটে স্ট্রিক্টলি মেপে খাওয়া জরুরি। নাহলে ভুলভাল মেপে খেয়ে যাবেন আর ভাবতে থাকবেন ওজন কেন কমছে না?
 
+একটি ডায়েট প্ল্যান তখনই সঠিক ও ফলপ্রসূ হবে যখন তাতে প্রত্যেকটি খাবার মেপে ও নিউট্রিশন সঠিকভাবে ব্যালান্সড হবে।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis cursus id.
-
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-dignissim. Faucibus non tristique eu.
+লিখেছেন সামিরা আখতার
