@@ -1,25 +1,25 @@
 +++
 date = 2021-01-09T18:00:00Z
-description = "Duration : 24 Weeks\nPrice : 17000 BDT\n"
+description = "Duration : 12 Weeks\nPrice : 17000 BDT\n"
 draft = true
 features = ["Weekly Phone/Messenger support", " Weekly monitoring and course corrections", "Customised diet plan", "Personalised consultation"]
 image = ""
 mentors = ["Sajedur Rahman"]
-program = "24 WEEK EXTENDED TRANSFORMATION PACKAGE"
+program = "Partner Transformation Package - 12 weeks"
 title = "Partner Transformation Package - 12 weeks"
 
 +++
-### 24 WEEK EXTENDED TRANSFORMATION PACKAGE
+### Partner Transformation Package
 
-DURATION: 24 Weeks
+DURATION: 12 Weeks
 
-PRICE: 17000 INR (18000 inclusive of taxes)
+PRICE: 17000 BDT (~~18000~~ INR)
 
-DESCRIPTION: FITTR is not specifically a platform for weight loss,but a health and wellness platform that focuses on providing you a healthier life,both mentally and physically. Effective weight management requires constant vigilance and self-control. We believe that an effective weight management program not just helps you reach your desired weight but an establishment of permanent healthier lifestyle changes.
+DESCRIPTION: Double Trouble? When we make personal goals, it gets difficult to keep at them. How about joining the forces in the battle of the bulge and being each other's support system in this fitness journey!
 
-12 Week Transformation Package includes:
+12 Week Partner Transformation package includes:
 
-• Personalised consultation which includes customised diet plan,training and supplementation guidance for 12 weeks from our Consultant
+• Personalised consultation which includes customised diet plan, training and supplementation guidance for 12 weeks.
 
 • Weekly monitoring and course corrections
 
