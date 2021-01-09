@@ -1,44 +1,50 @@
 ---
-title: "Philippines’ 50 Riche 2020 More Than Half Of The Listees Fortunes."
-date: 2018-09-24T11:07:10+06:00
-image: "images/news/01.jpg"
-author: "John Doe"
-description: "meta description"
-categories: ["gym", "health"]
-type: "regular"
-draft: false
+title: ব্রেস্ট সাইজ ঠিক রেখে কি ওজন কমানো সম্ভব?
+date: 2021-01-09T05:07:10+00:00
+image: "/images/breast.jpg"
+author: John Doe
+description: meta description
+categories:
+- gym
+- health
+type: regular
+
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+## না সম্ভব না।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+এই ব্যাপারটা নিয়ে সচরাচর আলোচনা হয় না কিন্তু অনেকের মনে এই প্রশ্ন ঘুরপাক খায়। এইটা নিয়েই আজকে বিস্তারিত কথা বলবো।
 
+কেন সম্ভব না সেটা বুঝতে আগে জানতে হবে কিভাবে বডি ফ্যাট বার্ন করে। আমাদের শরীরে ফ্যাট বা চর্বি টাই-গ্লিসারাইড রুপে জমা থাকে। বডি এই জমা থাকা ফ্যাট কে বডি বার্ন করার জন্য গ্লাইসেরল এবং ফ্রি ফ্যাটি এসিডে রুপান্তর করে। এর প্রসেস টা হয়ে থাকে ফ্যাট মেটাবলিজমের মাধ্যমে।
 
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus
-laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium
-consequat mauris viverra. Sagittis eu libero
+এখন আমাদের শরীর এক্সারসাইজের সময় ফ্রি ফ্যাটি এসিড আর গ্লাইসেরল কে ফুয়েল হিসাবে ব্যবহার করে যা শরীরের যেকোনো জায়গা থেকে আসতে পারে। জরুরি না যে শরীরের যে পার্টের এক্সারসাইজ করা হচ্ছে সেখান থেকে বার্ন হবে।
 
+স্পট রিডাকশন ব্যাপারটা এখনও কোন সায়েন্টিফিক রিসার্চ দ্বারা পুরোপুরি প্রমানিত না। এইটা ক্লেইম করে এমন কিছু রিসার্চ আছে যদিও।
 
-> A wise girls her limit to touch sky. Repellat neque praesentium adipisci. This is an idea, this is as quickly.
+এই থেকে দুইটা জিনিষ পরিষ্কার বলা যায় যে নির্দিষ্ট একটা জায়গার ফ্যাট বার্ন যেমন করা যায় না তেমন ই নির্দিষ্ট একটা জায়গা থেকে বার্ন হওয়াও বন্ধ করা যায় না। আর ব্রেস্টের বেশির ভাগ অংশই ফ্যাট দ্বারা গঠিত, তাই ওজন কমার সাথে সেটার সাইজ ও কমে আসতে পারে আবার ওজন বাড়ার সময় সাইজ বড় হতে পারে। পোস্টের সাথে ব্রেস্ট এনাটমির ছবি দেয়া হল।
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at
-pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+শেষকথা হল আপনি চাইলেই ব্রেস্ট এরিয়া থেকে ফ্যাট বার্ন করতে বা রুখতে পারবেন না।
+
+**এখন আরেকটা বিষয় আলোচনা করা প্রয়োজন তা হল স্পট রিডাকশন আর টার্গেটেড এরিয়া টোনিং এর পার্থক্য।**
+
+শরীরের নির্দিষ্ট জায়গার ফ্যাট এক্সারসাইজ করে বার্ন করা সম্ভব না হলেও সে পার্টের মাসল ডেভেলপ করে সেটা টোন্ড করা সম্ভব। তাই পেক্টোরাল মাসল বা চেস্ট মাসল এক্সারসাইজের মাধ্যমে ডেভেলপ করে ব্রেস্টের স্যাগিনেস বা ঝুলে যাওয়া টা কমানো সম্ভব বা আরও টোন্ড শেইপে আনা সম্ভব। এই একই থিওরি শরীরের অন্যান্য পার্টের ক্ষেত্রেও সেম। টোন্ড এবস পেতে এবস ওয়ার্কাউট বা রাউন্ড হিপ এর জন্য গ্লুট মাসল টার্গেটেড এক্সারসাইজ কাজে দেয়।
+
+**এবার কিছু টিপস দেই কিভাবে ওজন কমালে ড্যামেজ টা কম হবে।**
+
+* বডি ফ্যাট বার্ন ব্যাপারটার সিংহভাগ নির্ভর করে ডায়েটের উপর। তাই সঠিক ম্যাক্রো ব্যালান্স ঠিক রেখে ডায়েট করা জরুরি। এইটা কিভাবে করবেন তা জানতে ফিটগাইড বইটা ফ্রি ডাউনলোড করে পড়বেন।
 
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis cursus id.
+* ধিরে ধিরে ওজন কমানো। সপ্তাহে ৫০০ গ্রাম থেকে ১ কেজির বেশি না। এর থেকে বেশি কমালে মাসল বার্নের সম্ভাবনা থাকে আর দ্রুত অতিরিক্ত ফ্যাট বার্নে স্কিন ঝুলে যেতে পারে। মাসল বার্ন আর স্কিন ঝুলে যাওয়া দুই মিলে ফিগার ড্যামেজ করে দিবে।
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-dignissim. Faucibus non tristique eu.
+
+* এক্সারসাইজে লো ইন্টেন্সিভ কার্ডিও কম করা যেমন হাটা বা সাইকেলিং। কার্ডিও এক্সারসাইজ এর সাথে স্ট্রেন্থ ট্রেনিং করা যেতে পারে বা পুরোপুরি স্ট্রেন্থ ট্রেনিং।
+
+এখন যারা বলে আমার ব্রেস্ট সাইজ কমেনি ওজন কমানোর পরেও তারা কি মিথ্যা বলছে?
+
+না, কারন হল জেনেটিক কারনে তাদের ব্রেস্ট এরিয়া থেকে ফ্যাট বার্ন হয় নি। আমাদের বডি কোন পার্ট থেকে ফ্যাট বার্ন করবে বা কোথায় জমবে তা জেন্ডার, বয়স, জেনেটিক্স, লাইফস্টাইল এর উপর নির্ভর করে। যেমন কিছু মানুষের সমানভাবে পুরো শরীরে ফ্যাট জমা থাকে আবার কারো হিপ, চেস্ট বা বেলি এরিয়া তে বেশি জমা থকে।
+
+মেয়েদের শরীরে ছেলেদের থেকে বেশি ফ্যাট জমা থাকে এবং অতিরিক্ত ফ্যাট টা শরীরের নিচের অংশে মানে হিপ এবং থাই এরিয়াতে জমে, বিশেষ করে যে বয়সে মেয়েরা বাচ্চা জন্মদানে সক্ষম থাকে। আবার মেনোপজের আগে বা মেনোপজ এর সময় হরমোনাল পরিবর্তনের কারনে বেলি এরিয়াতে ফ্যাট জমা শুরু করে। অন্যদিকে ছেলেদের অতিরিক্ত ফ্যাট বডির মিড সেকশনে মানে বেলি এবং চেস্ট এরিয়া তে জমে।
+
+এখন উপরের তথ্যে কারো দ্বিমত থাকলে রেফারেন্স সহ ডিফারেন্ট অপিনিওন জানাতে পারেন। জানাতে কমতি থাকলে সেটা পুরন করতে পারবো। আর এই আর্টিকেল টা পড়ে অন্ধভাবে সব বিশ্বাস করতে বলছি না, বরং আমি বেশ কিছু কিওয়ার্ড দিয়ে দিলাম। চাইলে উপরের লেখায় উল্লেখ করা বিষয় গুলো নিয়ে গুগল করে পড়ে বিস্তর জ্ঞান অর্জন করতে পারেন।
+
+**আর্টিকেল লিখেছেন সাজেদুর রহমান**
