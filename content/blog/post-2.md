@@ -1,44 +1,45 @@
 ---
-title: "Philippines’ 50 Riche 2020 More Than Half Of The Listees Fortunes."
-date: 2018-09-24T11:07:10+06:00
-image: "images/news/01.jpg"
-author: "John Doe"
-description: "meta description"
-categories: ["gym", "health"]
-type: "featured"
-draft: false
+title: এ্যান্টি-অক্সিডেন্ট কি?
+date: 2021-01-09T05:07:10+00:00
+image: "/images/anti-oxident.jpg"
+author: John Doe
+description: meta description
+categories:
+- gym
+- health
+type: featured
+
 ---
+অনেকে জেনে বা না জেনে আমরা টার্ম টা ব্যাবহার করে আসছি। গ্রিন টির কথা উঠলে মনে হয় এ্যান্টি-অক্সিডেন্ট টার্ম টা বেশি শোনা যায়। আজকে আমরা এ্যান্টি-অক্সিডেন্ট কি তাই বুঝবো।
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+এ্যান্টি-অক্সিডেন্ট টার্ম টা কিন্তু এসেছে অক্সিডেশন থেকে। শরিরে অক্সিডেশন কম করার জন্য এ্যান্টি-অক্সিডেন্ট দরকার।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+এ্যান্টি-অক্সিডেন্ট বোঝার আগে আমাদের জানতে হবে অক্সিডেশন সম্পর্কে।
 
+সিম্পলি যদি বলি ছোটবেলায় আমরা সায়েন্সের বইয়ে পড়েছি। কোনকিছু তে আগুন জ্বালিয়ে তা ঢেকে দিলে নিভে যাবে। কেন? কারন আমরা জানি দ্বহনের জন্য অক্সিজেন প্রয়োজন আর অক্সিজেন সল্পতার কারণে আগুন নিভে গেছে।
 
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus
-laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium
-consequat mauris viverra. Sagittis eu libero
+এখন অক্সিডেশন কেন বলছি। আমাদের যে ফুয়েল বা জ্বালানী পুড়ছে তা অক্সিজেনের উপস্থিতিতে। এখন অক্সিজেন তো মাষ্ট দরকার অক্সিডেশনের জন্য। কখনো অনেক কম পরিমানে প্রয়োজন হয় আবার কখনো বেশি।
 
+আমাদের শরিরে এনার্জি তৈরির জন্য অক্সিডেশন প্রয়োজন।
 
-> A wise girls her limit to touch sky. Repellat neque praesentium adipisci. This is an idea, this is as quickly.
+অক্সিডেশন কিন্ত দুইভাবে হয়।
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla.
-Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna
-faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis
-posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
-volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at
-pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+এনএরোবিক অক্সিডেশন-- অক্সিজেনের অনুপস্থিতি তে যে অক্সিডেশন হয়। অনুপস্থিতি মানে জিরো অক্সিজেন না, খুবই অল্প পরিমানে প্রয়োজন।
 
+এরোবিক অক্সিডেশন-- পর্যাপ্ত পরিমানে অক্সিজেনের উপস্থিতিতে যে অক্সিডেশন হয়।
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra
-nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna,
-vel hendrerit convallis cursus id.
+আমাদের শরির সেল বা কোষের তৈরি। আর আমাদের কোষে অক্সিডেশনের মাধ্যেমে এনার্জি তৈরি হয়। আমাদের সেল ফুয়েল বার্ন করে এনার্জি প্রডিউস করে। এই প্রসেস টাকে অক্সিডেশন বলে। আর অক্সিডেশনের কারনে আমাদের সেল ধিরে ধিরে মরতে থাকে বা নষ্ট হয়ে যায়।
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
-pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet
-dignissim. Faucibus non tristique eu.
+তো সামারী হল আমাদের কোষ এনার্জি প্রডিউস করতে থাকে এবং ধিরে ধিরে নষ্ট হয়ে যায়। আমাদের শরীরে সবসময় নতুন সেল তৈরি হতে থাকে আর মরতে থাকে একদিক থেকে।
+
+এখন আমরা যখন ছোট থাকি তখন আমাদের শরিরের সেল জেনারেট হয় বেশি, নষ্ট হবার চেয়ে। আমাদের বয়স যত বাড়তে থাকে আমাদের নতুন সেল জেনারেট হওয়া কমে যায় আর নষ্ট হবার হার বেড়ে যায়। একটা পর্যায়ে গিয়ে নতুন সেল জেনারেট হওয়া বন্ধ হয়ে যায় তখন পুরাতন সেলের মৃত্যুর সাথে সাথে আপনার মৃত্যু ঘনিয়ে আসে। এটাকে ন্যাচরাল ডেথ বলে। আমাদের জীবনধারা কে সেলের অক্সিডেশন বলা যায়। আমদের সেলের অক্সিডেশন হতে থাকে, একটা নির্দিষ্ট সময়ে যখন অক্সিডেশন রেট বেড়ে যায় আর নতুন সেল জেনারেট হয়না তখন আমরা মারা যাই।
+
+এখন আমাদের এজিং প্রসেস বলে একটা কথা আছে সেটা হল আমাদের সেলুলার অক্সিডেশন। এখন এ্যান্টি- অক্সিডেন্ট কি করে? এ্যান্টি-অক্সিডেন্ট এই সেলুলার অক্সিডেশন বা সেলুলার এজিং প্রসেস কে স্লো করে। ন্যাচরাল অক্সিডেশন খারাপ কিছু না।
+
+এখন আমরা যারা স্মোকিং করি বা অন্য কোন ধরনের নেশা বা কোন বদঅভ্যাসে আসক্ত অথবা আনহেলদি ফুড হ্যাবিট বা লাইফস্টাইলের কারণে ফ্রী-র‍্যাডিকেলস উৎপন্ন হওয়া শুরু করে, এগুলো হল এক ধরনের এনজাইম যা আমাদের শরিরে অক্সিডেশন বাড়িয়ে দেয়। ফ্রি-র‍্যাডিকেলস এর পরিমান শরিরে বেড়ে গেলে, আমাদের সেল এই টক্সিন গুলোকে রিমুভ করার জন্য এক্সট্রা কাজ করে। যার ফলে সেলের এজিং প্রসেস বৃদ্ধি পায়। যখন সেলের এজিং বৃদ্ধি পায় তখন এর ফলাফল আমরা স্কিনে আমাদের শরিরের প্রতিটা অঙ্গে এর প্রভাব দর্শনীয় হয়ে উঠে।
+
+এখন আপনি যদি একহাতে গ্রীন টি আরেক হাতে গোল্ডলীফ নিয়ে ভাবেন যে এ্যান্টি-অক্সিডেন্ট আপনাকে ইংয় বানায় দিবে তাহলে অনেক বড় ভুল ধারনা নিয়ে বসে আছেন। অক্সিডেশন প্রসেস কমাতে এন্টিঅক্সিডেন্ট এর চেয়ে হেলদি ডায়েট আর হেলদি লাইফস্টাইল বেশি প্রয়োজন।
+
+বি.দ্র: এখানে খুব বেশি টেকনিক্যাল টার্মে যাইনি। অক্সিডেশন অনেক জটিল একটা ব্যাপার, এটা বিভিন্ন ভাবে হয়। এখানে শুধু বোঝানোর জন্য সিমপ্লিফাই করা হয়েছে। কারও বিস্তারিত জানার থাকলে বায়োলজি বই খুলে বসেন। এরপর কোনদিন সময় পেলে সেলুলার অক্সিডেশন নিয়ে কথা বলবো, এনার্জি সিস্টেম গুলো নিয়ে আলোচনা করবো।
+
+আর্টিকেলটি লিখেছেন সাজেদুর রহমান
