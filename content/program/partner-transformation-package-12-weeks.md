@@ -2,7 +2,7 @@
 date = 2021-01-09T18:00:00Z
 description = "Duration : 12 Weeks\nPrice : 17000 BDT\n"
 features = ["Weekly Phone/Messenger support", " Weekly monitoring and course corrections", "Customised diet plan", "Personalised consultation"]
-image = ""
+image = "/images/programs/02.jpg"
 mentors = ["Sajedur Rahman"]
 program = "Partner Transformation Package - 12 weeks"
 title = "Partner Transformation Package - 12 weeks"
