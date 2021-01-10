@@ -2,7 +2,7 @@
 date = 2021-01-09T18:00:00Z
 description = "Duration : 52 Weeks\nPrice : 60000 BDT"
 features = ["Bi-weekly monitoring and course corrections", "Weekly Phone/Messenger support", "Customised diet plan", "Personalised consultation"]
-image = ""
+image = "/images/programs/04.jpg"
 mentors = ["Sajedur Rahman"]
 program = "Friends and Family Well Being Package"
 title = "Friends and Family Well Being Package"
