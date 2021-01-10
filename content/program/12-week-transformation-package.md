@@ -2,7 +2,7 @@
 date = 2021-01-09T18:00:00Z
 description = "Duration : 12 Weeks\nPrice : 9000 BDT"
 features = ["Weekly Phone/Messenger support", " Weekly monitoring and course corrections", "Customised diet plan", "Personalised consultation"]
-image = ""
+image = "/images/programs/01.jpg"
 mentors = ["Sajedur Rahman"]
 program = "12 week transformation package"
 title = "12 week transformation package"
