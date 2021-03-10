@@ -1,15 +1,20 @@
 ---
 title: Sajedur Rahman
-designation: 'ISSA Fitness Nutrition Specialist '
-date: 2021-01-09T05:07:10+00:00
+designation: 'ISSA Fitness Nutrition Specialist'
 image: "/images/sajed.png"
 experience: '04'
 served_patients: 1050+
+served_clients: 1100+
+available_slots: '5'
 description: 'I am the founder of Lose to Gain. Back in 2017, I’ve started this community
   with a goal to teach people the basics of nutrition.  Me and my awesome team doing
   that successfully since then.  I have faced a lot of challenges during my fitness
   journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
   working hard to simplifying the basics of Nutrition and Healthy living.  '
+programs:
+- 12 weeks program
+- 24 weeks program
+- partner transformation
 certificates:
 - images/certifications/01.jpg
 - images/certifications/02.jpg
@@ -19,8 +24,6 @@ social:
   facebook: https://www.facebook.com/sajedur007
   twitter: "#"
   linkedin: "#"
-served_clients: 1100+
-available_slots: '5'
 
 ---
 ## **Work Experience**

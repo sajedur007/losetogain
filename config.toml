@@ -75,6 +75,10 @@ attributes = ""
 link = "plugins/swiper/swiper.min.js"
 attributes = ""
 
+[[params.plugins.js]]
+link = "https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"
+attributes = ""
+
 ##################### navigation ######################
 
 # main menu

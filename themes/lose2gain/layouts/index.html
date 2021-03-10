@@ -334,7 +334,7 @@
       </div>
       <div class="col-lg-6">
         <h4 class="line-title font-secondary mb-20"><span class="bg-light">Recent Post</span></h4>
-        {{ range first 3 (where site.RegularPages "Section" "blog") }}
+        {{ range first 4 (where site.RegularPages "Section" "blog") }}
         <article class="card news-item rounded-md mb-4">
           <div class="card-body d-block d-sm-flex">
             {{ with .Params.image}}

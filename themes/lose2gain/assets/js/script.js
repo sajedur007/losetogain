@@ -9,10 +9,18 @@
     testimonialsCarousel();
     certificateCarousel();
     videoPopupInit();
+    isotopeMasonry();
+
+    // custom tab
+    $('.tab-switcher').click(function () {
+      var tabid = $(this).data('tab');
+      $('.tab-content').removeClass('show').addClass('hide');
+      $('#' + tabid).addClass('show').removeClass('hide');
+    });
   });
 
   // image before after
-  function beforeAfter(){
+  function beforeAfter() {
     $('.twentytwenty-image').twentytwenty();
   }
 
@@ -122,6 +130,23 @@
     });
     $('#videoModal').on('hide.bs.modal', function (e) {
       $('#showVideo').attr('src', $videoSrc);
+    });
+  }
+
+  // isotope filter
+  function isotopeMasonry() {
+    $('.filter-wrapper').isotope({
+      itemSelector: '.filter-item',
+    });
+
+    // filter items on button click
+    $('.filter-list').on('click', 'li', function () {
+      var filterValue = $(this).attr('data-filter');
+      $('.filter-wrapper').isotope({
+        filter: filterValue
+      });
+      $('.filter-list li').removeClass('active');
+      $(this).addClass('active');
     });
   }
 

@@ -1,18 +1,21 @@
-+++
-certificates = []
-date = 2021-01-08T18:00:00Z
-description = "I am a Nutrition consultant of Lose To Gain. I am  certified by the Institute of Nutrition and Fitness  Science (INFS). I have an experience  of 3+ year in health and fitness. I specialize in General well-being and Fat-loss/weight-loss transformation. I started my own journey as an obese individual and I trust if I can do it, everyone can do it. I transformed myself from 86+kg to 63kg.To me fitness  is not about good look but It's  a lifestyle."
-designation = "Nutrition Consultant"
-experience = "2"
-image = "/images/rozi.jpg"
-served_clients = "120+"
-title = "Badrunnesa Rozi "
-[social]
-facebook = ""
-linkedin = ""
-twitter = ""
+---
+description: "I am a Nutrition consultant of Lose To Gain. I am  certified by the Institute of Nutrition and Fitness  Science (INFS). I have an experience  of 3+ year in health and fitness. I specialize in General well-being and Fat-loss/weight-loss transformation. I started my own journey as an obese individual and I trust if I can do it, everyone can do it. I transformed myself from 86+kg to 63kg.To me fitness  is not about good look but It's  a lifestyle."
+designation: "Nutrition Consultant"
+experience: "2"
+image: "/images/rozi.jpg"
+served_clients: "120+"
+title: "Badrunnesa Rozi"
+certificates:
+programs:
+- 12 weeks program
+- 24 weeks program
+- partner transformation
+social:
+  facebook: ""
+  linkedin: ""
+  twitter: ""
 
-+++
+---
 ## **Achievements**
 
 I have guided over 120+ clients and uncountable L2G group members based on their goals and convenience.
