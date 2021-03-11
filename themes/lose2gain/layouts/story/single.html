@@ -5,10 +5,14 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10 col-md-12 mb-30">
-        <div class="twentytwenty-image rounded">
-          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
-          <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
-        </div>
+        {{ if .Params.image_after }}
+          <div class="twentytwenty-image rounded">
+            <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+            <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
+          </div>
+          {{ else }}
+          <img class="w-100 rounded" src="{{ .Params.image_before | absURL }}" alt="before">
+          {{ end }}
       </div>
       <div class="col-lg-9 col-md-12 mb-60">
         <h2 class="font-weight-bold font-secondary mb-30">{{.Title}}</h2>

@@ -18,36 +18,54 @@
           {{ with .Params.Social.linkedin }}
           <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-linkedin"></i></a></li>
           {{ end }}
+          <button class="list-inline-item btn btn-outline-primary" data-toggle="modal" data-target="#{{.Title|anchorize}}"><i class="fas fa-plus mr-2"></i>More about me</button>
         </ul>
       </div>
       <div class="col-xl-4 col-lg-5 mb-5 mb-lg-0 order-0 order-lg-1 text-center">
-        <img class="img-fluid" src="{{.Params.image | absURL }}" alt="{{.Title}}">
+        <img class="img-fluid mentor-image" src="{{.Params.image | absURL }}" alt="{{.Title}}">
       </div>
     </div>
   </div>
 </section>
 <!-- end of banner -->
 
-<section class="about-mentor has-wave pt-70 pb-130" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
+<!-- Modal -->
+<div class="modal fade" id="{{.Title|anchorize}}" tabindex="-1" aria-labelledby="{{.Title|anchorize}}Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="{{.Title|anchorize}}Label">More About {{.Title}}</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body content">
+        {{.Content}}
+        <h2><strong>My Certificates</strong></h2>
+        {{ range .Params.certificates}}
+        <a class="d-inline-block mr-3" target="_blank" href="{{. | relURL}}"><img src="https://e7.pngegg.com/pngimages/54/903/png-clipart-certificate-of-achievement-academic-certificate-template-certificate-template-text-certificate-thumbnail.png" width="100px" alt="certificates"></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="about-mentor section-padding pb-0">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-10">
-        <div class="d-block d-lg-flex align-items-center justify-content-between">
-          <div class="block">
-            <h2 class="section-title mb-0">More About <br> {{.Title}}</h2>
+        <div class="d-flex flex-wrap align-items-center justify-content-between">
+          <div class="block shadow-lg p-4 rounded">
+            <h2 class="text-primary font-secondary">{{.Params.available_slots}}</h2>
+            <p class="h5 font-weight-600 text-secondary">Available Slots</p>
           </div>
           <div class="block shadow-lg p-4 rounded">
             <h2 class="text-primary font-secondary">{{.Params.experience}}</h2>
             <p class="h5 font-weight-600 text-secondary">Years Experience</p>
           </div>
           <div class="block shadow-lg p-4 rounded">
-            <h2 class="text-primary font-secondary">{{.Params.served_patients}}</h2>
-            <p class="h5 font-weight-600 text-secondary">Served patients</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 mt-5 content">
-            {{.Content}}
+            <h2 class="text-primary font-secondary">{{.Params.served_clients}}</h2>
+            <p class="h5 font-weight-600 text-secondary">Served Clients</p>
           </div>
         </div>
       </div>
@@ -57,12 +75,11 @@
 
 {{ with site.GetPage "pricing"}}
 {{ with .Params.pricing }}
-<section class="pricing bg-light has-wave pt-80 pb-130" style="background-image:url('{{`images/wave.svg` | absURL }}')">
+<section class="pricing section-padding has-wave pt-70 pb-130" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-7 col-md-10 text-center mb-50">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+      <div class="col-12 text-center mb-4">
+        <h2 class="section-title">Choose Program To Start</h2>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -104,30 +121,71 @@
 {{ end }}
 {{ end }}
 
-{{ with .Params.certificates }}
-<section class="section-padding pb-0">
+<!-- start of image-compare-section -->
+<section class="section-padding bg-light pt-80 pb-130 has-wave"
+  style="background-image:url('{{`images/wave.svg` | absURL }}')">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mb-50">
-        <h2 class="section-title">Fitness & Nutrition Certifications</h2>
-      </div>
-    </div>
+    <h2 class="section-title text-center mb-5">People Who Transformed By Me</h2>
     <div class="row">
-      <div class="col-12">
-        <div class="certificate-carousel-wrap">
-          {{ range . }}
-          <img class="rounded-lg" src="{{ . | absURL }}">
+      {{ range where site.RegularPages "Params.mentor" .Title }}
+      <div class="col-lg-6">
+        <div class="card rounded-lg shadow-lg mb-4">
+          {{ if .Params.image_after }}
+          <div class="twentytwenty-image">
+            <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+            <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
+          </div>
+          {{ else }}
+          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
           {{ end }}
-        </div>
-        <div class="slick-arrows d-none d-md-block">
-          <div class="slick-prev certificate-slick-prev"><img src="{{`images/arrow-left-2.svg` | absURL }}"></div>
-          <div class="slick-next certificate-slick-next"><img src="{{`images/arrow-right-2.svg` | absURL}}"></div>
+          <div class="card-body pb-2">
+            <h3><a href="{{.Permalink}}" class="font-secondary text-secondary">{{ .Title }}</a></h3>
+            <ul class="mt-4 list-inline">
+              <li class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="far fa-user"></i> </span>
+                Mentor's name :
+                <a class="text-primary ml-2"
+                  href="{{ `mentor/` | relURL }}{{ .Params.mentor | urlize | lower }}">{{ .Params.mentor | humanize }}</a>
+              </li>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="fas fa-history"></i> </span>
+                Previous Weight :
+                <span class="text-primary ml-2">{{ .Params.previous_weight }} KG</span>
+              </div>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="fas fa-pizza-slice"></i> </span>
+                Diet :
+                <span class="text-primary ml-2">{{.Params.diet}}</span>
+              </div>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="fas fa-diagnoses"></i> </span>
+                {{if lt .Params.previous_weight .Params.current_weight}}
+                Weight Gained :
+                <span class="text-primary ml-2">{{sub .Params.current_weight .Params.previous_weight}} KG</span>
+                {{ else }}
+                Weight Losed :
+                <span class="text-primary ml-2">{{sub .Params.previous_weight .Params.current_weight}} KG</span>
+                {{ end }}
+              </div>
+              <div class="list-inline-item mb-3 mr-4">
+                <span class="text-primary mr-2"> <i class="far fa-calendar-check"></i> </span>
+                Time :
+                <span class="text-primary ml-2">{{ .Params.time }}</span>
+              </div>
+            </ul>
+          </div>
+          <div class="px-4">
+            <div class="card-footer bg-transparent px-0 py-4">
+              <a href="{{.Permalink}}" class="btn btn-outline-primary">Read Full Story</a>
+            </div>
+          </div>
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
-{{ end }}
+<!-- end of image-compare-section -->
 
 <!-- start of section -->
 {{ if site.Data.home.call_to_action.enable }}

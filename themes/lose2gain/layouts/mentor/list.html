@@ -1,64 +1,54 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" . }}
-
-<section class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7">
-        {{ range $i, $e:= .Params.program_details }}
-        <div class="tab-content {{if ne $i 0}}hide{{end}}" id="{{.id|anchorize|lower}}">
-          <div class="content">
-            <h2 class="mb-4">{{.title | markdownify}}</h2>
-            <p>{{.content | markdownify}}</p>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
+<section class="section-padding pb-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-3">
-        <ul class="list-unstyled filter-list">
-          {{ $categories := slice }}
-          {{ range .Data.Pages }}
-          {{ range .Params.programs }}
-          {{ $categories = $categories | append . }}
-          {{ end }}
-          {{ end }}
-          {{ range ( $categories | uniq ) }}
-          <li class="tab-switcher" data-tab="{{.|anchorize|lower}}" data-filter=".{{.|anchorize|lower}}">{{.|humanize}}</li>
-          {{ end }}
-        </ul>
+        <div class="sticky-top programs-list">
+          <h3 class="h4 mb-4">List of Our Program</h3>
+          <ul class="list-unstyled filter-list">
+            {{ $categories := slice }}
+            {{ range .Data.Pages }}
+            {{ range .Params.programs }}
+            {{ $categories = $categories | append . }}
+            {{ end }}
+            {{ end }}
+            {{ range ( $categories | uniq ) }}
+            <li class="tab-switcher" data-tab="{{.|anchorize|lower}}" data-filter=".{{.|anchorize|lower}}">{{.|humanize}}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
       <div class="col-lg-9">
+        {{ range $i, $e:= .Params.program_details }}
+        <div class="tab-content mb-5 {{if ne $i 0}}hide{{end}}" id="{{.id|anchorize|lower}}">
+          <div class="content row">
+            <div class="col-lg-8">
+              <h2 class="mb-4">{{.title | markdownify}}</h2>
+              <p>{{.content | markdownify}}</p>
+            </div>
+            <div class="col-lg-4">
+              <img src="{{.image | absURL}}" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        {{ end }}
+
         <div class="row filter-wrapper">
           {{ range .Data.Pages }}
-          <div class="col-lg-4 col-md-6 mb-4 filter-item {{range .Params.programs}}{{.|anchorize}} {{end}}">
-            <div class="card border-0 text-center">
-              <img class="card-img-top mx-auto" style="max-width:250px" src="{{.Params.image | absURL }}"
-                alt="{{.Title}}">
+          <div class="col-md-4 mb-4 filter-item {{range .Params.programs}}{{.|anchorize}} {{end}}">
+            <div class="card text-center mentor-card">
+              <a href="{{.Permalink}}" class="d-inine-block"><img class="card-img mx-auto" src="{{.Params.image | absURL }}" alt="{{.Title}}"></a>
               <div class="card-body">
                 <h3 class="font-weight-600 mb-2"><a class="post-title" href="{{.Permalink}}">{{.Title}}</a></h3>
-                <p class="mb-3">{{.Params.designation}}</p>
-                <ul class="social-icon-link list-unstyled list-inline">
-                  {{ with .Params.social.facebook }}
-                  <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-facebook"></i></a></li>
-                  {{ end }}
-                  {{ with .Params.social.twitter }}
-                  <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-twitter"></i></a></li>
-                  {{ end }}
-                  {{ with .Params.social.linkedin }}
-                  <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-linkedin"></i></a></li>
-                  {{ end }}
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent border-0">
-                <a href="{{.Permalink}}" class="btn btn-outline-primary">Hire A Mentor</a>
+                <p class="mb-2">{{.Params.designation}}</p>
+                <strong>Served {{.Params.served_clients}} Clients</strong>
+                <div class="row justify-content-between px-2 mx-2 mt-2">
+                  <span class="slot-head">Slots</span>
+                  <span class="slot-detail"><span style="width: {{.Params.available_slots_width}};"></span></span>
+                  <span class="slot-available">{{.Params.available_slots}}</span>
+                </div>
               </div>
             </div>
           </div>

@@ -13,10 +13,14 @@
       {{ range .Data.Pages }}
       <div class="col-lg-6">
         <div class="card rounded-lg shadow-lg mb-4">
+          {{ if .Params.image_after }}
           <div class="twentytwenty-image">
             <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
             <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
           </div>
+          {{ else }}
+          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+          {{ end }}
           <div class="card-body pb-2">
             <h3><a href="{{.Permalink}}" class="font-secondary text-secondary">{{ .Title }}</a></h3>
             <ul class="mt-4 list-inline">

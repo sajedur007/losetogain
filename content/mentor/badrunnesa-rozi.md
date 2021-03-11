@@ -4,6 +4,8 @@ designation: "Nutrition Consultant"
 experience: "2"
 image: "/images/rozi.jpg"
 served_clients: "120+"
+available_slots: '1'
+available_slots_width: '95%'
 title: "Badrunnesa Rozi"
 certificates:
 programs:

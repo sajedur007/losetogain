@@ -2,6 +2,8 @@
 title: "Samira Akhter"
 designation: "Nutrition Consultant"
 experience: "2"
+available_slots: '2'
+available_slots_width: '75%'
 served_clients: "110+"
 image: "/images/samira.png"
 description: "I am a homemaker, a teacher and a nutrition consultant. I'm living in Saudi Arabia for last 16 years. I've been working with Lose to gain for last 3 years. My fitness journey started with my own transformation. I've studied about nutrition and applied on me to lose 14 kg and get me in better shape. My aim is to not only help in weight loss but to educate people about health and fitness. I've already done some basic courses. Now I'm studying for an expert course. "

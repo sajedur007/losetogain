@@ -140,29 +140,19 @@
       <div class="col-12">
         <div class="team-carousel-wrap">
           {{ range where site.RegularPages "Section" "mentor" }}
-          <div class="block">
-            <div class="card border-0 text-center">
-              <img class="card-img-top mx-auto" style="max-width:250px" src="{{ .Params.image | absURL }}">
+            <div class="card text-center mentor-card mx-3">
+              <a href="{{.Permalink}}" class="d-inine-block"><img class="card-img mx-auto" src="{{.Params.image | absURL }}" alt="{{.Title}}"></a>
               <div class="card-body">
-                <h3 class="font-weight-600 mb-2">{{ .Title | markdownify }}</h3>
-                <p class="mb-3">{{ .Params.designation | markdownify }}</p>
-                <ul class="social-icon-link list-unstyled list-inline">
-                  {{ with .Params.social.facebook }}
-                  <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-facebook"></i></a></li>
-                  {{ end }}
-                  {{ with .Params.social.twitter }}
-                  <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-twitter"></i></a></li>
-                  {{ end }}
-                  {{ with .Params.social.linkedin }}
-                  <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-linkedin"></i></a></li>
-                  {{ end }}
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent border-0">
-                <a href="{{.Permalink}}" class="btn btn-outline-primary">Hire A Mentor</a>
+                <h3 class="font-weight-600 mb-2"><a class="post-title" href="{{.Permalink}}">{{.Title}}</a></h3>
+                <p class="mb-2">{{.Params.designation}}</p>
+                <strong>Served {{.Params.served_clients}} Clients</strong>
+                <div class="row justify-content-between px-2 mx-2 mt-2">
+                  <span class="slot-head">Slots</span>
+                  <span class="slot-detail"><span style="width: {{.Params.available_slots_width}};"></span></span>
+                  <span class="slot-available">{{.Params.available_slots}}</span>
+                </div>
               </div>
             </div>
-          </div>
           {{ end }}
         </div>
         <div class="slick-arrows">
@@ -189,10 +179,14 @@
       {{ range first 4 (where site.RegularPages "Section" "story") }}
       <div class="col-lg-6">
         <div class="card rounded-lg shadow-lg mb-4">
+          {{ if .Params.image_after }}
           <div class="twentytwenty-image">
             <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
             <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
           </div>
+          {{ else }}
+          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+          {{ end }}
           <div class="card-body pb-2">
             <h3><a href="{{.Permalink}}" class="font-secondary text-secondary">{{ .Title }}</a></h3>
             <ul class="mt-4 list-inline">

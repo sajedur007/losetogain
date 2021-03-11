@@ -4,6 +4,8 @@ designation: "NESTA Fitness Nutrition Specialist "
 experience: "3"
 image: "/images/molu.png"
 served_clients: "550+"
+available_slots: '3'
+available_slots_width: '90%'
 title: "Molua Khan"
 programs:
 - 12 weeks program
