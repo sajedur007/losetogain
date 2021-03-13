@@ -1,13 +1,11 @@
 +++
 current_weight = 70.5
-date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Low Carb Customized "
 image_after = ""
 image_before = "/images/nabila-khondoker.jpg"
 mentor = "Molua Khan"
 previous_weight = 86
-program_code = ""
 time = "12 Week"
 title = "১২ সপ্তাহ এর প্রিমিয়াম মেন্টরশীপ প্রোগ্রাম রিভিউ By Nabila Khondoker"
 

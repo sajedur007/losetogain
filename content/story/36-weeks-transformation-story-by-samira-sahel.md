@@ -1,13 +1,11 @@
 +++
 current_weight = 59
-date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Customized Plan "
 image_after = ""
 image_before = "/images/samira-sahel.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 84.5
-program_code = ""
 time = "36 Weeks"
 title = "36 Weeks Transformation Story by Samira Sahel"
 

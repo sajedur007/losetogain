@@ -1,13 +1,11 @@
 +++
 current_weight = 66
-date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Moderate Carb, Low Carb"
 image_after = ""
 image_before = "/images/abid-hossain.jpg"
 mentor = "Self Transformation"
 previous_weight = 73
-program_code = ""
 time = "8 Week"
 title = "Self Transformation Story by Abid Hossain"
 

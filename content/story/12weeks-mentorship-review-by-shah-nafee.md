@@ -1,13 +1,11 @@
 +++
 current_weight = 60
-date = 2021-01-08T18:00:00Z
 description = ""
 diet = "Low Carb Customized "
 image_after = ""
 image_before = "/images/shah-nafee.jpg"
 mentor = "Samira Akhter"
 previous_weight = 70
-program_code = ""
 time = "12 Week"
 title = "12weeks Mentorship review by Shah Nafee"
 
