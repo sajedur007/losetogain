@@ -17,6 +17,77 @@ social:
   linkedin: ""
   twitter: ""
 
+  
+pricing:
+  title: "Choose The Best Pricing"
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing. Ultrices condimentum fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae"
+  pricing_table:
+  - name: "Single Mentorship"
+    price: "৳5900"
+    discount: ""
+    image: "images/pricing/01.png"
+    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    services:
+    - "Track Reward Part Program"
+    - "Design and prototype powerful"
+    - "Keep work in unlimited storage"
+    - "Add people document handoff"
+    
+  - name: "Single Mentorship"
+    price: "৳5900"
+    discount: "Save 50%"
+    image: "images/pricing/02.png"
+    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    services:
+    - "Track Reward Part Program"
+    - "Design and prototype powerful"
+    - "Keep work in unlimited storage"
+    - "Add people document handoff"
+    
+  - name: "Single Mentorship"
+    price: "৳5900"
+    discount: ""
+    image: "images/pricing/03.png"
+    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    services:
+    - "Track Reward Part Program"
+    - "Design and prototype powerful"
+    - "Keep work in unlimited storage"
+    - "Add people document handoff"
+    
+  - name: "Single Mentorship"
+    price: "৳5900"
+    discount: ""
+    image: "images/pricing/01.png"
+    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    services:
+    - "Track Reward Part Program"
+    - "Design and prototype powerful"
+    - "Keep work in unlimited storage"
+    - "Add people document handoff"
+    
+  - name: "Single Mentorship"
+    price: "৳5900"
+    discount: "Save 50%"
+    image: "images/pricing/02.png"
+    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    services:
+    - "Track Reward Part Program"
+    - "Design and prototype powerful"
+    - "Keep work in unlimited storage"
+    - "Add people document handoff"
+    
+  - name: "Single Mentorship"
+    price: "৳5900"
+    discount: ""
+    image: "images/pricing/03.png"
+    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    services:
+    - "Track Reward Part Program"
+    - "Design and prototype powerful"
+    - "Keep work in unlimited storage"
+    - "Add people document handoff"
+
 ---
 Before starting formal practice as a mentor, I transformed myself by proper diet and exercise. I enjoy living out my passion for health and fitness. Fitness is my passion. I love to stay fit and healthy myself. Along with that, I love inspiring others to see their potential and motivating them to achieve their goals. I believe in making health a lifestyle choice, not just a temporary solution and I believe in keeping fitness fun and motivating. I have a vision through Lose to Gain to make people educated in nutrition and fitness in our country. So, let me help you look better, feel better, and lead a life you absolutely love.
 

@@ -98,11 +98,6 @@ url = "mentor"
 weight = 3
 
 [[menu.main]]
-name = "Program"
-url = "program"
-weight = 4
-
-[[menu.main]]
 name = "Story"
 url = "story"
 weight = 5
@@ -121,11 +116,6 @@ hasChildren = true
   parent = "Pages"
   name = "FAQ"
   url = "faq"
-
-  [[menu.main]]
-  parent = "Pages"
-  name = "Pricing"
-  url = "pricing"
 
   [[menu.main]]
   parent = "Pages"

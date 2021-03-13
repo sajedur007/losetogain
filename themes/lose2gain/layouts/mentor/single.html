@@ -73,7 +73,6 @@
   </div>
 </section>
 
-{{ with site.GetPage "pricing"}}
 {{ with .Params.pricing }}
 <section class="pricing section-padding has-wave pt-70 pb-130" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
   <div class="container">
@@ -118,7 +117,6 @@
     </div>
   </div>
 </section>
-{{ end }}
 {{ end }}
 
 <!-- start of image-compare-section -->
