@@ -2,36 +2,30 @@
 label: Story
 hide_body: false
 fields:
-- type: number
-  name: current_weight
-  label: current_weight
-- type: datetime
-  name: date
-  label: date
+- type: text
+  name: title
+  label: title
 - type: text
   name: description
   label: description
-- type: text
-  name: diet
-  label: diet
-- type: text
-  name: image_after
-  label: image_after
 - type: file
   name: image_before
   label: image_before
 - type: text
-  name: mentor
-  label: mentor
+  name: image_after
+  label: image_after
 - type: number
   name: previous_weight
   label: previous_weight
+- type: number
+  name: current_weight
+  label: current_weight
 - type: text
-  name: program_code
-  label: program_code
+  name: diet
+  label: diet
+- type: text
+  name: mentor
+  label: mentor
 - type: text
   name: time
   label: time
-- type: text
-  name: title
-  label: title
