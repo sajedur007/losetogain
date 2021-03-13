@@ -23,10 +23,3 @@ fields:
 - type: list
   name: features
   label: features
-pages:
-- content/program/12-week-transformation-package.md
-- content/program/24-week-transformation-package.md
-- content/program/52-week-transformation-package.md
-- content/program/friends-and-family-well-being-package.md
-- content/program/partner-transformation-package-12-weeks.md
-- content/program/partner-transformation-package-24-weeks.md

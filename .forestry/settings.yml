@@ -36,19 +36,6 @@ sections:
   templates:
   - mentor
 - type: heading
-  label: Program
-- type: document
-  path: content/program/_index.md
-  label: Program Page
-- type: directory
-  path: content/program
-  label: Program
-  create: documents
-  match: "**/*"
-  exclude: _index.md
-  templates:
-  - program
-- type: heading
   label: Story
 - type: document
   path: content/story/_index.md
@@ -75,7 +62,7 @@ sections:
   templates:
   - product
 - type: heading
-  label: Others Page
+  label: All Pages
 - type: directory
   path: content
   label: Pages
