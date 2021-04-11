@@ -7,7 +7,7 @@ author: John Doe
 categories:
 - gym
 - health
-type: regular
+type: featured
 
 ---
 

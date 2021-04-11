@@ -18,7 +18,8 @@
           {{ with .Params.Social.linkedin }}
           <li class="list-inline-item"><a href="{{. | safeURL}}"><i class="fab fa-linkedin"></i></a></li>
           {{ end }}
-          <button class="list-inline-item btn btn-outline-primary" data-toggle="modal" data-target="#{{.Title|anchorize}}"><i class="fas fa-plus mr-2"></i>More about me</button>
+          <button class="list-inline-item btn btn-outline-primary" data-toggle="modal"
+            data-target="#{{.Title|anchorize}}"><i class="fas fa-plus mr-2"></i>More about me</button>
         </ul>
       </div>
       <div class="col-xl-4 col-lg-5 mb-5 mb-lg-0 order-0 order-lg-1 text-center">
@@ -30,7 +31,8 @@
 <!-- end of banner -->
 
 <!-- Modal -->
-<div class="modal fade" id="{{.Title|anchorize}}" tabindex="-1" aria-labelledby="{{.Title|anchorize}}Label" aria-hidden="true">
+<div class="modal fade" id="{{.Title|anchorize}}" tabindex="-1" aria-labelledby="{{.Title|anchorize}}Label"
+  aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
@@ -41,9 +43,13 @@
       </div>
       <div class="modal-body content">
         {{.Content}}
+        {{ with .Params.certificates}}
         <h2><strong>My Certificates</strong></h2>
-        {{ range .Params.certificates}}
-        <a class="d-inline-block mr-3" target="_blank" href="{{. | relURL}}"><img src="https://e7.pngegg.com/pngimages/54/903/png-clipart-certificate-of-achievement-academic-certificate-template-certificate-template-text-certificate-thumbnail.png" width="100px" alt="certificates"></a>
+        {{ range .}}
+        <a class="d-inline-block mr-3" target="_blank" href="{{. | relURL}}"><img
+            src="https://e7.pngegg.com/pngimages/54/903/png-clipart-certificate-of-achievement-academic-certificate-template-certificate-template-text-certificate-thumbnail.png"
+            width="100px" alt="certificates"></a>
+        {{ end }}
         {{ end }}
       </div>
     </div>
@@ -74,7 +80,8 @@
 </section>
 
 {{ with .Params.pricing }}
-<section class="pricing section-padding has-wave pt-70 pb-130" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
+<section class="pricing section-padding has-wave pt-70 pb-130"
+  style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-4">
@@ -95,7 +102,9 @@
             </div>
             <p class="text-muted">For One Course</p>
             <img class="my-4" src="{{.image | absURL}}" alt="">
-            <p class="text-muted">{{ .content | markdownify }}</p>
+            <p class="text-muted">{{ .content | markdownify | truncate 80 }}</p>
+            <button class="list-inline-item btn btn-outline-primary" data-toggle="modal"
+              data-target="#{{.name|anchorize}}"><i class="fas fa-plus mr-2"></i>More About This Program</button>
           </div>
 
           <ul class="list-unstyled font-weight-500 text-black border-top mt-4 pt-4">
@@ -113,6 +122,24 @@
           <a href="contact" class="btn btn-outline-primary btn-block mt-30">Get Started Now</a>
         </div>
       </div>
+
+      <!-- pricing details modal -->
+      <div class="modal fade" id="{{.name|anchorize}}" tabindex="-1" aria-labelledby="{{.name|anchorize}}Label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="{{.name|anchorize}}Label">More About {{.name}}</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body content">
+              {{.content | markdownify}}
+            </div>
+          </div>
+        </div>
+      </div>
       {{ end }}
     </div>
   </div>
@@ -126,8 +153,8 @@
     <h2 class="section-title text-center mb-5">People Who Transformed By Me</h2>
     <div class="row">
       {{ range where site.RegularPages "Params.mentor" .Title }}
-      <div class="col-lg-6">
-        <div class="card rounded-lg shadow-lg mb-4">
+      <div class="col-lg-6 mb-4">
+        <div class="card rounded-lg shadow-lg h-100">
           {{ if .Params.image_after }}
           <div class="twentytwenty-image">
             <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">

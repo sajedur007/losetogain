@@ -36,13 +36,13 @@
         {{ end }}
 
         <div class="row filter-wrapper">
-          {{ range .Data.Pages }}
+          {{ range .Data.Pages.ByWeight }}
           <div class="col-md-4 mb-4 filter-item {{range .Params.programs}}{{.|anchorize}} {{end}}">
             <div class="card text-center mentor-card">
               <a href="{{.Permalink}}" class="d-inine-block"><img class="card-img mx-auto" src="{{.Params.image | absURL }}" alt="{{.Title}}"></a>
               <div class="card-body">
                 <h3 class="font-weight-600 mb-2"><a class="post-title" href="{{.Permalink}}">{{.Title}}</a></h3>
-                <p class="mb-2">{{.Params.designation}}</p>
+                <p style="height: 55px;" class="mb-2">{{.Params.designation}}</p>
                 <strong>Served {{.Params.served_clients}} Clients</strong>
                 <div class="row justify-content-between px-2 mx-2 mt-2">
                   <span class="slot-head">Slots</span>

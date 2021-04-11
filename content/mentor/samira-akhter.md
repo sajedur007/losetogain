@@ -3,6 +3,7 @@ title: "Samira Akhter"
 designation: "Nutrition Consultant"
 experience: "2"
 available_slots: '2'
+weight: "4"
 available_slots_width: '75%'
 served_clients: "110+"
 image: "/images/samira.png"

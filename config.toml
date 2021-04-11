@@ -4,8 +4,6 @@ title = "Lose To Gain | Your Personal Trainer"
 theme = "lose2gain"
 # post pagination
 paginate = "6"
-# post excerpt
-summaryLength = "10"
 # google analytics
 googleAnalytics = "" # example : UA-123-45
 # disqus short name
@@ -169,7 +167,7 @@ footer_content = "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cd
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 
-custom_script= "<script>console.log('Hello World') </script>"
+custom_script= ""
 
 # Preloader
 [params.preloader]

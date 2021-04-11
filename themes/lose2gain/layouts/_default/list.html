@@ -32,11 +32,11 @@
                 <li class="list-inline-item mb-0">
                   <i class="far fa-calendar-alt mr-2"></i>{{.PublishDate.Format "02 Jan, 2006"}}
                 </li>
-                <li class="list-inline-item mb-0">
+                <!-- <li class="list-inline-item mb-0">
                   <i class="fas fa-user mr-2"></i>
                   <a
                     href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
-                </li>
+                </li> -->
                 {{ with .Params.Categories }}
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-tag mr-2"></i>
@@ -46,7 +46,7 @@
                 </li>
                 {{end}}
               </ul>
-              <p class="text-black-700">{{.Summary}}</p>
+              <p class="text-black-700">{{.Plain | truncate 270}}</p>
               <a href="{{.Permalink}}" class="btn btn-outline-primary mt-4">Read Full Story</a>
             </div>
           </div>
@@ -54,7 +54,7 @@
         {{ end }}
       </div>
       <div class="col-lg-6">
-        {{ range $i,$e:= first 4 (where .Data.Pages "Type" "featured") }}
+        {{ range $i,$e:= first 5 (where .Data.Pages "Type" "featured") }}
         {{ if ne $i 0}}
         <article class="card news-item rounded-md shadow-lg mb-4">
           <div class="card-body d-block d-sm-flex">
@@ -67,11 +67,11 @@
                 <li class="list-inline-item mb-0">
                   <i class="far fa-calendar-alt mr-2"></i>{{.PublishDate.Format "02 Jan, 2006"}}
                 </li>
-                <li class="list-inline-item mb-0">
+                <!-- <li class="list-inline-item mb-0">
                   <i class="fas fa-user mr-2"></i>
                   <a
                     href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
-                </li>
+                </li> -->
                 {{ with .Params.Categories }}
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-tag mr-2"></i>
@@ -81,7 +81,7 @@
                 </li>
                 {{end}}
               </ul>
-              <p class="text-black-700">{{.Summary | truncate 40}}</p>
+              <p class="text-black-700">{{.Summary | truncate 80}}</p>
             </div>
           </div>
         </article>
@@ -96,11 +96,11 @@
       </div>
 
       {{ range .Data.Pages }}
-      <div class="col-lg-4 col-md-6">
-        <article class="card news-item rounded-md shadow-lg mb-4">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <article class="card news-item rounded-md shadow-lg h-100">
           <div class="card-body">
             {{ with .Params.image}}
-            <img class="card-img-top rounded" src="{{. | absURL}}">
+            <img class="card-img-top rounded" style="height: 200px; object-fit: cover;" src="{{. | absURL}}">
             {{ end }}
             <div class="mt-3">
               <h3 class="h4"><a href="{{.Permalink}}" class="post-title">{{.Title}}</a></h3>
@@ -108,11 +108,11 @@
                 <li class="list-inline-item mb-0">
                   <i class="far fa-calendar-alt mr-2"></i>{{.PublishDate.Format "02 Jan, 2006"}}
                 </li>
-                <li class="list-inline-item mb-0">
+                <!-- <li class="list-inline-item mb-0">
                   <i class="fas fa-user mr-2"></i>
                   <a
                     href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
-                </li>
+                </li> -->
                 {{ with .Params.Categories }}
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-tag mr-2"></i>
@@ -122,7 +122,7 @@
                 </li>
                 {{end}}
               </ul>
-              <p class="text-black-700">{{.Summary}}</p>
+              <p class="text-black-700">{{.Summary | truncate 100}}</p>
               <a href="{{.Permalink}}" class="btn btn-outline-primary mt-4">Read Full Story</a>
             </div>
           </div>
@@ -156,11 +156,11 @@
                 <li class="list-inline-item mb-0">
                   <i class="far fa-calendar-alt mr-2"></i>{{.PublishDate.Format "02 Jan, 2006"}}
                 </li>
-                <li class="list-inline-item mb-0">
+                <!-- <li class="list-inline-item mb-0">
                   <i class="fas fa-user mr-2"></i>
                   <a
                     href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
-                </li>
+                </li> -->
                 {{ with .Params.Categories }}
                 <li class="list-inline-item mb-0">
                   <i class="fas fa-tag mr-2"></i>

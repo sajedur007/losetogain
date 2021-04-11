@@ -2,6 +2,7 @@
 title: Sajedur Rahman
 designation: 'ISSA Fitness Nutrition Specialist'
 image: "/images/sajed.png"
+weight: "1"
 experience: '04'
 served_clients: 1100+
 available_slots: '5'
@@ -10,7 +11,7 @@ description: 'I am the founder of Lose to Gain. Back in 2017, I’ve started thi
   with a goal to teach people the basics of nutrition.  Me and my awesome team doing
   that successfully since then.  I have faced a lot of challenges during my fitness
   journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living.  '
+  working hard to simplifying the basics of Nutrition and Healthy living.'
 programs:
 - 12 weeks program
 - 24 weeks program
@@ -34,7 +35,11 @@ pricing:
     price: "৳5900"
     discount: ""
     image: "images/pricing/01.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
+  that successfully since then.  I have faced a lot of challenges during my fitness
+  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
+  working hard to simplifying the basics of Nutrition and Healthy living."
     services:
     - "Track Reward Part Program"
     - "Design and prototype powerful"
@@ -45,7 +50,11 @@ pricing:
     price: "৳5900"
     discount: "Save 50%"
     image: "images/pricing/02.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
+  that successfully since then.  I have faced a lot of challenges during my fitness
+  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
+  working hard to simplifying the basics of Nutrition and Healthy living."
     services:
     - "Track Reward Part Program"
     - "Design and prototype powerful"
@@ -56,7 +65,11 @@ pricing:
     price: "৳5900"
     discount: ""
     image: "images/pricing/03.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
+  that successfully since then.  I have faced a lot of challenges during my fitness
+  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
+  working hard to simplifying the basics of Nutrition and Healthy living."
     services:
     - "Track Reward Part Program"
     - "Design and prototype powerful"
@@ -67,7 +80,11 @@ pricing:
     price: "৳5900"
     discount: ""
     image: "images/pricing/01.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
+  that successfully since then.  I have faced a lot of challenges during my fitness
+  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
+  working hard to simplifying the basics of Nutrition and Healthy living."
     services:
     - "Track Reward Part Program"
     - "Design and prototype powerful"
@@ -78,7 +95,11 @@ pricing:
     price: "৳5900"
     discount: "Save 50%"
     image: "images/pricing/02.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
+  that successfully since then.  I have faced a lot of challenges during my fitness
+  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
+  working hard to simplifying the basics of Nutrition and Healthy living."
     services:
     - "Track Reward Part Program"
     - "Design and prototype powerful"
@@ -89,7 +110,11 @@ pricing:
     price: "৳5900"
     discount: ""
     image: "images/pricing/03.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
+    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
+  that successfully since then.  I have faced a lot of challenges during my fitness
+  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
+  working hard to simplifying the basics of Nutrition and Healthy living."
     services:
     - "Track Reward Part Program"
     - "Design and prototype powerful"

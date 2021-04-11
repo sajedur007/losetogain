@@ -1,18 +1,24 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" . }}
+<!-- start of page-header -->
+<section class="page-header bg-light pt-70 pb-130 has-wave" style="background-image:url('{{`images/wave.svg`| absURL}}')">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-12">
+        <h2 class="section-title">{{.Title}}</h2>
+        <h3 class="h4">{{.Params.subtitle | markdownify }}</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of page-header -->
 
 <section class="pt-80">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-7 col-md-10 text-center mb-50 content">
-        {{ .Content }}
-      </div>
-    </div>
     <div class="row">
       {{ range .Data.Pages }}
-      <div class="col-lg-6">
-        <div class="card rounded-lg shadow-lg mb-4">
+      <div class="col-lg-6 mb-4">
+        <div class="card rounded-lg shadow-lg h-100">
           {{ if .Params.image_after }}
           <div class="twentytwenty-image">
             <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
