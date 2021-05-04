@@ -27,13 +27,9 @@ program_details:
     এক্সটেন্ডড ভার্সন। আপনার যদি কমিটমেন্টে সমস্যা না থাকে এবং ২০+ কেজি ওজন অতিরিক্ত
     থাকে তাহলে আমাদের এই প্রোগ্রামটি আপনার জন্য পারফেক্ট। '
 - id: partner transformation
-  title: We Are Redefining Fitness Partner
+  title: Partner Transformation
   image: images/work-process.png
-  content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam. Lorem ipsum dolor sit
-    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-    et dolore magna aliquyam.Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+  content: 'হহ '
 - id: family well being program
   title: We Are Redefining Fitness Family
   image: images/work-process.png
