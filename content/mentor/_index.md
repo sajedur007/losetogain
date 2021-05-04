@@ -21,13 +21,11 @@ program_details:
     তৈরি করতে ২-৩ মাস সময় প্রয়োজন। আপনার হেলদি লাইফস্টাইল এর কিক-স্টার্ট করার জন্য
     আমাদের ১২ সপ্তাহের প্রোগ্রাম টি পারফেক্ট।  '
 - id: 24 weeks program
-  title: We Are Redefining Fitness 24
+  title: 24 Weeks Program
   image: images/work-process.png
-  content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam. Lorem ipsum dolor sit
-    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-    et dolore magna aliquyam.Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+  content: '২৪ সপ্তাহ প্রোগ্রাম টি আমাদের সবচেয়ে পপুলার ১২ সপ্তাহের প্রোগ্রাম টির
+    এক্সটেন্ডড ভার্সন। আপনার যদি কমিটমেন্টে সমস্যা না থাকে এবং ২০+ কেজি ওজন অতিরিক্ত
+    থাকে তাহলে আমাদের এই প্রোগ্রামটি আপনার জন্য পারফেক্ট। '
 - id: partner transformation
   title: We Are Redefining Fitness Partner
   image: images/work-process.png
