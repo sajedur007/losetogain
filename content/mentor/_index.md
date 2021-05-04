@@ -14,13 +14,12 @@ program_details:
     কি করবো বুঝতে পারছিনা এমন পরিস্থিতে আপনার পড়তে হবে না। আপনাকে সঠিকভাবে গাইড করে
     গোল এচিভ করার জন্যই আমাদের ফিটনেস প্রোগ্রামগুলি। '
 - id: 12 weeks program
-  title: We Are Redefining Fitness 12
+  title: '12 Weeks Program '
   image: images/work-process.png
-  content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam. Lorem ipsum dolor sit
-    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-    et dolore magna aliquyam.Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+  content: 'শুধু ওজন কমানো নয়, সে ওজন ধরে রাখাতে আমরা বিশ্বাস করি। ওজন নানা ভাবে কমানো
+    সম্ভব কিন্তু তা ধরে রাখতে হলে প্রয়োজন অভ্যাস পরিবর্তন করা। একটা ভাল ফুড হ্যাবিট
+    তৈরি করতে ২-৩ মাস সময় প্রয়োজন। আপনার হেলদি লাইফস্টাইল এর কিক-স্টার্ট করার জন্য
+    আমাদের ১২ সপ্তাহের প্রোগ্রাম টি পারফেক্ট।  '
 - id: 24 weeks program
   title: We Are Redefining Fitness 24
   image: images/work-process.png
