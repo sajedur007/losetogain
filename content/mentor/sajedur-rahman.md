@@ -1,17 +1,17 @@
 ---
 title: Sajedur Rahman
-designation: 'ISSA Fitness Nutrition Specialist'
+designation: ISSA Fitness Nutrition Specialist
 image: "/images/sajed.png"
-weight: "1"
+weight: '1'
 experience: '04'
 served_clients: 1100+
-available_slots: '5'
-available_slots_width: '50%'
-description: 'I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+available_slots: "5"
+available_slots_width: 50%
+description: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
   with a goal to teach people the basics of nutrition.  Me and my awesome team doing
   that successfully since then.  I have faced a lot of challenges during my fitness
   journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living.'
+  working hard to simplifying the basics of Nutrition and Healthy living.
 programs:
 - 12 weeks program
 - 24 weeks program
@@ -25,106 +25,102 @@ social:
   facebook: https://www.facebook.com/sajedur007
   twitter: "#"
   linkedin: "#"
-
-  
 pricing:
-  title: "Choose The Best Pricing"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing. Ultrices condimentum fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae"
+  title: Choose The Best Pricing
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing. Ultrices condimentum
+    fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae
   pricing_table:
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: ""
-    image: "images/pricing/01.png"
-    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
-  that successfully since then.  I have faced a lot of challenges during my fitness
-  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living."
+  - name: 12 Weeks Mentorship
+    price: "৳9000"
+    discount: ''
+    image: images/pricing/01.png
+    content: শুধু ওজন কমানো নয়, সে ওজন ধরে রাখাতে আমরা বিশ্বাস করি। ওজন নানা ভাবে
+      কমানো সম্ভব কিন্তু তা ধরে রাখতে হলে প্রয়োজন অভ্যাস পরিবর্তন করা। একটা ভাল ফুড
+      হ্যাবিট তৈরি করতে ২-৩ মাস সময় প্রয়োজন। আপনার হেলদি লাইফস্টাইল এর কিক-স্টার্ট
+      করার জন্য আমাদের ১২ সপ্তাহের প্রোগ্রাম টি পারফেক্ট।
     services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
-    
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: "Save 50%"
-    image: "images/pricing/02.png"
-    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
-  that successfully since then.  I have faced a lot of challenges during my fitness
-  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living."
+    - Free Initial Consultation
+    - Customised Diet Plan
+    - Basic Exercise Guideline
+    - Progress Tracking
+    - Weekly Check-In
+    - Daily Messenger Support
+  - name: 24 Weeks Program
+    price: "৳17000"
+    discount: ''
+    image: images/pricing/02.png
+    content: ২৪ সপ্তাহ প্রোগ্রাম টি আমাদের সবচেয়ে পপুলার ১২ সপ্তাহের প্রোগ্রাম টির
+      এক্সটেন্ডড ভার্সন। আপনার যদি কমিটমেন্টে সমস্যা না থাকে এবং ২০+ কেজি ওজন অতিরিক্ত
+      থাকে তাহলে আমাদের এই প্রোগ্রামটি আপনার জন্য পারফেক্ট।
     services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
-    
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: ""
-    image: "images/pricing/03.png"
-    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
-  that successfully since then.  I have faced a lot of challenges during my fitness
-  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living."
+    - Free Initial Consultation
+    - Customised Diet Plan
+    - Basic Exercise Guideline
+    - Progress Tracking
+    - Weekly Check-In
+    - Daily Messenger Support
+  - name: Partner Transformation
+    price: "৳17,000"
+    discount: ''
+    image: images/pricing/03.png
+    content: 'পার্টনার ট্রান্সফরমেশন '
     services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
-    
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: ""
-    image: "images/pricing/01.png"
-    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
-  that successfully since then.  I have faced a lot of challenges during my fitness
-  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living."
+    - Free Initial Consultation
+    - Customised Diet Plan
+    - Basic Exercise Guideline
+    - Progress Tracking
+    - Weekly Check-In
+    - Daily Messenger Support
+  - name: ''
+    price: "৳15,000"
+    discount: ''
+    image: images/pricing/01.png
+    content: 'This program is designed for people who struggle to stay on track. By
+      mentor''s daily check in and unlimited plan correction it will be much easier
+      to stay on track '
     services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
-    
-  - name: "Single Mentorship"
+    - Progress Tracking
+    - Daily Check-In
+    - Free Initial Consultation
+    - On Demand Plan Correction
+    - Customised Diet Plan
+    - Customised Exercise Guideline
+    - Daily Messenger/Call Support
+  - name: Single Mentorship
     price: "৳5900"
-    discount: "Save 50%"
-    image: "images/pricing/02.png"
-    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
-  that successfully since then.  I have faced a lot of challenges during my fitness
-  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living."
+    discount: Save 50%
+    image: images/pricing/02.png
+    content: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+      with a goal to teach people the basics of nutrition.  Me and my awesome team
+      doing that successfully since then.  I have faced a lot of challenges during
+      my fitness journey of losing 28kg and becoming fit.  I know those challenges
+      very well. I’m working hard to simplifying the basics of Nutrition and Healthy
+      living.
     services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
-    
-  - name: "Single Mentorship"
+    - Track Reward Part Program
+    - Design and prototype powerful
+    - Keep work in unlimited storage
+    - Add people document handoff
+  - name: Single Mentorship
     price: "৳5900"
-    discount: ""
-    image: "images/pricing/03.png"
-    content: "I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
-  that successfully since then.  I have faced a lot of challenges during my fitness
-  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
-  working hard to simplifying the basics of Nutrition and Healthy living."
+    discount: ''
+    image: images/pricing/03.png
+    content: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+      with a goal to teach people the basics of nutrition.  Me and my awesome team
+      doing that successfully since then.  I have faced a lot of challenges during
+      my fitness journey of losing 28kg and becoming fit.  I know those challenges
+      very well. I’m working hard to simplifying the basics of Nutrition and Healthy
+      living.
     services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
+    - Track Reward Part Program
+    - Design and prototype powerful
+    - Keep work in unlimited storage
+    - Add people document handoff
 
 ---
 ## **Work Experience**
 
-I have guided over 1150+ clients in past three years. My clients are from different age groups across different occupations. I have handled busy business professionals, doctors, Homemakers, Student’s to lazy couch potatoes
+I have guided over 1250+ clients in past three years. My clients are from different age groups across different occupations. I have handled busy business professionals, doctors, Homemakers, Student’s to lazy couch potatoes
 
 So, it’s obvious that I have already guided someone like you in the past. 80% of my clients are female. And as we work remotely so 30% of my total clients are living abroad. So, location is not a barrier anymore. If you follow my instructions properly success is Guaranteed. And 90% of my clients who followed my instructions properly achieved their fitness goals. So, shall we begin our journey towards healthy living?
 
@@ -134,7 +130,7 @@ So, it’s obvious that I have already guided someone like you in the past. 80% 
 
 [**Optimum Nutrition**](https://www.optimumnutrition.com)
 
-Optimum Nutrition is an UK based World-Famous Food Supplement Company. Recently they started their own nutrition courses.
+Optimum Nutrition is a UK-based World-Famous Food Supplement Company. Recently they started their own nutrition courses.
 
 **Certified Fitness Nutrition Specialist (2017)**
 
