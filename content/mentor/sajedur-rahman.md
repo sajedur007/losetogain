@@ -30,6 +30,21 @@ pricing:
   content: Lorem ipsum dolor sit amet, consectetur adipiscing. Ultrices condimentum
     fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae
   pricing_table:
+  - name: 8 Weeks Intensive Program
+    price: "৳15,000"
+    discount: ''
+    image: images/pricing/01.png
+    content: 'This program is designed for people who struggle to stay on track. By
+      mentor''s daily check in and unlimited plan correction it will be much easier
+      to stay on track '
+    services:
+    - Progress Tracking
+    - Daily Check-In
+    - Free Initial Consultation
+    - On Demand Plan Correction
+    - Customised Diet Plan
+    - Customised Exercise Guideline
+    - Daily Messenger/Call Support
   - name: 12 Weeks Mentorship
     price: "৳9000"
     discount: ''
@@ -71,21 +86,6 @@ pricing:
     - Progress Tracking
     - Weekly Check-In
     - Daily Messenger Support
-  - name: ''
-    price: "৳15,000"
-    discount: ''
-    image: images/pricing/01.png
-    content: 'This program is designed for people who struggle to stay on track. By
-      mentor''s daily check in and unlimited plan correction it will be much easier
-      to stay on track '
-    services:
-    - Progress Tracking
-    - Daily Check-In
-    - Free Initial Consultation
-    - On Demand Plan Correction
-    - Customised Diet Plan
-    - Customised Exercise Guideline
-    - Daily Messenger/Call Support
   - name: Single Mentorship
     price: "৳5900"
     discount: Save 50%
