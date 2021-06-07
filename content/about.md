@@ -64,7 +64,7 @@ About Us
 
 Lose To Gain is the Bangladesh's largest online fitness and nutrition community. Lose to Gain started its journey as a small Facebook group that used to teach people about nutrition and help them get fit. Today, it is one of the most informative and engaging fitness communities with more than 145,000 members.  
    
- Lose To Gain was founded in March 2017 by Sajedur Rahman, while he was studying Fitness Nutrition at International Sports Sciences Association (ISSA). He created the fundamental nutrition guideline & shared it through his free book “Fit Guide” to help people to get fit with the knowledge of Quantified Nutrition.   
+Lose To Gain was founded in March 2017 by Sajedur Rahman, while he was studying Fitness Nutrition at International Sports Sciences Association (ISSA). He created the fundamental nutrition guideline & shared it through his free book “Fit Guide” to help people to get fit with the knowledge of Quantified Nutrition.   
    
    
  We welcome you to become a part of this fitness community.
