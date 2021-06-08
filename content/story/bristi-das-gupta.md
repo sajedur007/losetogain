@@ -2,7 +2,6 @@
 current_weight = 80
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/bristi-das-gupta.jpg"
 mentor = "Sajedur Rahman"
