@@ -2,7 +2,6 @@
 current_weight = 68.9
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/mishkat-abir.jpg"
 mentor = "Sajedur Rahman"
