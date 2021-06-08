@@ -29,3 +29,5 @@ fields:
 - type: text
   name: time
   label: time
+pages:
+- content/story/antora-d-costa-s-journey-from-71.3-to-60.md
