@@ -2,7 +2,6 @@
 current_weight = 118
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/nafiz-ahmed.jpg"
 mentor = "Sajedur Rahman"
