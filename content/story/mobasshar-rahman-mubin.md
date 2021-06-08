@@ -2,7 +2,6 @@
 current_weight = 78
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/mobasshar-rahman-mubin.jpg"
 mentor = "Sajedur Rahman"

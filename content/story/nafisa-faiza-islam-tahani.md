@@ -2,7 +2,6 @@
 current_weight = 71.5
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/nafisa-faiza-islam-tahani.jpg"
 mentor = "Sajedur Rahman"
