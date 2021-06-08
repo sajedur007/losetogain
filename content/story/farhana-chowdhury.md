@@ -2,7 +2,6 @@
 current_weight = 55
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/farhana-chowdhury.jpg"
 mentor = "Sajedur Rahman"
