@@ -2,7 +2,6 @@
 current_weight = 76
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/nandini-shahla-chowdhury.jpg"
 mentor = "Sajedur Rahman"

@@ -2,7 +2,6 @@
 current_weight = 65.7
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/nupur-sharmin.jpg"
 mentor = "Sajedur Rahman"

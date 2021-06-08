@@ -2,7 +2,6 @@
 current_weight = 53.3
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/sultana-jesmin.jpg"
 mentor = "Sajedur Rahman"
