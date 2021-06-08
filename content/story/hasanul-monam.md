@@ -2,7 +2,6 @@
 current_weight = 70.8
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/hasanul-monam.jpg"
 mentor = "Sajedur Rahman"
