@@ -2,7 +2,6 @@
 current_weight = 60
 description = ""
 diet = "Customized Plan"
-draft = true
 image_after = ""
 image_before = "/images/antora-d-costa.jpg"
 mentor = "Sajedur Rahman"
