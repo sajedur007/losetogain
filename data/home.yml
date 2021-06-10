@@ -86,9 +86,9 @@ testimonial:
       in the resiliency of our microservices. The ability to target
 call_to_action:
   enable: true
-  title: Download Our New Book Of Health Guide and stay healthy everyday in your life
+  title: Download Our Free E-Book Fit Guide to learn the basics about Nutrition.
   image: images/Fitguide.jpg
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vel, sed arcu
-    pellentesque lobortis dolor netus in neque. Purus nisi vel hac sem sodales ac
-    magnis orci sed. Hac urna sit a.
+  content: 'Fit Guide E-book is written by our Sajedur Rahman. How to lose weight
+    or eat healthily or maintain a healthy lifestyle is the first question that comes
+    to everyone''s mind. You will get a basic idea about all these from this book. '
   download: "#"
