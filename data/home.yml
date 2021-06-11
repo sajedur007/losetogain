@@ -42,10 +42,10 @@ process:
       by completing payment.  '
   - name: Receive Customised Plans
     image: images/work-process.png
-    content: 'Based on the call, we will make custom diet and workout plans for you.  We
-      will make sure they suit you and your lifestyle, while still propelling you
-      towards your goals.  You will receive your plans within 24-48 hours on your
-      messenger. '
+    content: 'Based on the call & Details you provide, we will make custom diet and
+      workout plans for you.  We will make sure they suit you and your lifestyle,
+      while still propelling you towards your goals.  You will receive your plans
+      within 24-48 hours on your messenger. '
   - name: Check-ins
     image: images/work-process.png
     content: 'We will have weekly check-ins to discuss everything: Your weekly progress,
