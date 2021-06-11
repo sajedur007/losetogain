@@ -30,15 +30,16 @@ process:
   content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     eirmod tempor invidunt ut labore et dolore magna aliquyam.
   process_step:
+  - name: Free Initial Call
+    image: ''
+    content: Complete Enrolment form. We will reach out & schedule a call with you.  On
+      the call, we will get to know you. We will discuss & understand your goals,
+      lifestyle, diet & training history.  We will treat you with utmost empathy &
+      respect.
   - name: Enrolment
     image: ''
     content: Enroll under a coach. We will send you your desired Coach's contact and
       payment details.
-  - name: Free Initial Call
-    image: ''
-    content: We will reach out & schedule a call with you.  On the call, we will get
-      to know you. We will discuss & understand your goals, lifestyle, diet & training
-      history.  We will treat you with utmost empathy & respect.
   - name: Receive Customised Plans
     image: images/work-process.png
     content: 'Based on the call, we will make custom diet and workout plans for you.  We
