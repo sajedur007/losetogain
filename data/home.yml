@@ -41,10 +41,10 @@ process:
       history.  We will treat you with utmost empathy & respect.
   - name: Receive Customised Plans
     image: images/work-process.png
-    content: Based on the call, we will make custom diet and workout plans for you.  We
+    content: 'Based on the call, we will make custom diet and workout plans for you.  We
       will make sure they suit you and your lifestyle, while still propelling you
       towards your goals.  You will receive your plans within 24-48 hours on your
-      desired medium.
+      messenger. '
   - name: Wait For Just Three Month
     image: images/work-process.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis
