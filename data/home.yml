@@ -30,6 +30,15 @@ process:
   content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     eirmod tempor invidunt ut labore et dolore magna aliquyam.
   process_step:
+  - name: Enrolment
+    image: ''
+    content: Enroll under a coach. We will send you your desired Coach's contact and
+      payment details.
+  - name: Free Initial Call
+    image: ''
+    content: We will reach out & schedule a call with you.  On the call, we will get
+      to know you. We will discuss & understand your goals, lifestyle, diet & training
+      history.  We will treat you with utmost empathy & respect.
   - name: Choose Your Favourite Mentor
     image: images/work-process.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis
