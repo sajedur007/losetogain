@@ -50,10 +50,12 @@ process:
     content: 'We will have weekly check-ins to discuss everything: Your weekly progress,
       any challenges you may be facing, your update sheet, so you get the best out
       of the programme!'
-  - name: See You in The Mirror
+  - name: Support & Learning
     image: images/work-process.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis
-      sed felis amet.
+    content: You will receive full support over Messenger/WhatsApp. We will clear
+      all your doubts & queries. We will take care of everything, right from your
+      nutrition & workout plans, to habit tracking, to goal setting, to overcoming
+      your challenges.
 service:
   title: What Are The Reasons For choosing us?
   background_image: images/wave.svg
