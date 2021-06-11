@@ -1,8 +1,9 @@
 ---
 banner:
   title: Sustainable way to your fitness goal
-  content: Lorem ipsum dolor amet, consectetur adipiscing elit. Nisl diam pellentesque
-    morbi molestie nisi, porttitor eget vitae.
+  content: 'When you have basic knowledge about nutrition it will be easier to reach
+    your goal. Start learning today by downloading our free ebook or hire one of our
+    expert coaches to start your journey today.  '
   background_image: images/wave.svg
   image: images/banner-image.png
   download_button: "#"
