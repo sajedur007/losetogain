@@ -39,10 +39,12 @@ process:
     content: We will reach out & schedule a call with you.  On the call, we will get
       to know you. We will discuss & understand your goals, lifestyle, diet & training
       history.  We will treat you with utmost empathy & respect.
-  - name: Choose Your Favourite Mentor
+  - name: Receive Customised Plans
     image: images/work-process.png
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis
-      sed felis amet.
+    content: Based on the call, we will make custom diet and workout plans for you.  We
+      will make sure they suit you and your lifestyle, while still propelling you
+      towards your goals.  You will receive your plans within 24-48 hours on your
+      desired medium.
   - name: Wait For Just Three Month
     image: images/work-process.png
     content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.dvsd mauris quis
