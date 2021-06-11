@@ -38,8 +38,8 @@ process:
       respect.
   - name: Enrolment
     image: ''
-    content: Enroll under a coach. We will send you your desired Coach's contact and
-      payment details.
+    content: 'After initial discussion with our coach. You can start your journey
+      by completing payment.  '
   - name: Receive Customised Plans
     image: images/work-process.png
     content: 'Based on the call, we will make custom diet and workout plans for you.  We
