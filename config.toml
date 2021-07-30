@@ -23,6 +23,16 @@ name = "About"
 url = "about"
 weight = 1
 [[menu.main]]
+name = "Contact"
+parent = "Pages"
+url = "contact"
+weight = 3
+[[menu.main]]
+name = "Blog"
+parent = "Pages"
+url = "blog"
+weight = 4
+[[menu.main]]
 name = "Product"
 parent = "Pages"
 url = "product"
@@ -31,37 +41,28 @@ weight = 4
 name = "FAQ"
 parent = "Pages"
 url = "faq"
-weight = 3
+weight = 2
 [[menu.main]]
 name = "Terms & Conditions"
 parent = "Pages"
 url = "terms-conditions"
-weight = 2
+weight = 1
 [[menu.main]]
 hasChildren = true
 name = "Pages"
 weight = 6
 [[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 5
-[[menu.main]]
 name = "Client Reviews"
 url = "story"
-weight = 4
+weight = 3
 [[menu.main]]
 name = "Coaching"
 url = "mentor"
-weight = 3
-[[menu.main]]
-name = "Blog"
-parent = "Pages"
-url = "blog"
-weight = 1
-[[menu.main]]
-name = "About"
-url = "about"
 weight = 2
+[[menu.main]]
+name = "Our Story"
+url = "about"
+weight = 5
 [[menu.main]]
 name = "Home"
 url = "/"
