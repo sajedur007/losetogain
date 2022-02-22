@@ -27,17 +27,17 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-2 col-md col-sm-6">
+      <div class="col-lg-3 col-md col-sm-6">
         <div class="pl-0 pl-md-3 mt-5 mt-md-0">
-          <h5 class="font-weight-600 mb-20">Information</h5>
+          <h5 class="font-weight-600 mb-20">Connect</h5>
           <ul class="list-unstyled footer-links">
-            {{ range site.Menus.information }}
+            {{ range site.Menus.connect }}
             <li><a href="{{.URL | absURL}}">{{.Name}}</a></li>
             {{ end }}
           </ul>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <div class="pl-0 pl-lg-4 mt-5 mt-lg-0">
           <h5 class="font-weight-600 mb-20">Social Contacts</h5>
           <ul class="social-icon-link has-shadow list-unstyled list-inline">
@@ -54,7 +54,7 @@
       <div class="row">
         <div class="col-12">
           <div class="block border-top text-center content">
-            {{ site.Params.copyright | markdownify}}
+            {{ site.Params.copyright | markdownify}} | Developed By <a target="_blank" href="https://gethugothemes.com/">Gethugothemes</a>
           </div>
         </div>
       </div>

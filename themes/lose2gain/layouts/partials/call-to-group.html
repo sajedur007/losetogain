@@ -1,5 +1,6 @@
-{{ with .Params.call_to_action }}
-<section class="section-padding">
+{{ with .Params.call_to_group }}
+<section class="section-padding bg-light pt-80 pb-130 has-wave"
+style="background-image:url('{{`images/wave.svg` | absURL }}')">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-12">
@@ -8,7 +9,7 @@
           <div class="media-body mt-4 mt-md-0">
             <h2 class="font-secondary">{{.title | markdownify }}</h2>
             <p class="mt-3 mb-4">{{ .content | markdownify }}</p>
-            <a href="{{.download | absURL}}" class="btn btn-primary">Download E-book</a>
+            <a href="{{.download | absURL}}" class="btn btn-primary">Join!</a>
           </div>
         </div>
       </div>

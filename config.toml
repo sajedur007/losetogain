@@ -6,57 +6,40 @@ theme = "lose2gain"
 title = "Lose To Gain | Your Personal Trainer"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.about]]
-name = "Portfolio"
-url = "portfolio"
+[[menu.connect]]
+name = "info@losetogainbd.com"
+url = "mailto:info@losetogainbd.com"
+weight = 1
+[[menu.connect]]
+name = "+8801786929256"
+url = "tel:+8801786929256"
 weight = 2
 [[menu.about]]
 name = "About"
 url = "about"
 weight = 1
-[[menu.information]]
-name = "Portfolio"
-url = "portfolio"
-weight = 2
-[[menu.information]]
-name = "About"
-url = "about"
-weight = 1
-[[menu.main]]
+[[menu.about]]
 name = "Contact"
-parent = "Pages"
 url = "contact"
+weight = 4
+[[menu.about]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+weight = 2
+[[menu.about]]
+name = "FAQ"
+url = "faq"
 weight = 3
 [[menu.main]]
 name = "Blog"
-parent = "Pages"
 url = "blog"
 weight = 4
-[[menu.main]]
-name = "Product"
-parent = "Pages"
-url = "product"
-weight = 4
-[[menu.main]]
-name = "FAQ"
-parent = "Pages"
-url = "faq"
-weight = 2
-[[menu.main]]
-name = "Terms & Conditions"
-parent = "Pages"
-url = "terms-conditions"
-weight = 1
-[[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 6
 [[menu.main]]
 name = "Client Reviews"
 url = "story"
 weight = 3
 [[menu.main]]
-name = "Coaching"
+name = "Mentors"
 url = "mentor"
 weight = 2
 [[menu.main]]
@@ -72,13 +55,14 @@ home = ["HTML", "RSS"]
 [params]
 author = "Themefisher"
 contact_form_action = "#"
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Copyright © 2022 LoseToGain"
 custom_script = ""
 description = "This is meta description"
 favicon = "images/favicon.png"
-footer_content = "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus sed condimentum volutpat."
+footer_content = "Lose To Gain is the Bangladesh's largest online fitness and nutrition community. We transformed thousands of people since 2017 through our Facebook community and Personal Coaching Services."
 logo = "images/logo.png"
 logo_width = "135px"
+store = false
 [params.cookies]
 enable = false
 expire_days = 2
@@ -133,13 +117,17 @@ enable = false
 preloader = ""
 [[params.social]]
 icon = "fab fa-facebook"
-link = "#"
+link = "https://www.facebook.com/losetogainbd"
 title = "facebook"
 [[params.social]]
-icon = "fab fa-twitter"
-link = "#"
-title = "twitter"
+icon = "fab fa-youtube"
+link = "https://www.youtube.com/channel/UCh2S5IWUxLtkzLiuNIEjGbA"
+title = "youtube"
 [[params.social]]
 icon = "fab fa-instagram"
-link = "#"
+link = "http://instagram.com/losetogainbd"
 title = "instagram"
+[[params.social]]
+icon = "fas fa-users"
+link = "https://www.facebook.com/groups/losetogainbd"
+title = "fb Group"
