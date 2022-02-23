@@ -2,46 +2,46 @@
 label: Story
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: description
-    label: description
-  - type: file
-    name: image
-    label: image
-  - type: number
-    name: previous_weight
-    label: previous_weight
-  - type: number
-    name: current_weight
-    label: current_weight
-  - type: text
-    name: diet
-    label: diet
-  - type: text
-    name: mentor
-    label: mentor
-  - type: text
-    name: time
-    label: time
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: number
+  name: previous_weight
+  label: previous_weight
+- type: number
+  name: current_weight
+  label: current_weight
+- type: text
+  name: diet
+  label: diet
+- type: text
+  name: mentor
+  label: mentor
+- type: text
+  name: time
+  label: time
 pages:
-  - content/story/antora-d-costa-s-journey-from-71.3-to-60.md
-  - content/story/bristi-das-gupta.md
-  - content/story/farha-jaman-dola.md
-  - content/story/farhana-chowdhury.md
-  - content/story/hasanul-monam.md
-  - content/story/mahabubur-rahman-amil.md
-  - content/story/mayesha-tasnim.md
-  - content/story/mishkat-abir.md
-  - content/story/mobasshar-rahman-mubin.md
-  - content/story/nafisa-faiza-islam-tahani.md
-  - content/story/nafiz-ahmed.md
-  - content/story/nandini-shahla-chowdhury.md
-  - content/story/nupur-sharmin.md
-  - content/story/pooja-mimi-bose.md
-  - content/story/rezwana-ahmed.md
-  - content/story/sarahat-afroz.md
-  - content/story/sultana-jesmin.md
-  - content/story/tanzila-tabassum-chowdhury.md
+- content/story/antora-d-costa-s-journey-from-71.3-to-60.md
+- content/story/bristi-das-gupta.md
+- content/story/farha-jaman-dola.md
+- content/story/farhana-chowdhury.md
+- content/story/hasanul-monam.md
+- content/story/mahabubur-rahman-amil.md
+- content/story/mayesha-tasnim.md
+- content/story/mishkat-abir.md
+- content/story/mobasshar-rahman-mubin.md
+- content/story/nafisa-faiza-islam-tahani.md
+- content/story/nafiz-ahmed.md
+- content/story/nandini-shahla-chowdhury.md
+- content/story/nupur-sharmin.md
+- content/story/pooja-mimi-bose.md
+- content/story/rezwana-ahmed.md
+- content/story/sarahat-afroz.md
+- content/story/sultana-jesmin.md
+- content/story/tanzila-tabassum-chowdhury.md
