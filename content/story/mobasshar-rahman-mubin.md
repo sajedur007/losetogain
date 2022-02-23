@@ -2,8 +2,7 @@
 current_weight = 78
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/mobasshar-rahman-mubin.jpg"
+image = "/images/mobasshar-rahman-mubin.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 100.4
 time = "12 Weeks"

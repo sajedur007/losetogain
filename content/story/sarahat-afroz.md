@@ -2,8 +2,7 @@
 current_weight = 53.6
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/sarahat-afroz.jpg"
+image = "/images/sarahat-afroz.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 60
 time = "12 Weeks"

@@ -1,9 +1,8 @@
 +++
 current_weight = 60
 description = ""
-diet = "Low Carb Customized "
-image_after = ""
-image_before = "/images/shah-nafee.jpg"
+diet = "Low Carb Customized"
+image = "/images/shah-nafee.jpg"
 mentor = "Samira Akhter"
 previous_weight = 70
 time = "12 Week"

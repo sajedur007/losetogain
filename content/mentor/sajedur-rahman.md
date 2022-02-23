@@ -13,9 +13,8 @@ description: I am the founder of Lose to Gain. Back in 2017, I’ve started this
   journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
   working hard to simplifying the basics of Nutrition and Healthy living.
 programs:
-- 12 weeks program
-- 24 weeks program
-- partner transformation
+- Basic Program
+- Premium Program
 certificates:
 - images/certifications/01.jpg
 - images/certifications/02.jpg
@@ -25,97 +24,166 @@ social:
   facebook: https://www.facebook.com/sajedur007
   twitter: "#"
   linkedin: "#"
-pricing:
-  title: Choose The Best Pricing
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing. Ultrices condimentum
-    fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae
-  pricing_table:
-  - name: 8 Weeks Intensive Program
-    price: "৳15,000"
-    discount: ''
-    image: images/pricing/01.png
-    content: 'This program is designed for people who struggle to stay on track. By
-      mentor''s daily check in and unlimited plan correction it will be much easier
-      to stay on track '
-    services:
-    - Progress Tracking
-    - Daily Check-In
-    - Free Initial Consultation
-    - On Demand Plan Correction
-    - Customised Diet Plan
-    - Customised Exercise Guideline
-    - Daily Messenger/Call Support
-  - name: 12 Weeks Mentorship
-    price: "৳9000"
-    discount: ''
-    image: images/pricing/01.png
-    content: শুধু ওজন কমানো নয়, সে ওজন ধরে রাখাতে আমরা বিশ্বাস করি। ওজন নানা ভাবে
-      কমানো সম্ভব কিন্তু তা ধরে রাখতে হলে প্রয়োজন অভ্যাস পরিবর্তন করা। একটা ভাল ফুড
-      হ্যাবিট তৈরি করতে ২-৩ মাস সময় প্রয়োজন। আপনার হেলদি লাইফস্টাইল এর কিক-স্টার্ট
-      করার জন্য আমাদের ১২ সপ্তাহের প্রোগ্রাম টি পারফেক্ট।
-    services:
-    - Free Initial Consultation
-    - Customised Diet Plan
-    - Basic Exercise Guideline
-    - Progress Tracking
-    - Weekly Check-In
-    - Daily Messenger Support
-  - name: 24 Weeks Program
-    price: "৳17000"
-    discount: ''
-    image: images/pricing/02.png
-    content: ২৪ সপ্তাহ প্রোগ্রাম টি আমাদের সবচেয়ে পপুলার ১২ সপ্তাহের প্রোগ্রাম টির
-      এক্সটেন্ডড ভার্সন। আপনার যদি কমিটমেন্টে সমস্যা না থাকে এবং ২০+ কেজি ওজন অতিরিক্ত
-      থাকে তাহলে আমাদের এই প্রোগ্রামটি আপনার জন্য পারফেক্ট।
-    services:
-    - Free Initial Consultation
-    - Customised Diet Plan
-    - Basic Exercise Guideline
-    - Progress Tracking
-    - Weekly Check-In
-    - Daily Messenger Support
-  - name: Partner Transformation
-    price: "৳17,000"
-    discount: ''
-    image: images/pricing/03.png
-    content: 'পার্টনার ট্রান্সফরমেশন '
-    services:
-    - Free Initial Consultation
-    - Customised Diet Plan
-    - Basic Exercise Guideline
-    - Progress Tracking
-    - Weekly Check-In
-    - Daily Messenger Support
-  - name: Single Mentorship
-    price: "৳5900"
-    discount: Save 50%
-    image: images/pricing/02.png
-    content: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-      with a goal to teach people the basics of nutrition.  Me and my awesome team
-      doing that successfully since then.  I have faced a lot of challenges during
-      my fitness journey of losing 28kg and becoming fit.  I know those challenges
-      very well. I’m working hard to simplifying the basics of Nutrition and Healthy
-      living.
-    services:
-    - Track Reward Part Program
-    - Design and prototype powerful
-    - Keep work in unlimited storage
-    - Add people document handoff
-  - name: Single Mentorship
-    price: "৳5900"
-    discount: ''
-    image: images/pricing/03.png
-    content: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
-      with a goal to teach people the basics of nutrition.  Me and my awesome team
-      doing that successfully since then.  I have faced a lot of challenges during
-      my fitness journey of losing 28kg and becoming fit.  I know those challenges
-      very well. I’m working hard to simplifying the basics of Nutrition and Healthy
-      living.
-    services:
-    - Track Reward Part Program
-    - Design and prototype powerful
-    - Keep work in unlimited storage
-    - Add people document handoff
+
+# pricing head/title
+pricing_table_info:
+- name: "Feature"
+  icon: "fas fa-info-circle text-primary"
+  content: "Price"
+
+- name: "Basic"
+  price: "9,000 BDT"
+  recomended: false
+  button_label : "Enroll Now"
+  button_link : "#"
+
+- name: "Premium"
+  price: "25,000 BDT"
+  recomended: true
+  button_label : "Enroll Now"
+  button_link : "#"
+
+# Pricing body/info
+pricing_table_data:
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Duration"
+    
+  - name: "Basic"
+    icon: ""
+    content: "12 Weeks"
+    
+  - name: "Premium"
+    icon: ""
+    content: "12 Weeks"
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Free Initial Consultation"
+    
+  - name: "Basic"
+    icon: "fas fa-check"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Meal Plan"
+    
+  - name: "Basic"
+    icon: ""
+    content: "Customised (Upto 3)"
+    
+  - name: "Premium"
+    icon: ""
+    content: "Customised (Upto 12)"
+
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Exercise Plan"
+    
+  - name: "Basic"
+    icon: ""
+    content: "General Guideline"
+    
+  - name: "Premium"
+    icon: ""
+    content: "Customised Plan"
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Unlimited Q&A (Over Text/Messenger)"
+    
+  - name: "Basic"
+    icon: "fas fa-check"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Weekly Follow Up"
+    
+  - name: "Basic"
+    icon: "fas fa-check"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Daily Check-In"
+    
+  - name: "Basic"
+    icon: "fas fa-times"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Consultation Call (Voice/Video)"
+    
+  - name: "Basic"
+    icon: ""
+    content: "3 (30 Minute Session Each)"
+    
+  - name: "Premium"
+    icon: ""
+    content: "12 (30 Minute Session Each)"
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Maintenance Plan"
+    
+  - name: "Basic"
+    icon: "fas fa-times"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Available Slots Per Month"
+    
+  - name: "Basic"
+    icon: ""
+    content: "20"
+    
+  - name: "Premium"
+    icon: ""
+    content: "3"
 
 ---
 ## **Work Experience**

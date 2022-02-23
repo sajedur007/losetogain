@@ -2,8 +2,7 @@
 current_weight = 70.5
 description = ""
 diet = "Low Carb Customized "
-image_after = ""
-image_before = "/images/nabila-khondoker.jpg"
+image = "/images/nabila-khondoker.jpg"
 mentor = "Molua Khan"
 previous_weight = 86
 time = "12 Week"

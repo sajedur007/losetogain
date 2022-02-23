@@ -14,7 +14,7 @@
 					{{ end }}
 				</ul>
 			</div>
-			<div class="col-12">
+			<!-- <div class="col-12">
 				<div class="about-header-image position-relative">
 					<img class="img-fluid" src="{{`images/about/banner-curve.svg` | absURL }}" alt="">
 					<div class="avaters">
@@ -26,13 +26,13 @@
 						<img class="sm" src="{{`images/about/banner-images/06.jpg` | absURL }}">
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
 <!-- end of page-header -->
 
-{{ with .Params.about }}
+<!-- {{ with .Params.about }}
 <section class="pt-80 pb-130 has-wave" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -61,7 +61,21 @@
 		</div>
 	</div>
 </section>
-{{ end }}
+{{ end }} -->
+
+
+<section class="pt-80 pb-130 has-wave" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-11">
+				<div class="content">
+					{{.Content}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 
 {{ with .Params.video }}
 <section class="pt-5 pb-120 bg-light has-wave" style="background-image:url('{{`images/wave.svg` | absURL}}')">
@@ -86,7 +100,6 @@
 	</div>
 </section>
 
-<!-- start of videoModal -->
 <div class="modal fade rounded" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
@@ -101,11 +114,47 @@
 		</div>
 	</div>
 </div>
-<!-- end of videoModal -->
 {{ end }}
 
+<section class="section-padding team-carousel has-wave pt-70 pb-130"
+  style="background-image:url('{{`images/wave-gray.svg` | absURL }}')">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10 text-center">
+        <h2 class="section-title mb-5">Meet The Mentors</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="team-carousel-wrap">
+          {{ range where site.RegularPages.ByWeight "Section" "mentor" }}
+          <div class="card text-center mentor-card mx-3">
+            <a href="{{.Permalink}}" class="d-inine-block"><img class="card-img mx-auto"
+                src="{{.Params.image | absURL }}" alt="{{.Title}}"></a>
+            <div class="card-body">
+              <h3 class="font-weight-600 mb-2"><a class="post-title" href="{{.Permalink}}">{{.Title}}</a></h3>
+              <p class="mb-2">{{.Params.designation}}</p>
+              <strong>Served {{.Params.served_clients}} Clients</strong>
+              <div class="row justify-content-between px-2 mx-2 mt-2">
+                <span class="slot-head">Slots</span>
+                <span class="slot-detail"><span style="width: {{.Params.available_slots_width}};"></span></span>
+                <span class="slot-available">{{.Params.available_slots}}</span>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <div class="slick-arrows">
+          <div class="slick-prev team-slick-prev"><img src="{{`images/arrow-left.svg` | absURL }}"></div>
+          <div class="slick-next team-slick-next"><img src="{{`images/arrow-right.svg` | absURL }}"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-{{ with .Params.team }}
+
+<!-- {{ with .Params.team }}
 <section class="pt-80 pb-0">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -135,12 +184,12 @@
 		</div>
 	</div>
 </section>
-{{ end }}
+{{ end }} -->
 
-<!-- start of section -->
-{{ if site.Data.home.call_to_action.enable }}
+<!-- cta -->
+{{ with site.GetPage "/" }}
+{{ partial "call-to-group.html" . }}
 {{ partial "call-to-action.html" . }}
 {{ end }}
-<!-- end of section -->
 
 {{ end }}

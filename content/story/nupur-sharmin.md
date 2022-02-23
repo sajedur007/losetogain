@@ -2,8 +2,7 @@
 current_weight = 65.7
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/nupur-sharmin.jpg"
+image = "/images/nupur-sharmin.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 73
 time = "12 Weeks"

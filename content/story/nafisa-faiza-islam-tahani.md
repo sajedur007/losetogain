@@ -2,8 +2,7 @@
 current_weight = 71.5
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/nafisa-faiza-islam-tahani.jpg"
+image = "/images/nafisa-faiza-islam-tahani.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 80
 time = "12 Weeks"

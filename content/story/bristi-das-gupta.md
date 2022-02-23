@@ -2,8 +2,7 @@
 current_weight = 80
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/bristi-das-gupta.jpg"
+image = "/images/bristi-das-gupta.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 91
 time = "12 Weeks"

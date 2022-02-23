@@ -2,7 +2,7 @@
 title: ইন্টারমিটেন্ট ফাস্টিং আর ওয়ান মিল এ ডে ( ওমাড) আসলে কি আর আমরা করি কি?
 date: 2021-01-09T05:07:10+00:00
 image: "/images/fasting.jpg"
-author: John Doe
+author: Sajedur Rahman
 description: meta description
 categories:
 - gym
@@ -29,5 +29,3 @@ type: featured
 এইভাবে তার ঘুরতে গিয়েও ডায়েট মেইন্টেন এ কোন সমস্যা হয় নি। এর পরে আমি তার টেকনিক কিছুদিন এপ্লাই করে দেখলাম যে বেড়াতে গিয়ে হেলদি খাওয়া খুব কঠিন না যদি এই প্যাটারনে কেউ খায়। আর এইভাবে খেলে টাকাও সেভ হয় অনেক তাই ওমাড করতে কোন সমস্যা নেই যদি এমন ছোট ছোট স্ন্যাক্স সারাদিনে নেয়া যায় আর দিনশেষে একটা লার্জ মিল। সারাদিন না খেয়ে থেকে একটা বড় মিল খেলে অনেক বেশি ক্যালরি ডেফিসিট হবার সম্ভাবনা থাকে।
 
 তাই বাড়ির বাইরে থাকলে বা অনেক হেকটিক কাজের শিডিউল হলে ওমাড হেল্পফুল তবে খেয়াল রাখতে হবে যে মিনিমাম প্রোটিন ফ্যাট আর ফাইবার এর চাহিদা পুরন হচ্ছে কিনা।
-
-আর্টিকেল লিখেছেন [Sajedur Rahman](https://www.facebook.com/sajedur007?__cft__\[0\]=AZVm-uHgKLEoYx_lr6A2j_ss81obuKFc4t8pE-b721m7qYcuMs4QnTmH9PBZ-oCan4rKDDobksVytozA9RpaJkdtx88vlZxHotyp7tl5WTpdI6eDqz2mBLoDJQX47AXjOrUlWQTdqTPbci3iDXwT3lpWNLuoRZVoV0o2Juvn7--AccYO_MBjtrhtl0nz-O9fuuM&__tn__=-\]K-R)

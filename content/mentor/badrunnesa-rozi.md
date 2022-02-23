@@ -10,84 +10,172 @@ available_slots_width: '95%'
 title: "Badrunnesa Rozi"
 certificates:
 programs:
-- 12 weeks program
-- 24 weeks program
-- partner transformation
+- Basic Program
+- Premium Program
 social:
   facebook: ""
   linkedin: ""
   twitter: ""
 
-  
-pricing:
-  title: "Choose The Best Pricing"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing. Ultrices condimentum fringilla maecenas dis felis, rutrum tortor, suspendisse. Interdum vitae"
-  pricing_table:
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: ""
-    image: "images/pricing/01.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
-    services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
+# pricing head/title
+pricing_table_info:
+- name: "Feature"
+  icon: "fas fa-info-circle text-primary"
+  content: "Price"
+
+- name: "Basic"
+  price: "9,000 BDT"
+  recomended: false
+  button_label : "Enroll Now"
+  button_link : "#"
+
+- name: "Premium"
+  price: "25,000 BDT"
+  recomended: true
+  button_label : "Enroll Now"
+  button_link : "#"
+
+# Pricing body/info
+pricing_table_data:
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Duration"
     
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: "Save 50%"
-    image: "images/pricing/02.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
-    services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
+  - name: "Basic"
+    icon: ""
+    content: "12 Weeks"
     
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: ""
-    image: "images/pricing/03.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
-    services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
+  - name: "Premium"
+    icon: ""
+    content: "12 Weeks"
     
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: ""
-    image: "images/pricing/01.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
-    services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Free Initial Consultation"
     
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: "Save 50%"
-    image: "images/pricing/02.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
-    services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
+  - name: "Basic"
+    icon: "fas fa-check"
+    content: ""
     
-  - name: "Single Mentorship"
-    price: "৳5900"
-    discount: ""
-    image: "images/pricing/03.png"
-    content: "Lorem ipsum dolor amet, confseur justo. Massa augue neque proin adisng."
-    services:
-    - "Track Reward Part Program"
-    - "Design and prototype powerful"
-    - "Keep work in unlimited storage"
-    - "Add people document handoff"
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Meal Plan"
+    
+  - name: "Basic"
+    icon: ""
+    content: "Customised (Upto 3)"
+    
+  - name: "Premium"
+    icon: ""
+    content: "Customised (Upto 12)"
+
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Exercise Plan"
+    
+  - name: "Basic"
+    icon: ""
+    content: "General Guideline"
+    
+  - name: "Premium"
+    icon: ""
+    content: "Customised Plan"
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Unlimited Q&A (Over Text/Messenger)"
+    
+  - name: "Basic"
+    icon: "fas fa-check"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Weekly Follow Up"
+    
+  - name: "Basic"
+    icon: "fas fa-check"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Daily Check-In"
+    
+  - name: "Basic"
+    icon: "fas fa-times"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Consultation Call (Voice/Video)"
+    
+  - name: "Basic"
+    icon: ""
+    content: "3 (30 Minute Session Each)"
+    
+  - name: "Premium"
+    icon: ""
+    content: "12 (30 Minute Session Each)"
+    
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Maintenance Plan"
+    
+  - name: "Basic"
+    icon: "fas fa-times"
+    content: ""
+    
+  - name: "Premium"
+    icon: "fas fa-check"
+    content: ""
+
+# table column
+- table_row:
+  - name: "Feature"
+    icon: "fas fa-info-circle text-primary"
+    content: "Available Slots Per Month"
+    
+  - name: "Basic"
+    icon: ""
+    content: "20"
+    
+  - name: "Premium"
+    icon: ""
+    content: "3"
 
 ---
 ## **Achievements**

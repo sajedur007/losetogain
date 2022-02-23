@@ -2,8 +2,7 @@
 current_weight = 118
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/nafiz-ahmed.jpg"
+image = "/images/nafiz-ahmed.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 145
 time = "24 Weeks"

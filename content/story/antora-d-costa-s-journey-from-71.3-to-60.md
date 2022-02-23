@@ -2,8 +2,7 @@
 current_weight = 60
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/antora-d-costa.jpg"
+image = "/images/antora-d-costa.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 71.3
 time = "12 Weeks"

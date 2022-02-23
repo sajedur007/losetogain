@@ -1,7 +1,8 @@
 {{ define "main" }}
 
 <!-- start of page-header -->
-<section class="page-header bg-light pt-70 pb-130 has-wave" style="background-image:url('{{`images/wave.svg`| absURL}}')">
+<section class="page-header bg-light pt-70 pb-130 has-wave"
+  style="background-image:url('{{`images/wave.svg`| absURL}}')">
   <div class="container">
     <div class="row text-center">
       <div class="col-12">
@@ -13,19 +14,88 @@
 </section>
 <!-- end of page-header -->
 
-<section class="pt-80">
+<section class="pt-80 section-padding">
   <div class="container">
     <div class="row">
-      {{ range .Data.Pages }}
-      <div class="col-lg-6 mb-4">
-        <div class="card rounded-lg shadow-lg h-100">
-          {{ if .Params.image_after }}
-          <div class="twentytwenty-image">
-            <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
-            <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
+      <div class="col-12">
+        <div class="filters">
+          <div class="ui-group mb-4 mb-lg-0">
+            <Strong class="group-title">Mentor: </Strong>
+            <div class="button-group js-radio-button-group" data-filter-group="mentor">
+              <button class="button is-checked" data-filter="">All</button>
+              {{ $mentors := slice }}
+              {{ range .Data.Pages }}
+              {{ with .Params.mentor }}
+              {{ $mentors = $mentors | append . }}
+              {{ end }}
+              {{ end }}
+              {{ range ( $mentors | uniq ) }}
+              <button class="button" data-filter=".{{ . | anchorize | lower }}">{{ . }}</button>
+              {{ end }}
+            </div>
           </div>
-          {{ else }}
-          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+
+          <div class="sort">
+            <strong class="sort-description">Program: </strong>
+            <p class="sort-button">View All</p>
+            <ul class="sort-menu sort-select">
+              <li class="button" data-filter="" onclick="toggleMenu('View All')">View All</li>
+              {{ $time := slice }}
+              {{ range .Data.Pages }}
+              {{ with .Params.time }}
+              {{ $time = $time | append . }}
+              {{ end }}
+              {{ end }}
+              {{ range ( $time | uniq ) }}
+              <li class="button" data-filter=".{{ . | anchorize | lower }}" onclick="toggleMenu('{{ . }}')">{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      var dButton = document.querySelector('.sort-button');
+      var dMenu = document.querySelector(".sort-menu");
+      var dItem = document.querySelector(".sort-menu > li");
+
+      function toggleMenu(name) {
+        document.querySelector('.sort-button').innerHTML = name;
+        console.log(this);
+      }
+
+      dButton.addEventListener("click", function () {
+        var docClick = function (ev) {
+          if (!(ev.target).classList.contains('sort-button')) {
+            closeDropdown();
+          }
+        }
+        var closeDropdown = function () {
+          dMenu.classList.remove("show-menu");
+          document.removeEventListener('click', docClick);
+        }
+        if (dMenu.classList.contains("show-menu")) {
+          closeDropdown();
+        } else {
+          document.addEventListener('click', docClick)
+          dMenu.classList.add("show-menu");
+        }
+        dItem.addEventListener("click", function () {
+          closeDropdown();
+        });
+
+      });
+    </script>
+
+
+    <div class="row story-filter-wrapper">
+      {{ range .Data.Pages }}
+      <div class="col-lg-6 mb-4 story-item {{.Params.mentor | lower | anchorize}} {{.Params.time | lower | anchorize}}">
+        <div class="card rounded-lg shadow-lg h-100">
+          {{ with .Params.image }}
+          <img class="w-100" src="{{ . | absURL }}" alt="transformation image">
           {{ end }}
           <div class="card-body pb-2">
             <h3><a href="{{.Permalink}}" class="font-secondary text-secondary">{{ .Title }}</a></h3>
@@ -33,7 +103,8 @@
               <li class="list-inline-item mb-3 mr-4">
                 <span class="text-primary mr-2"> <i class="far fa-user"></i> </span>
                 Mentor's name :
-                <a class="text-primary ml-2" href="{{ `mentor/` | relURL }}{{ .Params.mentor | urlize | lower }}">{{ .Params.mentor | humanize }}</a>
+                <a class="text-primary ml-2"
+                  href="{{ `mentor/` | relURL }}{{ .Params.mentor | anchorize | lower }}">{{ .Params.mentor | humanize }}</a>
               </li>
               <div class="list-inline-item mb-3 mr-4">
                 <span class="text-primary mr-2"> <i class="fas fa-history"></i> </span>

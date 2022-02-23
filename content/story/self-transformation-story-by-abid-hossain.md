@@ -2,8 +2,7 @@
 current_weight = 66
 description = ""
 diet = "Moderate Carb, Low Carb"
-image_after = ""
-image_before = "/images/abid-hossain.jpg"
+image = "/images/abid-hossain.jpg"
 mentor = "Self Transformation"
 previous_weight = 73
 time = "8 Week"

@@ -56,7 +56,7 @@
   </div>
 </div>
 
-<section class="about-mentor section-padding pb-0">
+<section class="about-mentor section-padding has-wave" style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-10">
@@ -79,76 +79,78 @@
   </div>
 </section>
 
-{{ with .Params.pricing }}
-<section class="pricing section-padding has-wave pt-70 pb-130"
-  style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
+{{ with site.GetPage "mentor" }}
+{{ .Content | markdownify }}
+{{ end }}
+
+<!-- pricing table -->
+<section class="pricing section-padding bg-light pt-80 pb-130 has-wave"
+style="background-image:url('{{`images/wave.svg` | absURL }}')">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mb-4">
-        <h2 class="section-title">Choose Program To Start</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      {{ range .pricing_table }}
-      <div class="col-lg-4 col-md-6">
-        <div class="bg-white shadow-lg rounded-lg py-5 px-3 px-md-4 position-relative mt-30">
-          {{with .discount}}<span
-            class="badge pricing-badge bg-primary text-white p-2">{{. | markdownify}}</span>{{end}}
-          <div class="text-center">
-            <p class="text-uppercase text-primary font-weight-600 mb-3">{{.name | markdownify}}</p>
-            <div class="mb-1">
-              <span class="h2 font-weight-bold">{{ .price }}</span>
-              <span class="font-weight-bold text-black">BTD</span>
-            </div>
-            <p class="text-muted">For One Course</p>
-            <img class="my-4" src="{{.image | absURL}}" alt="">
-            <p class="text-muted">{{ .content | markdownify | truncate 80 }}</p>
-            <button class="list-inline-item btn btn-outline-primary" data-toggle="modal"
-              data-target="#{{.name|anchorize}}"><i class="fas fa-plus mr-2"></i>More About This Program</button>
-          </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="pricing-table shadow mx-auto">
 
-          <ul class="list-unstyled font-weight-500 text-black border-top mt-4 pt-4">
-            {{ range .services }}
-            <li class="mb-20 d-flex">
-              <svg class="text-primary mr-10" width="25" height="25" viewBox="0 0 27 27" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <circle cx="13.5" cy="13.5" r="13.5" fill="currentColor" style="opacity:0.2" />
-                <path d="M8 13.4286L12.3636 18L20 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-              </svg>
-              {{ . | markdownify }}
-            </li>
+          <!-- table head -->
+          <thead class="pricing-table-head">
+            <tr>
+              {{ range .Params.pricing_table_info }}
+              <th>
+                <h3 class="text-white font-weight-bold">{{.name | markdownify}}</h3>
+              </th>
+              {{ end }}
+            </tr>
+          </thead>
+          <tbody>
+
+            <!-- table price -->
+            <tr>
+              {{ range .Params.pricing_table_info }}
+              <td data-label="{{.name | markdownify}}" {{if .recomended}}class="active"{{end}}>
+                {{if .recomended}}<span class="recomended d-none d-lg-block">Recomended</span>{{end}}
+                {{with .price}}<span class="h4 font-weight-bold d-inline-flex">{{.}}</span>{{ end }}
+                <div>
+                  {{ with .icon }}<i class="{{.}} mr-2 "></i>{{end}}
+                  <span>{{.content | markdownify}}</span>
+                </div>
+              </td>
+              {{ end }}
+            </tr>
+
+            <!-- table body/info -->
+            {{ range .Params.pricing_table_data }}
+            <tr>
+              {{ range .table_row }}
+              <td data-label="{{.name | markdownify}}">
+                <div class="d-flex align-items-center">
+                  {{ with .icon }}<i class="{{.}} mr-2 "></i>{{end}}
+                  <span>{{.content | markdownify}}</span>
+                </div>
+              </td>
+              {{ end }}
+            </tr>
             {{ end }}
-          </ul>
-          <a href="contact" class="btn btn-outline-primary btn-block mt-30">Get Started Now</a>
-        </div>
-      </div>
 
-      <!-- pricing details modal -->
-      <div class="modal fade" id="{{.name|anchorize}}" tabindex="-1" aria-labelledby="{{.name|anchorize}}Label"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title" id="{{.name|anchorize}}Label">More About {{.name}}</h3>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body content">
-              {{.content | markdownify}}
-            </div>
-          </div>
-        </div>
+            <!-- table footer -->
+            <tr>
+              {{ range .Params.pricing_table_info }}
+              <td data-label="{{.name | markdownify}}" class="font-weight-bold">
+                {{ if or .button_label .button_link }}
+                <a href="{{ .button_link | relLangURL }}"
+                  class="btn btn{{if not .recomended}}-outline{{end}}-primary d-block">{{.button_label}}</a>
+                {{ end }}
+              </td>
+              {{ end }}
+            </tr>
+          </tbody>
+        </table>
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
-{{ end }}
 
 <!-- start of image-compare-section -->
-<section class="section-padding bg-light pt-80 pb-130 has-wave"
-  style="background-image:url('{{`images/wave.svg` | absURL }}')">
+<section class="section-padding">
   <div class="container">
     <h2 class="section-title text-center mb-5">People Who Transformed By Me</h2>
     <div class="row">
@@ -157,11 +159,11 @@
         <div class="card rounded-lg shadow-lg h-100">
           {{ if .Params.image_after }}
           <div class="twentytwenty-image">
-            <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+            <img class="w-100" src="{{ .Params.image | absURL }}" alt="before">
             <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
           </div>
           {{ else }}
-          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+          <img class="w-100" src="{{ .Params.image | absURL }}" alt="before">
           {{ end }}
           <div class="card-body pb-2">
             <h3><a href="{{.Permalink}}" class="font-secondary text-secondary">{{ .Title }}</a></h3>

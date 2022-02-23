@@ -1,0 +1,15 @@
+<section class="section-padding team-carousel has-wave pt-70 pb-130"
+  style="background-image:url('{{`images/wave-gray.svg` | absURL }}')">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10 text-center">
+        <h2 class="section-title mb-5">{{.Get 0 | markdownify}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="content">{{ .Inner | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>

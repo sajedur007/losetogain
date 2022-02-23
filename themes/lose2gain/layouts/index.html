@@ -23,7 +23,7 @@
 {{ partial "calculator.html" . }}
 
 <!-- start of about-section -->
-{{ with .Params.about }}
+<!-- {{ with .Params.about }}
 {{ if .enable }}
 <section class="section-padding bg-light has-wave pt-5" style="background-image:url('{{.background_image | absURL }}')">
   <div class="container">
@@ -51,7 +51,7 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 <!-- end of about-section -->
 
 
@@ -85,7 +85,7 @@
 
 
 <!-- start of why-choose-us -->
-{{ with .Params.service }}
+<!-- {{ with .Params.service }}
 {{ if .enable }}
 <section class="bg-light pt-80 pb-130 has-wave" style="background-image:url('{{.background_image | absURL}}')">
   <div class="container">
@@ -108,7 +108,7 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
+{{ end }} -->
 <!-- end of why-choose-us -->
 
 
@@ -167,11 +167,11 @@
         <div class="card rounded-lg shadow-lg h-100">
           {{ if .Params.image_after }}
           <div class="twentytwenty-image">
-            <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+            <img class="w-100" src="{{ .Params.image | absURL }}" alt="before">
             <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
           </div>
           {{ else }}
-          <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+          <img class="w-100" src="{{ .Params.image | absURL }}" alt="before">
           {{ end }}
           <div class="card-body pb-2">
             <h3><a href="{{.Permalink}}" class="font-secondary text-secondary">{{ .Title }}</a></h3>
@@ -224,51 +224,6 @@
   </div>
 </section>
 <!-- end of image-compare-section -->
-
-
-<!-- start of testominials-carousel -->
-<!-- {{ with .Params.testimonial }}
-<section class="section-padding testominials-carousel has-wave pt-70 pb-130"
-  style="background-image:url('{{`images/wave-gray.svg` | absURL}}')">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-7 col-md-10 text-center mb-50">
-        <h2 class="section-title">{{.title | markdownify }}</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-xl-9 col-lg-10">
-        <div class="testimonials-carousel-nav mx-auto">
-          {{ range .testimonial_item }}
-          <div><img class="rounded-circle mx-auto" src="{{.image | absURL }}" alt=""></div>
-          {{ end }}
-        </div>
-
-        <div class="slick-arrows">
-          <div class="slick-prev testimonials-slick-prev"><img src="{{`images/arrow-left.svg` | absURL}}"></div>
-          <div class="slick-next testimonials-slick-next"><img src="{{`images/arrow-right.svg` | absURL}}"></div>
-        </div>
-
-        <div class="testimonials-carousel-wrap">
-          {{ range .testimonial_item }}
-          <div class="testimonials-item text-center mt-70">
-            <div class="block">
-              <span class="quote-icon fas fa-quote-left"></span>
-              <h3 class="quote">“{{.content | markdownify }}”</h3>
-              <div class="mt-4">
-                <h3 class="mb-2 text-secondary font-weight-600">{{ .name | markdownify }}</h3>
-                <p class="h6 text-black-700">{{ .designation | markdownify }}</p>
-              </div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }} -->
-<!-- end of testominials-carousel -->
 
 
 <!-- start of news section -->
@@ -351,7 +306,7 @@ style="background-image:url('{{`images/wave-gray.svg` | absURL }}')">
         {{ end }}
       </div>
       <div class="col-12 text-center mt-5">
-        <a href="{{`blog/` | relURL}}" class="btn btn-primary">Read More Reviews</a>
+        <a href="{{`blog/` | relURL}}" class="btn btn-primary">Read More Articles</a>
       </div>
     </div>
   </div>

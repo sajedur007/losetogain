@@ -1,22 +1,28 @@
 ---
-title: "Samira Akhter"
-designation: "Nutrition Consultant"
-experience: "2"
-available_slots: '2'
-weight: "4"
-available_slots_width: '75%'
-served_clients: "110+"
-image: "/images/samira.png"
-description: "I am a homemaker, a teacher and a nutrition consultant. I'm living in Saudi Arabia for last 16 years. I've been working with Lose to gain for last 3 years. My fitness journey started with my own transformation. I've studied about nutrition and applied on me to lose 14 kg and get me in better shape. My aim is to not only help in weight loss but to educate people about health and fitness. I've already done some basic courses. Now I'm studying for an expert course. "
+title: Khan Ehsan Xeon
+designation: ISSA Fitness Nutrition Specialist
+image: "/images/sajed.png"
+weight: '5'
+experience: '04'
+served_clients: 1100+
+available_slots: "5"
+available_slots_width: 50%
+description: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
+  with a goal to teach people the basics of nutrition.  Me and my awesome team doing
+  that successfully since then.  I have faced a lot of challenges during my fitness
+  journey of losing 28kg and becoming fit.  I know those challenges very well. I’m
+  working hard to simplifying the basics of Nutrition and Healthy living.
 programs:
 - Basic Program
-- Premium Program
 certificates:
+- images/certifications/01.jpg
+- images/certifications/02.jpg
+- images/certifications/03.jpg
+- images/certifications/02.jpg
 social:
-  facebook: "https://www.facebook.com/samiraakhter11"
-  linkedin: ""
-  twitter: ""
-
+  facebook: https://www.facebook.com/sajedur007
+  twitter: "#"
+  linkedin: "#"
 
 # pricing head/title
 pricing_table_info:
@@ -179,22 +185,42 @@ pricing_table_data:
     content: "3"
 
 ---
-## **Achievements**
+## **Work Experience**
 
-\- guided around 100 clients.
+I have guided over 1250+ clients in past three years. My clients are from different age groups across different occupations. I have handled busy business professionals, doctors, Homemakers, Student’s to lazy couch potatoes
 
-## - **Work Experience**
-
-As a volunteer and moderator, I'm serving in Lose to gain for the last 3 years. So I have helped and guided a lot of people in the group to transform themselves. Also, I have guided 100+ clients since 2018. Besides weight loss, they have achieved good physic, better performance, gained self-confidence, and promotions in the job sector. Though I live in a different time zone, maintaining time has never been a barrier for me.
-
-Everybody has different fitness goals. Keeping your goal in my mind I will help you achieve your fitness goal. I will make your diet plan understanding your lifestyle, environment, and health issues. And I assure the diet plan to be sustainable and healthy.
-
-Let's start to get a new you but remember one thing, whenever you think to give up, that's actually your turning point. So don't quit.
+So, it’s obvious that I have already guided someone like you in the past. 80% of my clients are female. And as we work remotely so 30% of my total clients are living abroad. So, location is not a barrier anymore. If you follow my instructions properly success is Guaranteed. And 90% of my clients who followed my instructions properly achieved their fitness goals. So, shall we begin our journey towards healthy living?
 
 ## **Education & Qualifications**
 
-Optimum Nutrition for Health & Performance (2020)  Optimum Nutrition, Uk INFS Nutrition and Fitness Foundation Course (2020)  Institute of Nutrition and Fitness Science (INFS), India
+**Optimum Nutrition for Health & Performance (2020)**
+
+[**Optimum Nutrition**](https://www.optimumnutrition.com)
+
+Optimum Nutrition is a UK-based World-Famous Food Supplement Company. Recently they started their own nutrition courses.
+
+**Certified Fitness Nutrition Specialist (2017)**
+
+[**International Sports Science Association (ISSA)**](https://www.issaonline.com/)
+
+ISSA is the world leader in fitness education. Founded in 1988 and has certified over 300,000 trainers in 143 countries.
+
+**Basics of Fitness and Nutrition Science (2017)**
+
+Institute of Nutrition and Fitness Science (INFS)
+
+INFS is an Indian institute. This was my very first academic course in nutrition. I have gained a lot of knowledge along with the confidence to study further in Nutrition.
+
+## **Achievements**
+
+\- Guided over 1100+ Clients.
+
+\- Authored Two Books on Nutrition
+
+[**Nutrition Programming**](https://www.rokomari.com/book/157929/nutrition-programming) was published in 2018 and became Underdog Bestseller.
+
+Fit Guide is an Ebook published in 2018 which is free to download and since 2018 its Downloaded over 160,000 times.
 
 ## **Interest & Hobbies**
 
-I'm very passionate about teaching. Teaching is not only my profession, I'm really into it. I've volunteered as an English teacher in some Arabic schools here. Besides that, I love reading and writing
+I am a passionate traveler. Traveled 28 countries so far. I also write travel blogs on [**Bengali Backpacker**](https://bengalibackpacker.com/). Love to listen to music also I can play a little bit of Guitar and Ukulele. Reading, Blogging, Cooking, Movies, Tv series, and the list goes on.

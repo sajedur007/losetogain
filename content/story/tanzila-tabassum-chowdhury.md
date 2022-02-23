@@ -2,8 +2,7 @@
 current_weight = 72.85
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/tanzila-tabassum-chowdhury.jpg"
+image = "/images/tanzila-tabassum-chowdhury.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 83.85
 time = "12 Weeks"

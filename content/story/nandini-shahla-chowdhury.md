@@ -2,8 +2,7 @@
 current_weight = 76
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/nandini-shahla-chowdhury.jpg"
+image = "/images/nandini-shahla-chowdhury.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 87
 time = "12 Weeks"

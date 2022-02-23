@@ -2,8 +2,7 @@
 current_weight = 54.8
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/jarha-jaman-dola.jpg"
+image = "/images/jarha-jaman-dola.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 63.89
 time = ""

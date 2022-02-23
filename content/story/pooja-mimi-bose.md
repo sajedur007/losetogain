@@ -2,8 +2,7 @@
 current_weight = 75.6
 description = ""
 diet = "Customized Plan"
-image_after = ""
-image_before = "/images/pooja-mimi-bose.jpg"
+image = "/images/pooja-mimi-bose.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 83.9
 time = "12 Weeks"

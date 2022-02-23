@@ -7,11 +7,11 @@
       <div class="col-lg-10 col-md-12 mb-30">
         {{ if .Params.image_after }}
           <div class="twentytwenty-image rounded">
-            <img class="w-100" src="{{ .Params.image_before | absURL }}" alt="before">
+            <img class="w-100" src="{{ .Params.image | absURL }}" alt="before">
             <img class="w-100" src="{{ .Params.image_after | absURL }}" alt="after">
           </div>
           {{ else }}
-          <img class="w-100 rounded" src="{{ .Params.image_before | absURL }}" alt="before">
+          <img class="w-100 rounded" src="{{ .Params.image | absURL }}" alt="before">
           {{ end }}
       </div>
       <div class="col-lg-9 col-md-12 mb-60">

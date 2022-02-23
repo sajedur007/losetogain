@@ -1,23 +1,25 @@
 {{ define "main" }}
 
 <!-- strat of blog-details -->
-<section class="pt-50">
+<section class="section-padding pt-50">
   <div class="container">
     <div class="row justify-content-center">
+      {{ $title:= .Title }}
+      {{ with .Params.image }}
       <div class="col-lg-10 col-md-12 mb-30">
-        <img class="img-fluid rounded w-100" src="{{.Params.image | absURL}}" alt="{{.Permalink}}">
+        <img class="img-fluid rounded w-100" src="{{. | absURL}}" alt="{{$title}}">
       </div>
+      {{ end }}
       <div class="col-lg-9 col-md-12 mb-60">
         <h2 class="font-weight-bold font-secondary mb-30">{{.Title | markdownify}}</h2>
         <ul class="card-meta list-inline my-3">
           <li class="list-inline-item mb-0">
             <i class="far fa-calendar-alt mr-2"></i>{{.PublishDate.Format "02 Jan, 2006"}}
           </li>
-          <!-- <li class="list-inline-item mb-0">
+          <li class="list-inline-item mb-0">
             <i class="fas fa-user mr-2"></i>
-            <a
-              href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
-          </li> -->
+            <a href="{{ `mentor/` | relURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | humanize }}</a>
+          </li>
           {{ with .Params.Categories }}
           <li class="list-inline-item mb-0">
             <i class="fas fa-tag mr-2"></i>
@@ -38,6 +40,20 @@
         </div>
       </div>
       {{ end }}
+
+      <div class="col-12 mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="section-title mb-5 text-center">Related Post</h2>
+          </div>
+          {{ $related := (where site.RegularPages "Section" "blog") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) }}
+          {{ range first 3 $related }}
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            {{ .Render "post" }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </section>
