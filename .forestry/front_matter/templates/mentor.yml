@@ -1,0 +1,80 @@
+---
+label: Mentor
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: designation
+  label: designation
+- type: file
+  name: image
+  label: image
+- type: text
+  name: weight
+  label: weight
+- type: text
+  name: experience
+  label: experience
+- type: text
+  name: served_clients
+  label: served_clients
+- type: text
+  name: available_slots
+  label: available_slots
+- type: text
+  name: available_slots_width
+  label: available_slots_width
+- type: textarea
+  name: description
+  label: description
+- type: list
+  name: programs
+  label: programs
+- type: image_gallery
+  name: certificates
+  label: certificates
+- type: field_group
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: facebook
+    label: facebook
+  - type: text
+    name: twitter
+    label: twitter
+  - type: text
+    name: linkedin
+    label: linkedin
+- type: field_group_list
+  name: pricing_table_info
+  label: pricing_table_info
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: content
+    label: content
+- type: field_group_list
+  name: pricing_table_data
+  label: pricing_table_data
+  fields:
+  - type: field_group_list
+    name: table_row
+    label: table_row
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: content
+      label: content
