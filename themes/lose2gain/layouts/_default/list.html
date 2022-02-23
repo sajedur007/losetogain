@@ -6,7 +6,7 @@
 {{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") }}
 
 <!-- start of news section -->
-<section class="pt-80">
+<section class="pt-80 section-padding">
   <div class="container">
     <!-- <div class="row justify-content-center">
       <div class="col-lg-7 col-md-10 text-center mb-50">
@@ -151,13 +151,6 @@
     </div>
   </div>
 </section>
-
 {{ end }}
-
-<!-- start of section -->
-{{ if site.Data.home.call_to_action.enable }}
-{{ partial "call-to-action.html" . }}
-{{ end }}
-<!-- end of section -->
 
 {{ end }}
