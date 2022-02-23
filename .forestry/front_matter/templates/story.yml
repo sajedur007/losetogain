@@ -1,0 +1,28 @@
+---
+label: Story
+hide_body: false
+fields:
+- type: number
+  name: current_weight
+  label: current_weight
+- type: text
+  name: description
+  label: description
+- type: text
+  name: diet
+  label: diet
+- type: file
+  name: image
+  label: image
+- type: text
+  name: mentor
+  label: mentor
+- type: number
+  name: previous_weight
+  label: previous_weight
+- type: text
+  name: time
+  label: time
+- type: text
+  name: title
+  label: title
