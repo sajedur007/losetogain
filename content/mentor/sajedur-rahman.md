@@ -2,7 +2,7 @@
 title: Sajedur Rahman
 designation: ISSA Fitness Nutrition Specialist
 image: "/images/sajed.png"
-weight: '1'
+weight: "1"
 experience: '04'
 served_clients: 1100+
 available_slots: "5"
@@ -24,171 +24,126 @@ social:
   facebook: https://www.facebook.com/sajedur007
   twitter: "#"
   linkedin: "#"
-
-# pricing head/title
 pricing_table_info:
-- name: "Feature"
-  icon: "fas fa-info-circle text-primary"
-  content: "Price"
-
-- name: "Basic"
-  price: "9,000 BDT"
+- name: Feature
+  icon: fas fa-info-circle text-primary
+  content: Price
+- name: Basic
+  price: 9,000 BDT
   recomended: false
-  button_label : "Enroll Now"
-  button_link : "#"
-
-- name: "Premium"
-  price: "25,000 BDT"
+  button_label: Enroll Now
+  button_link: "#"
+- name: Premium
+  price: 25,000 BDT
   recomended: true
-  button_label : "Enroll Now"
-  button_link : "#"
-
-# Pricing body/info
+  button_label: Enroll Now
+  button_link: "#"
 pricing_table_data:
-# table column
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Duration"
-    
-  - name: "Basic"
-    icon: ""
-    content: "12 Weeks"
-    
-  - name: "Premium"
-    icon: ""
-    content: "12 Weeks"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Duration
+  - name: Basic
+    icon: ''
+    content: 12 Weeks
+  - name: Premium
+    icon: ''
+    content: 12 Weeks
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Free Initial Consultation"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Free Initial Consultation
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Meal Plan"
-    
-  - name: "Basic"
-    icon: ""
-    content: "Customised (Upto 3)"
-    
-  - name: "Premium"
-    icon: ""
-    content: "Customised (Upto 12)"
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Meal Plan
+  - name: Basic
+    icon: ''
+    content: Customised (Upto 3)
+  - name: Premium
+    icon: ''
+    content: Customised (Upto 12)
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Exercise Plan"
-    
-  - name: "Basic"
-    icon: ""
-    content: "General Guideline"
-    
-  - name: "Premium"
-    icon: ""
-    content: "Customised Plan"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Exercise Plan
+  - name: Basic
+    icon: ''
+    content: General Guideline
+  - name: Premium
+    icon: ''
+    content: Customised Plan
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Unlimited Q&A (Over Text/Messenger)"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Unlimited Q&A (Over Text/Messenger)
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Weekly Follow Up"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Weekly Follow Up
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Daily Check-In"
-    
-  - name: "Basic"
-    icon: "fas fa-times"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Daily Check-In
+  - name: Basic
+    icon: fas fa-times
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Consultation Call (Voice/Video)"
-    
-  - name: "Basic"
-    icon: ""
-    content: "3 (30 Minute Session Each)"
-    
-  - name: "Premium"
-    icon: ""
-    content: "12 (30 Minute Session Each)"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Consultation Call (Voice/Video)
+  - name: Basic
+    icon: ''
+    content: 3 (30 Minute Session Each)
+  - name: Premium
+    icon: ''
+    content: 12 (30 Minute Session Each)
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Maintenance Plan"
-    
-  - name: "Basic"
-    icon: "fas fa-times"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Maintenance Plan
+  - name: Basic
+    icon: fas fa-times
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Available Slots Per Month"
-    
-  - name: "Basic"
-    icon: ""
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Available Slots Per Month
+  - name: Basic
+    icon: ''
     content: "20"
-    
-  - name: "Premium"
-    icon: ""
+  - name: Premium
+    icon: ''
     content: "3"
 
 ---
 ## **Work Experience**
 
-I have guided over 1250+ clients in past three years. My clients are from different age groups across different occupations. I have handled busy business professionals, doctors, Homemakers, Student’s to lazy couch potatoes
+I have guided over 1900+ clients in past three years. My clients are from different age groups across different occupations. I have handled busy business professionals, doctors, Homemakers, Student’s to lazy couch potatoes
 
 So, it’s obvious that I have already guided someone like you in the past. 80% of my clients are female. And as we work remotely so 30% of my total clients are living abroad. So, location is not a barrier anymore. If you follow my instructions properly success is Guaranteed. And 90% of my clients who followed my instructions properly achieved their fitness goals. So, shall we begin our journey towards healthy living?
 
