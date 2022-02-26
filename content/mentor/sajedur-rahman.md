@@ -4,7 +4,7 @@ designation: ISSA Fitness Nutrition Specialist
 image: "/images/sajed.png"
 weight: "1"
 experience: '04'
-served_clients: 1100+
+served_clients: 1900+
 available_slots: "5"
 available_slots_width: 50%
 description: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
