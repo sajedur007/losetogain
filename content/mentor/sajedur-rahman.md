@@ -39,6 +39,7 @@ pricing_table_info:
   button_label: Enroll Now
   button_link: "#"
 pricing_table_data:
+- {}
 - table_row:
   - name: Feature
     icon: fas fa-info-circle text-primary
