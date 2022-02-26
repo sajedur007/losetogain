@@ -1,7 +1,7 @@
 ---
 title: Khan Ehsan Xeon
 designation: ISSA Fitness Nutrition Specialist
-image: "/images/xeon.jpg"
+image: "/images/untitled-design-2.png"
 weight: "5"
 experience: '04'
 served_clients: 1100+
