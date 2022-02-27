@@ -46,7 +46,7 @@
               {{ $time = $time | append . }}
               {{ end }}
               {{ end }}
-              {{ range ( $time | uniq ) }}
+              {{ range sort ( $time | uniq )  }}
               <li class="button" data-filter=".{{ . | anchorize | lower }}" onclick="toggleMenu('{{ . }}')">{{ . }}</li>
               {{ end }}
             </ul>

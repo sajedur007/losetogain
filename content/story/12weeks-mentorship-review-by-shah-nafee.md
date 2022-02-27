@@ -5,7 +5,7 @@ diet = "Low Carb Customized"
 image = "/images/shah-nafee.jpg"
 mentor = "Samira Akhter"
 previous_weight = 70
-time = "12 Week"
+time = "12 Weeks"
 title = "12weeks Mentorship review by Shah Nafee"
 
 +++

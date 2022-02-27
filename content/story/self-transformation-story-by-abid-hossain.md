@@ -5,7 +5,7 @@ diet = "Moderate Carb, Low Carb"
 image = "/images/abid-hossain.jpg"
 mentor = "Self Transformation"
 previous_weight = 73
-time = "8 Week"
+time = "08 Weeks"
 title = "Self Transformation Story by Abid Hossain"
 
 +++
