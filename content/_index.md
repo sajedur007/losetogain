@@ -23,16 +23,16 @@ calculator:
 
     Your body fat% is a key indicator of your good health. A high body fat% is not only undesirable, but it also puts you at a higher risk of lifestyle diseases. A body fat% of 15 or less is recommended for males while a body fat % of less than 25 is recommended for females.
 process:
-  title: How the total process Online coaching works Together?
+  title: How the total process Online Mentorship works Together?
   background_image: images/wave.svg
-  content: 'Here''s a simple explanation of how our coaching work. These steps may
+  content: 'Here''s a simple explanation of how our Mentorship work. These steps may
     vary from program to program. '
   process_step:
-  - name: Free Initial Call
-    content: Complete Enrolment form. We will reach out & schedule a call with you.  On
-      the call, we will get to know you. We will discuss & understand your goals,
-      lifestyle, diet & training history.  We will treat you with utmost empathy &
-      respect.
+  - name: We get introduced.
+    content: Complete the Enrolment Form. We will reach out & schedule a call with
+      you.  On the call, we will get to know you. We will discuss & understand your
+      goals, lifestyle, diet & training history.  We will treat you with utmost empathy
+      & respect.
   - name: Enrolment
     content: 'After initial discussion with our coach. You can start your journey
       by completing payment.  '
@@ -50,14 +50,15 @@ process:
       all your doubts & queries. We will take care of everything, right from your
       nutrition & workout plans, to habit tracking, to goal setting, to overcoming
       your challenges.
-
 call_to_group:
   enable: true
   title: "‘Lose To Gain’ - Facebook Community"
   image: images/fb-group.png
-  content: "Lose To Gain is the Bangladesh's largest online fitness and nutrition community. Lose to Gain started its journey as a small facebook group that used to teach people about nutrition and help them get fit. Today, it is one of the most informative and engaging fitness communities with more than 145,000 members."
-  button: "https://www.facebook.com/groups/losetogainbd"
-
+  content: Lose To Gain is the Bangladesh's largest online fitness and nutrition community.
+    Lose to Gain started its journey as a small facebook group that used to teach
+    people about nutrition and help them get fit. Today, it is one of the most informative
+    and engaging fitness communities with more than 145,000 members.
+  button: https://www.facebook.com/groups/losetogainbd
 call_to_action:
   enable: true
   title: Download Our Free E-Book Fit Guide to learn the basics about Nutrition.
@@ -66,4 +67,5 @@ call_to_action:
     or eat healthily or maintain a healthy lifestyle is the first question that comes
     to everyone''s mind. You will get a basic idea about all these from this book.  '
   button: "#"
+
 ---
