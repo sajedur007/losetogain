@@ -7,14 +7,17 @@ description: Hello, I am Molua Khan. I’ve been working for Lose to Gain since 
 designation: 'NESTA Fitness Nutrition Specialist '
 experience: "3"
 weight: "2"
-image: "/images/molu.png"
+image: "/images/molua-khan.jpg"
 served_clients: 550+
 available_slots: "15"
 available_slots_width: 90%
 title: Molua Khan
 programs:
 - Premium Program
-certificates: 
+certificates:
+- "/images/cert-1.jpeg"
+- "/images/cert-2.jpeg"
+- "/images/cert-4.jpg"
 social:
   facebook: https://www.facebook.com/Khanmolua31/
   linkedin: ''
