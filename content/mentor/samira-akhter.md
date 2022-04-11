@@ -1,11 +1,11 @@
 ---
 title: Samira Akhter
 designation: Nutrition Consultant
-experience: "2"
+experience: "3"
 available_slots: "15"
 weight: "4"
 available_slots_width: 90%
-served_clients: 110+
+served_clients: 485+
 image: "/images/samira.png"
 description: 'I am a homemaker, a teacher and a nutrition consultant. I''m living
   in Saudi Arabia for last 16 years. I''ve been working with Lose to gain for last
