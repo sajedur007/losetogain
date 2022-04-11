@@ -1,181 +1,140 @@
 ---
-title: "Samira Akhter"
-designation: "Nutrition Consultant"
+title: Samira Akhter
+designation: Nutrition Consultant
 experience: "2"
-available_slots: '2'
+available_slots: "9"
 weight: "4"
-available_slots_width: '75%'
-served_clients: "110+"
+available_slots_width: 90%
+served_clients: 110+
 image: "/images/samira.png"
-description: "I am a homemaker, a teacher and a nutrition consultant. I'm living in Saudi Arabia for last 16 years. I've been working with Lose to gain for last 3 years. My fitness journey started with my own transformation. I've studied about nutrition and applied on me to lose 14 kg and get me in better shape. My aim is to not only help in weight loss but to educate people about health and fitness. I've already done some basic courses. Now I'm studying for an expert course. "
+description: 'I am a homemaker, a teacher and a nutrition consultant. I''m living
+  in Saudi Arabia for last 16 years. I''ve been working with Lose to gain for last
+  3 years. My fitness journey started with my own transformation. I''ve studied about
+  nutrition and applied on me to lose 14 kg and get me in better shape. My aim is
+  to not only help in weight loss but to educate people about health and fitness.
+  I''ve already done some basic courses. Now I''m studying for an expert course. '
 programs:
 - Basic Program
 - Premium Program
-certificates:
+certificates: 
 social:
-  facebook: "https://www.facebook.com/samiraakhter11"
-  linkedin: ""
-  twitter: ""
-
-
-# pricing head/title
+  facebook: https://www.facebook.com/samiraakhter11
+  linkedin: ''
+  twitter: ''
 pricing_table_info:
-- name: "Feature"
-  icon: "fas fa-info-circle text-primary"
-  content: "Price"
-
-- name: "Basic"
-  price: "9,000 BDT"
+- name: Feature
+  icon: fas fa-info-circle text-primary
+  content: Price
+- name: Basic
+  price: 9,000 BDT
   recomended: false
-  button_label : "Enroll Now"
-  button_link : "#"
-
-- name: "Premium"
-  price: "25,000 BDT"
+  button_label: Enroll Now
+  button_link: "#"
+- name: Premium
+  price: 25,000 BDT
   recomended: true
-  button_label : "Enroll Now"
-  button_link : "#"
-
-# Pricing body/info
+  button_label: Enroll Now
+  button_link: "#"
 pricing_table_data:
-# table column
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Duration"
-    
-  - name: "Basic"
-    icon: ""
-    content: "12 Weeks"
-    
-  - name: "Premium"
-    icon: ""
-    content: "12 Weeks"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Duration
+  - name: Basic
+    icon: ''
+    content: 12 Weeks
+  - name: Premium
+    icon: ''
+    content: 12 Weeks
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Free Initial Consultation"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Free Initial Consultation
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Meal Plan"
-    
-  - name: "Basic"
-    icon: ""
-    content: "Customised (Upto 3)"
-    
-  - name: "Premium"
-    icon: ""
-    content: "Customised (Upto 12)"
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Meal Plan
+  - name: Basic
+    icon: ''
+    content: Customised (Upto 3)
+  - name: Premium
+    icon: ''
+    content: Customised (Upto 12)
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Exercise Plan"
-    
-  - name: "Basic"
-    icon: ""
-    content: "General Guideline"
-    
-  - name: "Premium"
-    icon: ""
-    content: "Customised Plan"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Exercise Plan
+  - name: Basic
+    icon: ''
+    content: General Guideline
+  - name: Premium
+    icon: ''
+    content: Customised Plan
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Unlimited Q&A (Over Text/Messenger)"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Unlimited Q&A (Over Text/Messenger)
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Weekly Follow Up"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Weekly Follow Up
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Daily Check-In"
-    
-  - name: "Basic"
-    icon: "fas fa-times"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Daily Check-In
+  - name: Basic
+    icon: fas fa-times
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Consultation Call (Voice/Video)"
-    
-  - name: "Basic"
-    icon: ""
-    content: "3 (30 Minute Session Each)"
-    
-  - name: "Premium"
-    icon: ""
-    content: "12 (30 Minute Session Each)"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Consultation Call (Voice/Video)
+  - name: Basic
+    icon: ''
+    content: 3 (30 Minute Session Each)
+  - name: Premium
+    icon: ''
+    content: 12 (30 Minute Session Each)
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Maintenance Plan"
-    
-  - name: "Basic"
-    icon: "fas fa-times"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Maintenance Plan
+  - name: Basic
+    icon: fas fa-times
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Available Slots Per Month"
-    
-  - name: "Basic"
-    icon: ""
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Available Slots Per Month
+  - name: Basic
+    icon: ''
     content: "20"
-    
-  - name: "Premium"
-    icon: ""
+  - name: Premium
+    icon: ''
     content: "3"
 
 ---
