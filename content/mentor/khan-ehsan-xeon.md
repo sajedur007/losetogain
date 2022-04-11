@@ -3,10 +3,10 @@ title: Khan Ehsan Xeon
 designation: ISSA Fitness Nutrition Specialist
 image: "/images/untitled-design-2.png"
 weight: "5"
-experience: '04'
+experience: '03'
 served_clients: 1100+
-available_slots: "5"
-available_slots_width: 50%
+available_slots: "15"
+available_slots_width: 90%
 description: I am the founder of Lose to Gain. Back in 2017, I’ve started this community
   with a goal to teach people the basics of nutrition.  Me and my awesome team doing
   that successfully since then.  I have faced a lot of challenges during my fitness
