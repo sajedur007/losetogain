@@ -8,7 +8,7 @@ designation: 'NESTA Fitness Nutrition Specialist '
 experience: "3"
 weight: "2"
 image: "/images/molua-khan.jpg"
-served_clients: 550+
+served_clients: 1000+
 available_slots: "15"
 available_slots_width: 90%
 title: Molua Khan
