@@ -2,19 +2,11 @@ baseURL = "https://examplesite.com"
 disqusShortname = "themefisher-template"
 googleAnalytics = ""
 paginate = "6"
-theme = "lose2gain"
 summaryLength = "10"
-title = "Lose To Gain | Your Personal Trainer"
+theme = "lose2gain"
+title = "Lose To Gain | Your Online Fitness Mentor"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.connect]]
-name = "info@losetogainbd.com"
-url = "mailto:info@losetogainbd.com"
-weight = 1
-[[menu.connect]]
-name = "+8801786929256"
-url = "tel:+8801786929256"
-weight = 2
 [[menu.about]]
 name = "About"
 url = "about"
@@ -31,6 +23,14 @@ weight = 2
 name = "FAQ"
 url = "faq"
 weight = 3
+[[menu.connect]]
+name = "info@losetogainbd.com"
+url = "mailto:info@losetogainbd.com"
+weight = 1
+[[menu.connect]]
+name = "+8801786929256"
+url = "tel:+8801786929256"
+weight = 2
 [[menu.main]]
 name = "Blog"
 url = "blog"
@@ -83,9 +83,6 @@ link = "plugins/slick/slick-theme.css"
 [[params.plugins.css]]
 attributes = ""
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-# [[params.plugins.css]]
-# attributes = ""
-# link = "plugins/twentytwenty/css/twentytwenty.css"
 [[params.plugins.css]]
 attributes = "media='screen'"
 link = "plugins/swiper/swiper.css"
@@ -98,15 +95,6 @@ link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/slick/slick.min.js"
-# [[params.plugins.js]]
-# attributes = ""
-# link = "plugins/twentytwenty/js/jquery.event.move.js"
-# [[params.plugins.js]]
-# attributes = ""
-# link = "plugins/twentytwenty/js/jquery.twentytwenty.js"
-# [[params.plugins.js]]
-# attributes = ""
-# link = "plugins/rating/rating.js"
 [[params.plugins.js]]
 attributes = ""
 link = "plugins/swiper/swiper.min.js"
