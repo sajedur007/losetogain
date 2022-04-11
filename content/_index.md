@@ -66,6 +66,6 @@ call_to_action:
   content: 'Fit Guide E-book is written by our Sajedur Rahman. How to lose weight
     or eat healthily or maintain a healthy lifestyle is the first question that comes
     to everyone''s mind. You will get a basic idea about all these from this book.  '
-  button: "#"
+  button: "/images/fit-guide-nutrition-manual-v1-0.pdf"
 
 ---
