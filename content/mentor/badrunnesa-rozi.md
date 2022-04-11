@@ -6,7 +6,7 @@ description: I am a Nutrition consultant of Lose To Gain. I am  certified by the
   can do it. I transformed myself from 86+kg to 63kg.To me fitness  is not about good
   look but It's  a lifestyle.
 designation: Nutrition Consultant
-experience: "2"
+experience: "3"
 weight: "3"
 image: "/images/rozi.jpg"
 served_clients: 480+
