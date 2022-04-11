@@ -8,7 +8,7 @@ banner:
     to understand the basics. '
   background_image: images/wave.svg
   image: images/banner.png
-  download_button: "#"
+  download_button: "/images/fit-guide-nutrition-manual-v1-0.pdf"
   hire_button: "#"
 calculator:
   title: Instantly Calculate Your BMR, Macros & Body Fat
