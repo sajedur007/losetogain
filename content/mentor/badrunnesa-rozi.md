@@ -1,180 +1,140 @@
 ---
-description: "I am a Nutrition consultant of Lose To Gain. I am  certified by the Institute of Nutrition and Fitness  Science (INFS). I have an experience  of 3+ year in health and fitness. I specialize in General well-being and Fat-loss/weight-loss transformation. I started my own journey as an obese individual and I trust if I can do it, everyone can do it. I transformed myself from 86+kg to 63kg.To me fitness  is not about good look but It's  a lifestyle."
-designation: "Nutrition Consultant"
+description: I am a Nutrition consultant of Lose To Gain. I am  certified by the Institute
+  of Nutrition and Fitness  Science (INFS). I have an experience  of 3+ year in health
+  and fitness. I specialize in General well-being and Fat-loss/weight-loss transformation.
+  I started my own journey as an obese individual and I trust if I can do it, everyone
+  can do it. I transformed myself from 86+kg to 63kg.To me fitness  is not about good
+  look but It's  a lifestyle.
+designation: Nutrition Consultant
 experience: "2"
 weight: "3"
 image: "/images/rozi.jpg"
-served_clients: "120+"
-available_slots: '1'
-available_slots_width: '95%'
-title: "Badrunnesa Rozi"
-certificates:
+served_clients: 480+
+available_slots: "15"
+available_slots_width: 90%
+title: Badrunnesa Rozi
+certificates: 
 programs:
 - Basic Program
 - Premium Program
 social:
-  facebook: ""
-  linkedin: ""
-  twitter: ""
-
-# pricing head/title
+  facebook: ''
+  linkedin: ''
+  twitter: ''
 pricing_table_info:
-- name: "Feature"
-  icon: "fas fa-info-circle text-primary"
-  content: "Price"
-
-- name: "Basic"
-  price: "9,000 BDT"
+- name: Feature
+  icon: fas fa-info-circle text-primary
+  content: Price
+- name: Basic
+  price: 9,000 BDT
   recomended: false
-  button_label : "Enroll Now"
-  button_link : "#"
-
-- name: "Premium"
-  price: "25,000 BDT"
+  button_label: Enroll Now
+  button_link: "#"
+- name: Premium
+  price: 25,000 BDT
   recomended: true
-  button_label : "Enroll Now"
-  button_link : "#"
-
-# Pricing body/info
+  button_label: Enroll Now
+  button_link: "#"
 pricing_table_data:
-# table column
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Duration"
-    
-  - name: "Basic"
-    icon: ""
-    content: "12 Weeks"
-    
-  - name: "Premium"
-    icon: ""
-    content: "12 Weeks"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Duration
+  - name: Basic
+    icon: ''
+    content: 12 Weeks
+  - name: Premium
+    icon: ''
+    content: 12 Weeks
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Free Initial Consultation"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Free Initial Consultation
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Meal Plan"
-    
-  - name: "Basic"
-    icon: ""
-    content: "Customised (Upto 3)"
-    
-  - name: "Premium"
-    icon: ""
-    content: "Customised (Upto 12)"
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Meal Plan
+  - name: Basic
+    icon: ''
+    content: Customised (Upto 3)
+  - name: Premium
+    icon: ''
+    content: Customised (Upto 12)
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Exercise Plan"
-    
-  - name: "Basic"
-    icon: ""
-    content: "General Guideline"
-    
-  - name: "Premium"
-    icon: ""
-    content: "Customised Plan"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Exercise Plan
+  - name: Basic
+    icon: ''
+    content: General Guideline
+  - name: Premium
+    icon: ''
+    content: Customised Plan
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Unlimited Q&A (Over Text/Messenger)"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Unlimited Q&A (Over Text/Messenger)
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Weekly Follow Up"
-    
-  - name: "Basic"
-    icon: "fas fa-check"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Weekly Follow Up
+  - name: Basic
+    icon: fas fa-check
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Daily Check-In"
-    
-  - name: "Basic"
-    icon: "fas fa-times"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Daily Check-In
+  - name: Basic
+    icon: fas fa-times
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Consultation Call (Voice/Video)"
-    
-  - name: "Basic"
-    icon: ""
-    content: "3 (30 Minute Session Each)"
-    
-  - name: "Premium"
-    icon: ""
-    content: "12 (30 Minute Session Each)"
-    
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Consultation Call (Voice/Video)
+  - name: Basic
+    icon: ''
+    content: 3 (30 Minute Session Each)
+  - name: Premium
+    icon: ''
+    content: 12 (30 Minute Session Each)
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Maintenance Plan"
-    
-  - name: "Basic"
-    icon: "fas fa-times"
-    content: ""
-    
-  - name: "Premium"
-    icon: "fas fa-check"
-    content: ""
-
-# table column
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Maintenance Plan
+  - name: Basic
+    icon: fas fa-times
+    content: ''
+  - name: Premium
+    icon: fas fa-check
+    content: ''
 - table_row:
-  - name: "Feature"
-    icon: "fas fa-info-circle text-primary"
-    content: "Available Slots Per Month"
-    
-  - name: "Basic"
-    icon: ""
+  - name: Feature
+    icon: fas fa-info-circle text-primary
+    content: Available Slots Per Month
+  - name: Basic
+    icon: ''
     content: "20"
-    
-  - name: "Premium"
-    icon: ""
+  - name: Premium
+    icon: ''
     content: "3"
 
 ---
