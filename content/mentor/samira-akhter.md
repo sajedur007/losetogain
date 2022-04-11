@@ -2,7 +2,7 @@
 title: Samira Akhter
 designation: Nutrition Consultant
 experience: "2"
-available_slots: "9"
+available_slots: "15"
 weight: "4"
 available_slots_width: 90%
 served_clients: 110+
