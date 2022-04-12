@@ -7,13 +7,6 @@ layout: faq
 faq_section:
 - title: Mentorship Program FAQ
   faq_item:
-  - name: How often can I speak with the mentors at Personal Best?
-    content: You can contact your trainer at Personal Best by email or instant message
-      on messenger/ Whatsapp, and should expect a reply within 24 hours. Depending
-      on which program (basic/premium) you enrol you will have 3 (basic) or 12 (premium)
-      thirty-minute consultation call. You will have these coaching sessions at a
-      time of your convenience. If you enjoy and require maximal motivation and support,
-      it is best to enrol for premium program.
   - name: How Does Online Personal Training Work?
     content: 'Online personal training is a comprehensive fitness coaching service
       that involves our drawing on years of experience to design a meal planner and
@@ -44,6 +37,13 @@ faq_section:
       medical conditions or injuries. Medical advice is not a part of our service.
       To be clear, although the programs work toward optimal health they are not intended
       as a replacement for personalised medical advice.
+  - name: How often can I speak with the mentors at Personal Best?
+    content: You can contact your trainer at Personal Best by email or instant message
+      on messenger/ Whatsapp, and should expect a reply within 24 hours. Depending
+      on which program (basic/premium) you enrol you will have 3 (basic) or 12 (premium)
+      thirty-minute consultation call. You will have these coaching sessions at a
+      time of your convenience. If you enjoy and require maximal motivation and support,
+      it is best to enrol for premium program.
 - title: Payment & Refund
   faq_item:
   - name: How do i make payment for the program?
