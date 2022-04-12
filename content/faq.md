@@ -15,12 +15,10 @@ faq_section:
       based on you providing me information about your lifestyle, food habits, diet
       history, exercise history, current fitness levels, personal logistics (by way
       of gym access, home fitness equipment etc), past struggle and current preferences. '
-  - name: How can I use Lose to Gain with cloud documents?
-    content: " ### Service Provided As:\nThe Service is provided for free during this
-      pilot project, and is provided 'as is' with no warranty. Conclude will provide
-      User support for the Service, however; Conclude is not committed to any level
-      of service or availability of the Service. A further description of the Service
-      and our user support is available at the Site. "
+  - name: Are the programs truly customised ?
+    content: Yes, both our custom macro/ nutrition programs and custom training programs
+      are truly 100% tailored to you and your needs. You will fill out a comprehensive
+      form and your program will be based on the information provided.
 - title: How to customize Lose to Gain?
   faq_item:
   - name: How can I integrate Lose to Gain to my current tool stack?
