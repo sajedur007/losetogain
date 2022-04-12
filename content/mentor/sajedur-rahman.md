@@ -3,7 +3,7 @@ title: Sajedur Rahman
 designation: ISSA Fitness Nutrition Specialist
 image: "/images/sajed.png"
 weight: "1"
-experience: '04'
+experience: '05'
 served_clients: 1900+
 available_slots: "5"
 available_slots_width: 50%
@@ -170,7 +170,7 @@ INFS is an Indian institute. This was my very first academic course in nutrition
 
 ## **Achievements**
 
-\- Guided over 1100+ Clients.
+\- Guided over 1900+ Clients.
 
 \- Authored Two Books on Nutrition
 
