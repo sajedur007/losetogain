@@ -52,11 +52,8 @@ faq_section:
       directly to the mentor''s provided account. You can do an online transfer or
       cash deposit also you can use mobile banking such as Bkash but you have to pay
       2% bkash charges. '
-  - name: How can I use Lose to Gain without cloud documents?
-    content: " ### Service Provided As:\nThe Service is provided for free during this
-      pilot project, and is provided 'as is' with no warranty. Conclude will provide
-      User support for the Service, however; Conclude is not committed to any level
-      of service or availability of the Service. A further description of the Service
-      and our user support is available at the Site. "
+  - name: 'Can I pay the fee in instalments? '
+    content: 'You have to pay the full amount in advance. Currently, we do not have
+      any installment system. '
 
 ---
