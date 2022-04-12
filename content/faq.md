@@ -55,5 +55,9 @@ faq_section:
   - name: 'Can I pay the fee in instalments? '
     content: 'You have to pay the full amount in advance. Currently, we do not have
       any installment system. '
+  - name: What Is your refund policy?
+    content: 'If you wish wish to cancel the program you have to submit a refund request
+      within 15 days of you starting date. You will get 50% refund if you submit the
+      request within 15 days. After 15 days no refund will be provided. '
 
 ---
