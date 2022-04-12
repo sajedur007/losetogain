@@ -44,14 +44,14 @@ faq_section:
       medical conditions or injuries. Medical advice is not a part of our service.
       To be clear, although the programs work toward optimal health they are not intended
       as a replacement for personalised medical advice.
-- title: How to customize Lose to Gain?
+- title: Payment & Refund
   faq_item:
-  - name: How can I integrate Lose to Gain to my current tool stack?
-    content: " ### Service Provided As:\nThe Service is provided for free during this
-      pilot project, and is provided 'as is' with no warranty. Conclude will provide
-      User support for the Service, however; Conclude is not committed to any level
-      of service or availability of the Service. A further description of the Service
-      and our user support is available at the Site. "
+  - name: How do i make payment for the program?
+    content: 'Once you fill-up the enrolment form our mentor will get back to you
+      with payment details and schedule the first call. You can transfer the payment
+      directly to the mentor''s provided account. You can do an online transfer or
+      cash deposit also you can use mobile banking such as Bkash but you have to pay
+      2% bkash charges. '
   - name: How can I use Lose to Gain without cloud documents?
     content: " ### Service Provided As:\nThe Service is provided for free during this
       pilot project, and is provided 'as is' with no warranty. Conclude will provide
