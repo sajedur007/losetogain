@@ -19,6 +19,19 @@ faq_section:
     content: Yes, both our custom macro/ nutrition programs and custom training programs
       are truly 100% tailored to you and your needs. You will fill out a comprehensive
       form and your program will be based on the information provided.
+  - name: What do I expect on signing up?
+    content: "•\tOnce you've submitted the enrolment form, we will send you a text/email
+      to schedule a call. We will also provide you payment details on that text. a
+      mail will be sent to you where you will be asked to fill out a comprehensive
+      form and let your coach learn about you.\n•\tOn the initial call we will discuss
+      about your fitness goal, current struggle and your current lifestyle, we will
+      also talk about ways to overcome your obstacles and achieve your goal.\n•\tAfter
+      the initail call you will make the payment and your mentor will send you a easy
+      to fill form with questionaries that helps your mentor to design your program.\n•\tOur
+      mentor usually takes 2-3 days to design your program. \n•\tWe will send your
+      plan along with guideline to follow it over messenger or email.\n•\tWe will
+      closely monitor your progress and make necessary changes over time if required.
+      We will make fitness fit your life rather than the other way round.\n"
 - title: How to customize Lose to Gain?
   faq_item:
   - name: How can I integrate Lose to Gain to my current tool stack?
