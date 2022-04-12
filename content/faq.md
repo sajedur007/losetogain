@@ -32,6 +32,11 @@ faq_section:
       plan along with guideline to follow it over messenger or email.\n•\tWe will
       closely monitor your progress and make necessary changes over time if required.
       We will make fitness fit your life rather than the other way round.\n"
+  - name: Do you help me with my medical conditions / injuries?
+    content: As this is an online service, we’re not in a position to diagnose your
+      medical conditions or injuries. Medical advice is not a part of our service.
+      To be clear, although the programs work toward optimal health they are not intended
+      as a replacement for personalised medical advice.
 - title: How to customize Lose to Gain?
   faq_item:
   - name: How can I integrate Lose to Gain to my current tool stack?
