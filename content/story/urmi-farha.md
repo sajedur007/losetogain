@@ -2,7 +2,6 @@
 current_weight = ""
 description = ""
 diet = "Low Carb Customized "
-draft = true
 image = "/images/urmi-farha.jpg"
 mentor = "Molua Khan"
 previous_weight = ""
