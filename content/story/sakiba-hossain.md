@@ -2,7 +2,6 @@
 current_weight = 59.9
 description = ""
 diet = "Low Carb Customized "
-draft = true
 image = "/images/sakiba-hossain.jpg"
 mentor = "Molua Khan"
 previous_weight = 72.5
