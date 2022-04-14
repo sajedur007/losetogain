@@ -1,33 +1,35 @@
 +++
-current_weight = 63.7
+current_weight = 52.4
 description = ""
 diet = "Low Carb Customized "
 draft = true
-image = "/images/faizun-nahar.jpg"
+image = "/images/farhana-faruque.jpg"
 mentor = "Molua Khan"
-previous_weight = 65
+previous_weight = 60.5
 time = "12 Weeks"
 title = "Farhana Faruque"
 
 +++
-১২ সপ্তাহের প্রিমিয়াম মেন্টরশিপ রিভিউ
+12 weeks mentorship review
 
-মেন্টর - Molua Khan
+Mentor : Molua Khan
 
-পূর্বের ওজন - ৭৭ কেজি
+Previous weight: 60.5 kg
 
-বর্তমান ওজন - ৬৩.৭ কেজি
+Now:52.4 kg
 
-টোটাল ওয়েট লস - ১৩.৩ কেজি
+Lose:8 kg
 
-আসসালামু আলাইকুম ,
+I am glad to post this review of your mentorship.
 
-কি দিয়ে শুরু করবো বুঝতে পারছিনা, সবার আগে আল্লাহকে শুকরিয়া আর আপুকে ধন্যবাদ । আমি বরাবরই চিকন ছিলাম তাই ওয়েট লসের প্রয়োজন পরেনি।আমার মেয়েটা হওয়ার সময় থেকে আমার ওজন টা বাড়তে থাকে।এর ফলে কাজ করতে অসুবিধা হত,শরীর বেশীর ভাগ সময়ই খারাপ থাকতো যার কারনে মেজাজ খিটখিটে হয়ে থাকতো ।মোটার কারনে মানুষ বিভিন্ন কথা বলতো ,বাইরে বের হতে মন চাইতো না।
+No doubt it was a fruitful one..as per client’s desire or requirement.
 
-আমি লুজ টু গেইন ফলো করি অনেকদিন থেকেই কিন্তু ওয়েট লস করার চিন্তা করি নাই , মনে হত আমি পারবো না । তারপর মেয়ের বাবার উৎসাহে একদিন শুরু করে দিলাম এই জার্নিটা।আর এই জার্নিতে মেন্টর হিসেবে পাই মলু্য়া আপুকে ।প্রথমে আপুর সাথে কথা বলতে ভয় করত,কিন্তু কিছুদিন যাওয়ার পর দেখলাম আপু অনেক মিশুক এবং ভাল মনের মানুষ ।আপুর সংগে কথা বলতে আমার খুব ভাল লাগতো ।আমি জুনের ২৩ তারিখ থেকে জার্নি শুরু করি এবং শেষ হয় ১৫ সেপ্টেম্বর । আলহামদুলিললাহ এই তিন মাসে আমি ১৩+ কেজি ওজন কমাতে সফল হয়েছি । আপুর কাছে আমি অনেক কৃতজ্ঞতা, আপুর উৎসাহ ও সাহায্য ছাড়া আমি এতোদুর আসতে পারতাম না। সত্যি কথা বলতে আপুর কাছ থেকে আমি যে উৎসাহ পেয়েছি তা আমি আমার কাছের মানুষের কাছ থেকে পাইনি । নিয়ম মত মেনে চললে ওয়েট লস করতে খুব বেশী কষ্ট করতে হয়না ।
+Many of us search for dieting or go for gym, but in most cases those efforts fail, as lacking of individual specific or scientific plan.
 
-পুরা ১২ সপ্তাহ আমি লো কার্ব ডায়েট ও কার্ডিও এবং বডি ওয়েট এক্সারসাইজ করেছি আপুর পরামর্শ অনযায়ী ।
+This mentorship gave me strength and confidence in me and I want to be in your touch for further advice to continue with my good health and the satndard weight that I achieved.
 
-সব শেষে আপুকে আমার অনেক অনেক ভালোবাসা আর ধন্যবাদ আমার পাশে থাকার জন্য এবং লুজ টু গেইন পেজেকেও ধন্যবাদ।
+I already recommended my family members, friends, and colleagues about this page ..
 
-আমাকে বা আপুকে ইনবক্স করবেন না, লুজ টু গেইন পেইজে করতে পারেন মেসেজ বা গ্রুপের হেল্প নিতে পারেন ।
+Thanks again.
+
+Farhana Faruque.
