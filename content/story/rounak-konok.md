@@ -2,7 +2,6 @@
 current_weight = 64
 description = ""
 diet = "Low Carb Customized "
-draft = true
 image = "/images/rounak-konok.jpg"
 mentor = "Molua Khan"
 previous_weight = 86
