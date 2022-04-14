@@ -2,11 +2,12 @@
 current_weight = 57
 description = ""
 diet = "Low Carb Customized "
+draft = true
 image = "/images/florin.jpg"
 mentor = "Molua Khan"
 previous_weight = 67.5
 time = "12 Weeks"
-title = "Florin"
+title = "Ishrat Jahan Akhi"
 
 +++
 ১২ সপ্তাহের প্রিমিয়াম মেন্টরশীপ রিভিউ
