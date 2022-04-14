@@ -4,7 +4,7 @@ description = ""
 diet = "Low Carb Customized "
 image = "/images/ishrat-jahan-akhi.jpg"
 mentor = "Molua Khan"
-previous_weight = 49.5
+previous_weight = 70
 time = "12 Weeks"
 title = "Ishrat Jahan Akhi"
 
