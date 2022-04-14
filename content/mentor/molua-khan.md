@@ -5,7 +5,7 @@ description: Hello, I am Molua Khan. I’ve been working for Lose to Gain since 
   & Sports Trainer Association, USA). Being a scholar from NESTA, I have all the theoretical
   and practical knowledge and experience in the field of nutrition and exercise.
 designation: 'NESTA Fitness Nutrition Specialist '
-experience: "3"
+experience: "4"
 weight: "2"
 image: "/images/molua-khan.jpg"
 served_clients: 1000+
