@@ -2,7 +2,7 @@
 current_weight = 66.5
 description = ""
 diet = "Low Carb Customized "
-image = "/images/kazi-israt-jerin.jpg"
+image = "/images/monowara-muna.jpg"
 mentor = "Molua Khan"
 previous_weight = 77.3
 time = "12 Weeks"
