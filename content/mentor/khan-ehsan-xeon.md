@@ -3,7 +3,7 @@ title: Khan Ehsan Xeon
 designation: NESTA Fitness Nutrition Specialist
 image: "/images/untitled-design-2.png"
 weight: "5"
-experience: '03'
+experience: '04'
 served_clients: 500+
 available_slots: "15"
 available_slots_width: 90%
