@@ -2,7 +2,6 @@
 current_weight = 59.6
 description = ""
 diet = "Low Carb Customized "
-draft = true
 image = "/images/taleb-dyuti.jpg"
 mentor = "Molua Khan"
 previous_weight = 70
