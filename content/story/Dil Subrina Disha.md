@@ -2,7 +2,6 @@
 current_weight = nil
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/dil-subrina-disha.jpg"
 mentor = "Molua Khan"
 previous_weight = nil
