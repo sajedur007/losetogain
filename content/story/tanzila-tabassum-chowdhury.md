@@ -2,6 +2,7 @@
 current_weight = 72.85
 description = ""
 diet = "Customized Plan"
+draft = true
 image = "/images/tanzila-tabassum-chowdhury.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 83.85
