@@ -1,10 +1,10 @@
 +++
-current_weight = nil
+current_weight = 0
 description = ""
 diet = "Customized Plan"
 image = "/images/dil-subrina-disha.jpg"
 mentor = "Molua Khan"
-previous_weight = nil
+previous_weight = 0
 time = "12 Weeks"
 title = "Dil Subrina Disha"
 

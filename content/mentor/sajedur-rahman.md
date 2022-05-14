@@ -1,5 +1,6 @@
 ---
 title: Sajedur Rahman
+slug: sajed
 designation: ISSA Fitness Nutrition Specialist
 image: "/images/sajed.png"
 weight: "1"

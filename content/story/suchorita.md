@@ -1,10 +1,10 @@
 +++
-current_weight = ""
+current_weight = 0
 description = ""
 diet = "Low Carb Customized "
 image = "/images/1.jpg"
 mentor = "Molua Khan"
-previous_weight = ""
+previous_weight = 0
 time = "12 Weeks"
 title = "Suchorita"
 

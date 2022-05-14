@@ -50,6 +50,10 @@ process:
       all your doubts & queries. We will take care of everything, right from your
       nutrition & workout plans, to habit tracking, to goal setting, to overcoming
       your challenges.
+
+story:
+  title: "Peoples Who Are Experienced By Our Service"
+
 call_to_group:
   enable: true
   title: "‘Lose To Gain’ - Facebook Community"

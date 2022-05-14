@@ -1,5 +1,9 @@
 {{ define "main" }}
 
+{{if or (site.GetPage "/tool") (site.GetPage "/tools")}}
+<script>location.href = '/';</script>
+{{ end }}
+
 <!-- strat of blog-details -->
 <section class="section-padding pt-50">
   <div class="container">

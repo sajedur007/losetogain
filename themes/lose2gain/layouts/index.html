@@ -156,11 +156,13 @@
 <section class="section-padding bg-light pt-80 pb-130 has-wave"
   style="background-image:url('{{`images/wave.svg` | absURL }}')">
   <div class="container">
+    {{ with .Params.story }}
     <div class="row justify-content-center">
       <div class="col-lg-7 col-md-10 text-center">
-        <h2 class="section-title mb-5">Peoples Who Are Experienced By Our Service</h2>
+        <h2 class="section-title mb-5">{{.title | markdownify }}</h2>
       </div>
     </div>
+    {{ end }}
     <div class="row">
       {{ range first 4 (where site.RegularPages "Section" "story") }}
       <div class="col-lg-6 mb-4">

@@ -34,12 +34,14 @@
           </div>
           <div class="list-inline-item mb-3 mr-4">
             <span class="text-primary mr-2"> <i class="fas fa-diagnoses"></i> </span>
+            {{ if and (ne .Params.previous_weight nil) (ne .Params.current_weight nil) }}
             {{if lt .Params.previous_weight .Params.current_weight}}
             Weight Gained :
             <span class="text-primary ml-2">{{sub .Params.current_weight .Params.previous_weight}} KG</span>
             {{ else }}
             Weight Losed :
             <span class="text-primary ml-2">{{sub .Params.previous_weight .Params.current_weight}} KG</span>
+            {{ end }}
             {{ end }}
           </div>
           <div class="list-inline-item mb-3 mr-4">
