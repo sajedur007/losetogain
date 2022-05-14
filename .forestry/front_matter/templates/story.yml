@@ -5,6 +5,7 @@ fields:
 - type: number
   name: current_weight
   label: current_weight
+  default: 0
 - type: text
   name: description
   label: description
@@ -20,6 +21,7 @@ fields:
 - type: number
   name: previous_weight
   label: previous_weight
+  default: 0
 - type: text
   name: time
   label: time
