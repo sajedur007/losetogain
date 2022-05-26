@@ -2,7 +2,6 @@
 current_weight = 67.1
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/tania-lira.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 74.8
