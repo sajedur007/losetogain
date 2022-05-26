@@ -2,7 +2,6 @@
 current_weight = 64
 description = ""
 diet = "Low Carb Customized"
-draft = true
 image = "/images/tamanna-rahman.jpg"
 mentor = "Samira Akhter"
 previous_weight = 77
