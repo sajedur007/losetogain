@@ -2,7 +2,6 @@
 current_weight = 85
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/julfiker-hossain.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 98
