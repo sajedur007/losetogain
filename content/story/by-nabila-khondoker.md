@@ -6,7 +6,7 @@ image = "/images/nabila-khondoker.jpg"
 mentor = "Molua Khan"
 previous_weight = 86
 time = "12 Weeks"
-title = "১২ সপ্তাহ এর প্রিমিয়াম মেন্টরশীপ প্রোগ্রাম রিভিউ By Nabila Khondoker"
+title = "Nabila Khondoker"
 
 +++
 ১২ সপ্তাহ এর প্রিমিয়াম মেন্টরশীপ প্রোগ্রাম By Nabila Khondoker
