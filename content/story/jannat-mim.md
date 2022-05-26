@@ -2,7 +2,6 @@
 current_weight = 89.4
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/jannat-mim.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 100.1
