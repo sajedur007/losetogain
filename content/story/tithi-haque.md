@@ -2,7 +2,6 @@
 current_weight = 67
 description = ""
 diet = "Customized "
-draft = true
 image = "/images/tithi-hoque.jpg"
 mentor = "Khan Ehsan Xeon"
 previous_weight = 76
