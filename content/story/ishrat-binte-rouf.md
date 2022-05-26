@@ -2,7 +2,6 @@
 current_weight = 79
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/ishrat-binte-rouf.png"
 mentor = "Sajedur Rahman"
 previous_weight = 91
