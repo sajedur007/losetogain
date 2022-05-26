@@ -2,7 +2,6 @@
 current_weight = 79.15
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/fazley-rabbi-moon.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 91.5
