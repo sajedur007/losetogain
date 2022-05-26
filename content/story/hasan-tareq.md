@@ -2,7 +2,6 @@
 current_weight = 100
 description = ""
 diet = "Low Carb Customized "
-draft = true
 image = "/images/hei-shen-berg.png"
 mentor = "Khan Ehsan Xeon"
 previous_weight = 110
