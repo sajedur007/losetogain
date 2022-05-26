@@ -2,7 +2,6 @@
 current_weight = 84
 description = ""
 diet = "Customized "
-draft = true
 image = "/images/shahriar-rafsan.jpg"
 mentor = "Khan Ehsan Xeon"
 previous_weight = 102
