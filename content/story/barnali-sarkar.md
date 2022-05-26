@@ -2,7 +2,6 @@
 current_weight = 60.6
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/barnali-sarkar.png"
 mentor = "Sajedur Rahman"
 previous_weight = 68.5
