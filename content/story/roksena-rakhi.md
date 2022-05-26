@@ -2,7 +2,6 @@
 current_weight = 60
 description = ""
 diet = "Customized "
-draft = true
 image = "/images/roksenarakhi.jpg"
 mentor = "Badrunnesa Rozi"
 previous_weight = 69
