@@ -2,7 +2,6 @@
 current_weight = 87.1
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/bagenda-arnold-oceng.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 97.2
