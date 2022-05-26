@@ -2,7 +2,6 @@
 current_weight = 99.3
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/ahsanul-karim-abir.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 116.1
