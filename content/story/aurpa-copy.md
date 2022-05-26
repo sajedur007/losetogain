@@ -2,6 +2,7 @@
 current_weight = 56
 description = ""
 diet = "Customized "
+draft = true
 image = ""
 mentor = "Badrunnesa Rozi"
 previous_weight = 67
