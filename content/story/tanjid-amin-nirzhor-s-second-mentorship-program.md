@@ -1,19 +1,23 @@
 +++
-current_weight = 80
+current_weight = 80.8
 description = ""
 diet = "Customized Plan"
 draft = true
-image = ""
+image = "/images/tanjid-amin-nirzhor.jpg"
 mentor = "Sajedur Rahman"
-previous_weight = 91
+previous_weight = 89.9
 time = "12 Weeks"
 title = "Tanjid Amin Nirzhor's Second Mentorship Program"
 
 +++
-1
+১২ সপ্তাহের প্রিমিয়াম মেন্টরশিপ রিভিউ
 
-2
+মেন্টরঃ Sajedur Rahman
 
-3
+পূর্বের ওজনঃ ৮৯.৯০ কেজি
 
-4
+বর্তমান ওজনঃ ৮০.৮০ কেজি
+
+হাইটঃ ৫'১০"
+
+আমি এর আগেও একবার পোস্ট দিছিলাম। আগেরবারের মত ওজন না কমলেও, এবারও ভালোই ওজন কমেছে। সাজেদ ভাই মেন্টর হিসেবে খুব ভালো। উনি সব সময় খোজখবর রাখেন। মাঝে এক সময় ওজন বারতেছিল। উনি সে সময় আমার রেগুলার চার্ট দেখতেন। মাঝে ওজন কম কমলে উনি অনুপ্রেরণা দিতেন। আর খাবার? ভাত খেয়ে ওজন কমানো যায় এটা লুজ টু গেইনে না আসলে বুঝতাম না। লাস্ট ৬ মাসে সব মিলিয়ে প্রায় ২৪ কেজি ওজন কমেছে। ধন্যবাদ লুজ টু গেইন।
