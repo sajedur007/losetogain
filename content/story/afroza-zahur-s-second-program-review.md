@@ -6,7 +6,7 @@ image = "/images/afroza-zahur.png"
 mentor = "Sajedur Rahman"
 previous_weight = 48.3
 time = "12 Weeks"
-title = "Second Program Review of Afroza Zahur"
+title = "Afroza Zahur's Second Program Review"
 
 +++
 ১২ সপ্তাহের প্রিমিয়াম মেন্টরশীপ রিভিউ
