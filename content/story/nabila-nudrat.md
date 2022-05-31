@@ -2,7 +2,6 @@
 current_weight = 62.4
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/nabila-nudrat.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 71.3
