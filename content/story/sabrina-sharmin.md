@@ -2,7 +2,6 @@
 current_weight = 56.2
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/sabrina-sharmin.png"
 mentor = "Sajedur Rahman"
 previous_weight = 68.5
