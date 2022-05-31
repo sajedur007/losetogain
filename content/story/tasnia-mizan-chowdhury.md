@@ -2,7 +2,6 @@
 current_weight = 63.5
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/tasnia-mizan-chowdhury.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 75.45

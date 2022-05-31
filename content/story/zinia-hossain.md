@@ -2,7 +2,6 @@
 current_weight = 76
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/zinia-hossain.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 84
