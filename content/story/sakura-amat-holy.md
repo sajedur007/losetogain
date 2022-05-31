@@ -2,7 +2,6 @@
 current_weight = 60.88
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/sakura-amat-holy.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 73.4
