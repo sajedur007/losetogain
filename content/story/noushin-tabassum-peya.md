@@ -2,7 +2,6 @@
 current_weight = 59.9
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/noushin-tabassum-peya.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 69.9
