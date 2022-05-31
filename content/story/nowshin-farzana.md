@@ -2,7 +2,6 @@
 current_weight = 65.5
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/nowshin-farzana.png"
 mentor = "Sajedur Rahman"
 previous_weight = 71
