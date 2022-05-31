@@ -2,7 +2,6 @@
 current_weight = 75.6
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/md-shoriful-islam.png"
 mentor = "Sajedur Rahman"
 previous_weight = 88

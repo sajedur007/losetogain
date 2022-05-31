@@ -2,7 +2,6 @@
 current_weight = 92.7
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/megla-priya.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 112.5
