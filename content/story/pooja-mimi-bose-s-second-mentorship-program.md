@@ -2,7 +2,6 @@
 current_weight = 68
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/pooja-mimi-bose.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 84
