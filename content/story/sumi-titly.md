@@ -2,7 +2,6 @@
 current_weight = 67
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/sumi-titly.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 74
