@@ -2,7 +2,6 @@
 current_weight = 70
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/tanzila-tabassum-chowdhury.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 85

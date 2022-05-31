@@ -2,7 +2,6 @@
 current_weight = 91.5
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/tanjid-amin-nirzhor-1.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 104.8
