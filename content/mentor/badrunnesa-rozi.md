@@ -8,7 +8,7 @@ description: I am a Nutrition consultant of Lose To Gain. I am  certified by the
 designation: Nutrition Consultant
 experience: '03'
 weight: "3"
-image: "/images/rozi.jpg"
+image: "/images/rozi.png"
 served_clients: 480+
 available_slots: "15"
 available_slots_width: 90%
