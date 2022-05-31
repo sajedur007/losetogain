@@ -23,5 +23,3 @@ title = "Sajed Draft"
 6
 
 7
-
-8

@@ -2,7 +2,6 @@
 current_weight = 64.9
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/mohima-nipa.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 74
