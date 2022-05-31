@@ -2,7 +2,6 @@
 current_weight = 82.9
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/khandaker-golam-shawkat-dipu.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 95
