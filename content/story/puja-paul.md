@@ -1,23 +1,19 @@
 +++
-current_weight = 80
+current_weight = 65
 description = ""
 diet = "Customized Plan"
 draft = true
-image = ""
+image = "/images/puja-paul.jpg"
 mentor = "Sajedur Rahman"
-previous_weight = 91
+previous_weight = 75
 time = "12 Weeks"
 title = "Puja Paul"
 
 +++
-1
+এখনকার জামানায় কিটো ডায়েট না করলে ওইটলস বেপারটা জানি কেমন কেমন লাগে! মানে আসে পাশে সবাইরে দেখি কেমনে ঠুস ঠাস করে ওজন কমায় ফেলে! দেখে আমি সাজেদ ভাইয়ার (Sajedur Rahman) মাথা খেয়ে ফেলতেসিলাম যে ওজন এতো স্লোওলী যায় কেন্! ভাইয়া বলসিলো আপু হেলথি ওয়ে তে ওজন কমানোর ফল সময় হলে বুঝবেন..
 
-2
+৭ বছর পরে গেসি দেশে.. ধুমায়া যা মনে চাইসে যা দুই চোক্ষে দেখসি খাইসি.. ওজন মাপার সাহস করিনাই.. ওজন তা মাপসি কানাডা ফেরত আসার পরে.. তখন আমার চক্ষু চড়ক গাছ! এমন ধুমাইয়া আড়াই সপ্তাহ খাবার পরেও ওজন বারসে ১ কেজি!
 
-3
+Someone said it right!
 
-4
-
-5
-
-6
+"Slow and steady wins the race!!"
