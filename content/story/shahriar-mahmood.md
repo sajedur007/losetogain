@@ -2,7 +2,6 @@
 current_weight = 93.15
 description = ""
 diet = "Customized Plan"
-draft = true
 image = "/images/shahriar-mahmood.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 106
