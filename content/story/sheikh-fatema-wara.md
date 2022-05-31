@@ -2,7 +2,6 @@
 current_weight = 66
 description = ""
 diet = "Low Carb"
-draft = true
 image = "/images/sheikh-fatema-wara.jpg"
 mentor = "Sajedur Rahman"
 previous_weight = 75.3
